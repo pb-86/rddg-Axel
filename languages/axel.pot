@@ -1,0 +1,47 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-06 11:37+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: functions.php:6
+msgid "Main menu"
+msgstr ""
+
+#: functions.php:11
+msgid "Sidebar"
+msgstr ""
+
+#: template-parts/post/content.php:15
+msgid "Back to home page"
+msgstr ""
+
+#. Name of the theme
+msgid "Axel"
+msgstr ""
+
+#. Description of the theme
+msgid "General purpose WordPress theme"
+msgstr ""
+
+#. URI of the theme
+msgid "https://github.com/pb-86/axel"
+msgstr ""
+
+#. Author of the theme
+msgid "Reddog Systems"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://reddog.systems"
+msgstr ""
