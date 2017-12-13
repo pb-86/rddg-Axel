@@ -1,5 +1,5 @@
 <footer>
-  <?php _e( 'Axel theme made by Reddog Systems' ); ?>
+  <?php _e( 'Axel theme made by Reddog Systems', 'axel' ); ?>
 </footer>
 
 <?php wp_footer(); ?>

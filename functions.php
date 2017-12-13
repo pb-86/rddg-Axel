@@ -18,8 +18,8 @@ function axel_widgets_init() {
     'id'            => 'sidebar',
     'before_widget' => '<section>',
     'after_widget'  => '</section>',
-    'before_title'  => '<h2>',
-    'after_title'   => '</h2>',
+    'before_title'  => '<h1>',
+    'after_title'   => '</h1>',
   ));
 }
 add_action( 'widgets_init', 'axel_widgets_init' );

@@ -8,6 +8,7 @@
         the_title( '<h2><a href="' . get_permalink() . '">', '</a></h2>' );
       endif;
     ?>
+    <p><?php _e( 'Written by: ', 'axel' ); ?><?php the_author_posts_link(); ?></p>
   </header>
   <?php the_content(); ?>
   <footer>
