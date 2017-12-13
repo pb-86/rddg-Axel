@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Axel\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-06 11:30+0000\n"
-"PO-Revision-Date: 2017-10-06 11:31+0000\n"
+"POT-Creation-Date: 2017-12-13 15:21+0000\n"
+"PO-Revision-Date: 2017-12-13 15:23+0000\n"
 "Last-Translator: axel.reddog <przemek@reddog.systems>\n"
 "Language-Team: Polish\n"
 "Language: pl-PL\n"
@@ -14,15 +14,44 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco - https://localise.biz/"
 
-#: functions.php:4
-msgid "Main menu"
-msgstr "Menu główne"
+#: 404.php:5
+msgid "That page can't be found"
+msgstr ""
+"Strona nie została znaleziona\n"
 
-#: functions.php:9
+#: 404.php:8
+msgid "Try a search."
+msgstr ""
+"Skorzystaj z wyszukiwarki\n"
+
+#: author.php:18
+msgid "See also other authors"
+msgstr ""
+"Zobacz także wpisy innych autorów\n"
+
+#: footer.php:2
+msgid "Axel theme made by Reddog Systems"
+msgstr ""
+"Motyw startowy wykonany przez Reddog Systems\n"
+
+#: functions.php:12
+msgid "Main menu"
+msgstr ""
+"Menu główne\n"
+
+#: functions.php:17
 msgid "Sidebar"
 msgstr "Pasek boczny"
 
-#: template-parts/post/content.php:15
+#: searchform.php:3
+msgid "Search"
+msgstr "Szukaj"
+
+#: template-parts/post/content.php:11
+msgid "Written by: "
+msgstr "Autor:"
+
+#: template-parts/post/content.php:16
 msgid "Back to home page"
 msgstr "Wróć do strony głównej"
 
@@ -32,7 +61,7 @@ msgstr "Axel"
 
 #. Description of the theme
 msgid "General purpose WordPress theme"
-msgstr "Motyw WordPressa ogólnego zastosowania"
+msgstr "Motyw startowy do systemu WordPress"
 
 #. URI of the theme
 msgid "https://github.com/pb-86/axel"
