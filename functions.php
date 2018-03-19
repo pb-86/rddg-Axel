@@ -12,6 +12,7 @@ register_nav_menus( array(
   'main'    => __( 'Main menu', 'axel' ),
 ) );
 
+add_action( 'widgets_init', 'axel_widgets_init' );
 function axel_widgets_init() {
   register_sidebar( array(
     'name'          => __( 'Sidebar', 'axel' ),
@@ -22,4 +23,3 @@ function axel_widgets_init() {
     'after_title'   => '</h1>',
   ));
 }
-add_action( 'widgets_init', 'axel_widgets_init' );

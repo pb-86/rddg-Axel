@@ -1,11 +1,9 @@
 <?php get_header(); ?>
 
-<?php $curauth = ( isset( $_GET['author_name'] ) ) ? get_user_by( 'slug', $author_name ) : get_userdata( intval( $author ) ); ?>
-
 <main>
   <header>
-    <h1><?php echo $curauth->display_name; ?></h1>
-    <?php echo $curauth->description; ?>
+    <h1><?php the_author(); ?></h1>
+    <?php the_author_meta( 'description' ); ?>
   </header>
   <?php
     if( have_posts() ) :
