@@ -13,7 +13,7 @@
   <?php the_content(); ?>
   <footer>
     <?php if(  is_single() ) : ?>
-      <a href="<?php bloginfo( 'url' ); ?>"><?php _e( 'Back to home page', 'axel' ); ?></a>
+      <a href="<?php echo esc_url( home_url() ); ?>"><?php _e( 'Back to home page', 'axel' ); ?></a>
     <?php endif; ?>
   </footer>
 </article>

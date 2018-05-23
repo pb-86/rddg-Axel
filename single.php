@@ -11,6 +11,10 @@
   ?>
 </main>
 
+<?php comment_form(); ?>
+<?php wp_list_comments(); ?>
+<?php the_comments_pagination(); ?>
+
 <?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

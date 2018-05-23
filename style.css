@@ -4,12 +4,27 @@ Theme URI: https://github.com/pb-86/axel
 Author: Reddog Systems
 Author URI: https://reddog.systems
 Description: General purpose WordPress theme
-Version: 0.5.2
+Version: 0.6
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: axel
 Domain Path: /languages
-Tags:
+Tags: blog
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+.alignleft {}
+.aligncenter {}
+.alignright {}
+
+.bypostauthor {}
+
+.gallery-caption {}
+
+.screen-reader-text {}
+
+.sticky {}
+
+.wp-caption {}
+.wp-caption-text {}

@@ -7,9 +7,13 @@
       if ( comments_open() || get_comments_number() ) :
         comments_template();
       endif;
+      wp_link_pages();
     endwhile;
   ?>
 </main>
+
+<?php comment_form(); ?>
+<?php wp_list_comments(); ?>
 
 <?php get_sidebar(); ?>
 

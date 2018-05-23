@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [0.6] - 2018-05-23
+### Added
+- Content width variable
+- Support to the automatic feed links and custom background
+- Missing CSS classes
+- Support to the custom editor styles
+- Missing comment support
+- Pagination
+### Changed
+- bloginfo('url') to recommended echo esc_url( home_url() );
+
 ## [0.5.2] - 2018-03-19
 ### Changed
 - The way to display authors info
