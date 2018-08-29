@@ -4,6 +4,9 @@
  * @package Axel
  */
 
+define ( "AXEL_THEME_VERSION", "0.6.4" );
+
 require_once( 'includes/setup.php' );     // Basic theme setup
 require_once( 'includes/menus.php' );     // Registering menus
 require_once( 'includes/sidebars.php' );  // Registering sidebar
+require_once( 'includes/styles.php' );    // Registering CSS styles
