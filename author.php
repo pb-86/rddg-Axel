@@ -1,18 +1,23 @@
 <?php get_header(); ?>
 
-<?php the_author(); ?>
-<?php the_author_meta( 'description' ); ?>
+<main>
+  <?php
+    the_author();
+    the_author_meta( 'description' );
 
-<?php
-  if( have_posts() ) :
-    while( have_posts() ) : the_post();
-      get_template_part( 'template-parts/post/content' );
-    endwhile;
-  endif;
-?>
+    if( have_posts() ) :
+      while( have_posts() ) : the_post();
+        get_template_part( 'template-parts/post/content' );
+      endwhile;
+    endif;
 
-<?php _e( 'See also other authors', 'axel' ); ?>
-<?php wp_list_authors(); ?>
+    _e( 'See also other authors', 'axel' );
+    wp_list_authors();
+  ?>
+</main>
 
-<?php get_sidebar(); ?>
+<aside>
+  <?php get_sidebar(); ?>
+</aside>
+
 <?php get_footer(); ?>

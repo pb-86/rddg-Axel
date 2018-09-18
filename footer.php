@@ -1,8 +1,8 @@
-  <footer>
-    <?php _e( 'Axel theme made by Reddog Systems', 'axel' ); ?>
-  </footer>
+<footer>
+  <?php _e( 'Axel theme made by Reddog Systems', 'axel' ); ?>
+</footer>
 
-  <?php wp_footer(); ?>
+<?php wp_footer(); ?>
 
 </body>
 </html>

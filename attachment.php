@@ -1,3 +1,9 @@
 <?php get_header(); ?>
-<?php get_sidebar(); ?>
+
+<main></main>
+
+<aside>
+  <?php get_sidebar(); ?>
+</aside>
+
 <?php get_footer(); ?>
