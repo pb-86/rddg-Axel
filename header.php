@@ -7,7 +7,7 @@
 </head>
 <body <?php body_class(); ?>>
 
-<header>
+<header role="banner">
   <a href="<?php echo esc_url( home_url() ); ?>">
     <img class="logo" src="" alt="Reddog Systems">
   </a>

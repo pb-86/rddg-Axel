@@ -1,4 +1,4 @@
-<footer>
+<footer role="contentinfo">
   <?php _e( 'Axel theme made by Reddog Systems', 'axel' ); ?>
 </footer>
 

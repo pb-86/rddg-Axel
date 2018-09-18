@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main>
+<main role="main">
   <?php
     while( have_posts() ) : the_post();
       get_template_part( 'template-parts/post/content' );
@@ -15,7 +15,7 @@
   ?>
 </main>
 
-<aside>
+<aside role="complementary">
   <?php get_sidebar(); ?>
 </aside>
 

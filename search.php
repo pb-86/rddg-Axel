@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main>
+<main role="main">
   <?php
     if( have_posts() ) :
       while( have_posts() ) : the_post();
@@ -11,7 +11,7 @@
   ?>
 </main>
 
-<aside>
+<aside role="complementary">
   <?php get_sidebar(); ?>
 </aside>
 

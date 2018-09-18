@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main>
+<main role="main">
   <?php
     the_author();
     the_author_meta( 'description' );
@@ -16,7 +16,7 @@
   ?>
 </main>
 
-<aside>
+<aside role="complementary">
   <?php get_sidebar(); ?>
 </aside>
 

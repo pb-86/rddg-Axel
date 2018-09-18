@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-<main></main>
+<main role="main"></main>
 
-<aside>
+<aside role="complementary">
   <?php get_sidebar(); ?>
 </aside>
 

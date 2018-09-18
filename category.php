@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main>
+<main role="main">
   <?php
     single_cat_title();
 
@@ -13,7 +13,7 @@
   ?>
 </main>
 
-<aside>
+<aside role="complementary">
   <?php get_sidebar(); ?>
 </aside>
 
