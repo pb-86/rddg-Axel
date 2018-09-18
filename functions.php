@@ -4,7 +4,7 @@
  * @package Axel
  */
 
-define ( "AXEL_THEME_VERSION", "0.6.7" );
+define ( "AXEL_THEME_VERSION", "0.7" );
 
 require_once( 'includes/setup.php' );     // Basic theme setup
 require_once( 'includes/menus.php' );     // Registering menus

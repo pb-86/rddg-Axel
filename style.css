@@ -3,13 +3,13 @@ Theme Name: Axel
 Theme URI: https://github.com/pb-86/axel
 Author: Reddog Systems
 Author URI: https://reddog.systems
-Description: General purpose WordPress theme
-Version: 0.6.7
+Description: Starter for theme developers.
+Version: 0.7
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: axel
 Domain Path: /languages
-Tags: blog
+Tags: custom-header, custom-logo, featured-images, translation-ready
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
