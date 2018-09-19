@@ -7,26 +7,27 @@
 </head>
 <body <?php body_class(); ?>>
 
+<nav role="navigation">
+  <?php
+    /**
+     * This function displays current menu from list registered in
+     * file: includes/menus.php
+     * @link https://developer.wordpress.org/reference/functions/wp_nav_menu
+     */
+    $args = array(
+      'menu' => 'header_menu',
+      'menu_id' => '',
+      'menu_class' => '',
+      'container' => ''
+    );
+    wp_nav_menu( $args );
+  ?>
+</nav>
+
 <header role="banner">
   <a href="<?php echo esc_url( home_url() ); ?>">
     <img class="logo" src="" alt="Reddog Systems">
   </a>
-  <nav>
-    <?php
-      /**
-       * This function displays current menu from list registered in
-       * file: includes/menus.php
-       * @link https://developer.wordpress.org/reference/functions/wp_nav_menu
-       */
-      $args = array(
-        'menu' => 'header_menu',
-        'menu_id' => '',
-        'menu_class' => '',
-        'container' => ''
-      );
-      wp_nav_menu( $args );
-    ?>
-  </nav>
   <?php
     /**
      * This functino displays search form.

@@ -6,9 +6,11 @@
 
     if( have_posts() ) :
       while( have_posts() ) : the_post();
-        get_template_part( 'template-parts/post/default' );
+        get_template_part( 'partials/post/default' );
       endwhile;
       the_posts_pagination();
+    else :
+      get_template_part( 'partials/post/default' );
     endif;
   ?>
 </main>

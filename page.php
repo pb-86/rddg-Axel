@@ -3,7 +3,7 @@
 <main role="main">
   <?php
     while( have_posts() ) : the_post();
-      get_template_part( 'template-parts/page/default' );
+      get_template_part( 'partials/page/default' );
       if ( comments_open() || get_comments_number() ) :
         comments_template();
       endif;
