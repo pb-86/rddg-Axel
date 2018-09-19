@@ -2,8 +2,7 @@
 
 <main role="main">
   <?php
-    _e( "That page can't be found", 'axel' );
-    _e( 'Try a search.', 'axel' );
+    _e( "That page can't be found. Try to search.", 'axel' );
     get_search_form();
   ?>
 </main>
