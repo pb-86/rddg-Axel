@@ -1,9 +1,17 @@
-<?php get_header(); ?>
+<?php
+/**
+ * File comment
+ *
+ * @package WordPress
+ */
+
+get_header();
+?>
 
 <main role="main"></main>
 
 <aside role="complementary">
-  <?php get_sidebar(); ?>
+	<?php get_sidebar(); ?>
 </aside>
 
 <?php get_footer(); ?>

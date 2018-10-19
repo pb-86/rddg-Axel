@@ -1,5 +1,14 @@
+<?php
+/**
+ * File comment
+ *
+ * @package WordPress
+ */
+
+?>
+
 <footer role="contentinfo">
-  <?php _e( 'Axel theme made by Reddog Systems', 'axel' ); ?>
+	<?php esc_html_e( 'Axel theme made by Reddog Systems', 'axel' ); ?>
 </footer>
 
 <?php wp_footer(); ?>

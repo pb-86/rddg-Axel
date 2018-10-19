@@ -1,22 +1,31 @@
-<?php get_header(); ?>
+<?php
+/**
+ * File comment
+ *
+ * @package WordPress
+ */
+
+get_header();
+?>
 
 <main role="main">
-  <?php
-    while( have_posts() ) : the_post();
-      get_template_part( 'partials/post/default' );
-      if ( comments_open() || get_comments_number() ) :
-        comments_template();
-      endif;
-    endwhile;
+	<?php
+	while ( have_posts() ) :
+		the_post();
+		get_template_part( 'partials/post/default' );
+		if ( comments_open() || get_comments_number() ) :
+			comments_template();
+		endif;
+	endwhile;
 
-    comment_form();
-    wp_list_comments();
-    the_comments_pagination();
-  ?>
+	comment_form();
+	wp_list_comments();
+	the_comments_pagination();
+	?>
 </main>
 
 <aside role="complementary">
-  <?php get_sidebar(); ?>
+	<?php get_sidebar(); ?>
 </aside>
 
 <?php get_footer(); ?>
