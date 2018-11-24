@@ -1,8 +1,10 @@
 <?php
 /**
- * File comment
+ * The template part for displaying posts
  *
  * @package WordPress
+ * @subpackage Axel
+ * @version 0.8.1
  */
 
 ?>

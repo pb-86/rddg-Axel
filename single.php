@@ -1,8 +1,10 @@
 <?php
 /**
- * File comment
+ * The template for displaying single post
  *
  * @package WordPress
+ * @subpackage Axel
+ * @version 0.8.1
  */
 
 get_header();

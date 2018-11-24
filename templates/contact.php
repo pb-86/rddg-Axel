@@ -2,9 +2,11 @@
 /**
  * Template Name: Contact
  *
- * File comment
+ * The template for displaying contact page
  *
  * @package WordPress
+ * @subpackage Axel
+ * @version 0.8.1
  */
 
 get_header();

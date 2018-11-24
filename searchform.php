@@ -1,8 +1,10 @@
 <?php
 /**
- * File comment
+ * Search form
  *
  * @package WordPress
+ * @subpackage Axel
+ * @version 0.8.1
  */
 
 ?>

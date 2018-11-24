@@ -1,8 +1,10 @@
 <?php
 /**
- * File comment
+ * The template for diplaying the header
  *
  * @package WordPress
+ * @subpackage Axel
+ * @version 0.8.1
  */
 
 ?>

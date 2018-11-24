@@ -1,8 +1,10 @@
 <?php
 /**
- * File comment
+ * The main template file
  *
  * @package WordPress
+ * @subpackage Axel
+ * @version 0.8.1
  */
 
 get_header();

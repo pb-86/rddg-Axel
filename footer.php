@@ -1,8 +1,10 @@
 <?php
 /**
- * File comment
+ * The template for displaying the footer
  *
  * @package WordPress
+ * @subpackage Axel
+ * @version 0.8.1
  */
 
 ?>

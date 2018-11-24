@@ -1,8 +1,10 @@
 <?php
 /**
- * File comment
+ * File used to register menus
  *
  * @package WordPress
+ * @subpackage Axel
+ * @version 0.8.1
  */
 
 /**

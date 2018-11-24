@@ -1,6 +1,6 @@
 <?php
 /**
- * File comment
+ * The template part for displaying page content
  *
  * @package WordPress
  */

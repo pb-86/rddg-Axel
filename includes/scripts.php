@@ -1,8 +1,10 @@
 <?php
 /**
- * File comment
+ * File used to register and enqueue all JS files
  *
  * @package WordPress
+ * @subpackage Axel
+ * @version 0.8.1
  */
 
 /**

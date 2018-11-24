@@ -2,9 +2,11 @@
 /**
  * Template Name: About
  *
- * File comment
+ * The template for displaying the about page.
  *
- * @package WordPress
+ * @package WordPress3
+ * @subpackage Axel
+ * @version 0.8.1
  */
 
 get_header();

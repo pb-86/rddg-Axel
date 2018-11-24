@@ -3,6 +3,8 @@
  * File comment
  *
  * @package WordPress
+ * @subpackage Axel
+ * @version 0.8.1
  */
 
 get_header();

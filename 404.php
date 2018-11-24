@@ -1,8 +1,10 @@
 <?php
 /**
- * File comment
+ * The template for displaying 404 pages
  *
  * @package WordPress
+ * @subpackage Axel
+ * @version 0.8.1
  */
 
 get_header();

@@ -1,8 +1,11 @@
 <?php
 /**
- * File comment
+ * The template for displaying front page when user choose to display static
+ * front page.
  *
  * @package WordPress
+ * @subpackage Axel
+ * @version 0.8.1
  */
 
 get_header();
