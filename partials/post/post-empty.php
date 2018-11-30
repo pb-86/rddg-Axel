@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.8.1
+ * @version 0.8.2
  */
 
 esc_html_e( 'Sorry, no posts yet. Try search.', 'axel' );

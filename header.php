@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.8.1
+ * @version 0.8.2
  */
 
 ?>
@@ -39,11 +39,11 @@
 
 <header role="banner">
 	<a href="<?php echo esc_url( home_url() ); ?>">
-		<img class="logo" src="" alt="Reddog Systems">
+		<img class="logo" src="" alt="Logo">
 	</a>
 	<?php
 	/**
-	 * This functino displays search form.
+	 * This function displays search form.
 	 *
 	 * @link https://developer.wordpress.org/reference/functions/get_search_form
 	 */

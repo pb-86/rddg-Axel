@@ -4,15 +4,15 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.8.1
+ * @version 0.8.2
  */
 
 ?>
 
 <div>
 	<?php
-	if ( have_comments() ) :
-		$number_of_comments = get_comments_number();
-	endif;
+	comment_form();
+	wp_list_comments();
+	the_comments_pagination();
 	?>
 </div>
