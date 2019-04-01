@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.8.1
+ * @version 0.8.3
  */
 
 /**
@@ -24,6 +24,6 @@ function axel_scripts() {
 	wp_deregister_script( 'jquery' );
 	wp_register_script( 'jquery', 'https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js', false, '3.1.1', true );
 	// Main JS file.
-	wp_register_script( 'master', get_template_directory_uri() . '/assets/js/master.js', array( 'jquery' ), constant( 'AXEL_THEME_VERSION' ), true );
+	wp_register_script( 'master', get_template_directory_uri() . '/assets/scripts/master.js', array( 'jquery' ), constant( 'AXEL_THEME_VERSION' ), true );
 	wp_enqueue_script( 'master' );
 }

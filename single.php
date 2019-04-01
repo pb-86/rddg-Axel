@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.8.2
+ * @version 0.8.3
  */
 
 get_header();
@@ -14,7 +14,7 @@ get_header();
 	<?php
 	while ( have_posts() ) :
 		the_post();
-		get_template_part( 'partials/post/post', 'default' );
+		get_template_part( 'template-parts/post/post', 'default' );
 		if ( comments_open() || get_comments_number() ) :
 			comments_template();
 		endif;
