@@ -7,7 +7,7 @@
  * @version 0.8.3
  */
 
-define( 'AXEL_THEME_VERSION', '0.8.3' );
+define( 'AXEL_THEME_VERSION', '0.8.4' );
 
 require_once 'includes/setup.php';    // Basic theme setup.
 require_once 'includes/menus.php';    // Registering menus.
