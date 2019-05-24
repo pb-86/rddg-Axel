@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.8.3
+ * @version 0.8.5
  */
 
 get_header();
@@ -12,14 +12,14 @@ get_header();
 
 <main role="main">
 	<?php
-	while ( have_posts() ) :
+	while ( have_posts() ) {
 		the_post();
 		get_template_part( 'template-parts/page/page', 'default' );
-		if ( comments_open() || get_comments_number() ) :
+		if ( comments_open() || get_comments_number() ) {
 			comments_template();
-		endif;
+		}
 		wp_link_pages();
-	endwhile;
+	}
 	?>
 </main>
 
