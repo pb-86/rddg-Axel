@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.8.4
+ * @version 0.8.6
  */
 
 ?>
@@ -36,10 +36,11 @@ if ( function_exists( 'wp_body_open' ) ) {
 	 */
 
 	$args = array(
-		'menu'       => 'header_menu',
-		'menu_id'    => '',
-		'menu_class' => '',
-		'container'  => '',
+		'menu'           => 'header_menu',
+		'menu_id'        => '',
+		'menu_class'     => '',
+		'container'      => '',
+		'theme_location' => 'header_menu',
 	);
 	wp_nav_menu( $args );
 	?>
