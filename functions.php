@@ -4,10 +4,10 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.8.6
+ * @version 0.9
  */
 
-define( 'AXEL_THEME_VERSION', '0.8.6' );
+define( 'AXEL_THEME_VERSION', '0.9' );
 
 require_once 'includes/setup.php';    // Basic theme setup.
 require_once 'includes/menus.php';    // Registering menus.

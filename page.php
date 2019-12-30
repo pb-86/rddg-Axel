@@ -4,17 +4,17 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.8.5
+ * @version 0.9
  */
 
 get_header();
 ?>
 
-<main role="main">
+<main class="axel-main" role="main">
 	<?php
 	while ( have_posts() ) {
 		the_post();
-		get_template_part( 'template-parts/page/page', 'default' );
+		get_template_part( 'template-parts/part', 'default' );
 		if ( comments_open() || get_comments_number() ) {
 			comments_template();
 		}
@@ -23,7 +23,7 @@ get_header();
 	?>
 </main>
 
-<aside role="complementary">
+<aside class="axel-sidebar" role="complementary">
 	<?php get_sidebar(); ?>
 </aside>
 

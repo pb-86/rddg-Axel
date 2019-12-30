@@ -4,13 +4,13 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.8.5
+ * @version 0.9
  */
 
 get_header();
 ?>
 
-<main role="main">
+<main class="axel-main" role="main">
 	<?php
 	the_author();
 	the_author_meta( 'description' );
@@ -18,7 +18,7 @@ get_header();
 	if ( have_posts() ) {
 		while ( have_posts() ) {
 			the_post();
-			get_template_part( 'template-parts/post/post', 'excerpt' );
+			get_template_part( 'template-parts/part', 'default' );
 		}
 	}
 
@@ -27,7 +27,7 @@ get_header();
 	?>
 </main>
 
-<aside role="complementary">
+<aside class="axel-sidebar" role="complementary">
 	<?php get_sidebar(); ?>
 </aside>
 

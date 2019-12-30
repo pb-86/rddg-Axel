@@ -4,12 +4,12 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.8.1
+ * @version 0.9
  */
 
 ?>
 
-<footer role="contentinfo">
+<footer class="axel-footer" role="contentinfo">
 	<?php esc_html_e( 'Axel theme made by Reddog Systems', 'axel' ); ?>
 </footer>
 

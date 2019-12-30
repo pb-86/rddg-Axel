@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.8.6
+ * @version 0.9
  */
 
 ?>
@@ -26,7 +26,7 @@ if ( function_exists( 'wp_body_open' ) ) {
 }
 ?>
 
-<nav role="navigation">
+<nav class="axel-nav" role="navigation">
 	<?php
 	/**
 	 * This function displays current menu from list registered in
@@ -38,7 +38,7 @@ if ( function_exists( 'wp_body_open' ) ) {
 	$args = array(
 		'menu'           => 'header_menu',
 		'menu_id'        => '',
-		'menu_class'     => '',
+		'menu_class'     => 'axel-menu',
 		'container'      => '',
 		'theme_location' => 'header_menu',
 	);
@@ -46,7 +46,7 @@ if ( function_exists( 'wp_body_open' ) ) {
 	?>
 </nav>
 
-<header role="banner">
+<header class="axel-header" role="banner">
 	<a href="<?php echo esc_url( home_url() ); ?>">
 		<img class="logo" src="" alt="Logo">
 	</a>

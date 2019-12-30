@@ -4,20 +4,20 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.8.1
+ * @version 0.9
  */
 
 get_header();
 ?>
 
-<main role="main">
+<main class="axel-main" role="main">
 	<?php
 	esc_html_e( "That page can't be found. Try to search.", 'axel' );
 	get_search_form();
 	?>
 </main>
 
-<aside role="complementary">
+<aside class="axel-sidebar" role="complementary">
 	<?php get_sidebar(); ?>
 </aside>
 
