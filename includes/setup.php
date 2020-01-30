@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.8.1
+ * @version 0.10
  */
 
 /**
@@ -67,12 +67,12 @@ function axel_setup() {
 	 *
 	 * @link https://codex.wordpress.org/Editor_Style
 	 */
-	add_editor_style( get_template_directory() . '/assets/css/editor.min.css' );
+	add_editor_style( get_template_directory_uri() . '/assets/css/editor.min.css' );
 
 	/**
 	 * Loads the theme's translated strings.
 	 *
 	 * @link https://codex.wordpress.org/Function_Reference/load_theme_textdomain
 	 */
-	load_theme_textdomain( 'axel', get_template_directory() . '/language' );
+	load_theme_textdomain( 'axel', get_template_directory_uri() . '/language' );
 }
