@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.8.1
+ * @version 0.10.1
  */
 
 /**
@@ -20,7 +20,10 @@ add_action( 'wp_enqueue_scripts', 'axel_styles' );
  * @link https://codex.wordpress.org/Function_Reference/wp_register_style
  */
 function axel_styles() {
-	// Main CSS file.
-	wp_register_style( 'master', get_template_directory_uri() . '/assets/css/master.min.css', false, constant( 'AXEL_THEME_VERSION' ), 'all' );
-	wp_enqueue_style( 'master' );
+	if ( ! is_admin() || ! is_customize_preview() ) {
+		// Main CSS file.
+		$css_master_uri = AXEL_THEME_STYLES . '/master.min.css';
+		wp_register_style( 'css-master', $css_master_uri, false, constant( 'AXEL_THEME_VERSION' ), 'all' );
+		wp_enqueue_style( 'css-master' );
+	}
 }

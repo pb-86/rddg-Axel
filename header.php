@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.9
+ * @version 0.10.1
  */
 
 ?>
@@ -18,13 +18,7 @@
 </head>
 <body <?php body_class(); ?>>
 
-<?php
-if ( function_exists( 'wp_body_open' ) ) {
-	wp_body_open();
-} else {
-	do_action( 'wp_body_open' );
-}
-?>
+<?php wp_body_open(); ?>
 
 <nav class="axel-nav" role="navigation">
 	<?php

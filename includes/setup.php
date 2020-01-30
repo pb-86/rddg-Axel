@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.10
+ * @version 0.10.1
  */
 
 /**
@@ -24,7 +24,7 @@ function axel_setup() {
 	 * @link https://codex.wordpress.org/Content_Width
 	 */
 	if ( ! isset( $content_width ) ) {
-		$content_width = 1200;
+		$content_width = 1170;
 	}
 
 	/**
@@ -67,12 +67,12 @@ function axel_setup() {
 	 *
 	 * @link https://codex.wordpress.org/Editor_Style
 	 */
-	add_editor_style( get_template_directory_uri() . '/assets/css/editor.min.css' );
+	add_editor_style( AXEL_THEME_STYLES . '/editor.min.css' );
 
 	/**
 	 * Loads the theme's translated strings.
 	 *
 	 * @link https://codex.wordpress.org/Function_Reference/load_theme_textdomain
 	 */
-	load_theme_textdomain( 'axel', get_template_directory_uri() . '/language' );
+	load_theme_textdomain( 'axel', AXEL_THEME_LANGS );
 }

@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.8.3
+ * @version 0.10.1
  */
 
 /**
@@ -20,10 +20,15 @@ add_action( 'wp_enqueue_scripts', 'axel_scripts' );
  * @link https://developer.wordpress.org/reference/functions/wp_register_script
  */
 function axel_scripts() {
-	// jQuery.
-	wp_deregister_script( 'jquery' );
-	wp_register_script( 'jquery', 'https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js', false, '3.1.1', true );
-	// Main JS file.
-	wp_register_script( 'master', get_template_directory_uri() . '/assets/scripts/master.js', array( 'jquery' ), constant( 'AXEL_THEME_VERSION' ), true );
-	wp_enqueue_script( 'master' );
+	if ( ! is_admin() || ! is_customize_preview() ) {
+		// jQuery.
+		wp_deregister_script( 'jquery' );
+		$jquery_uri = AXEL_THEME_VENDOR . '/jquery-3.4.1.min.js';
+		wp_register_script( 'jquery', $jquery_uri, false, '3.4.1', true );
+
+		// Main JS file.
+		$js_master_uri = AXEL_THEME_SCRIPTS . '/master.js';
+		wp_register_script( 'js-master', $js_master_uri, array( 'jquery' ), constant( 'AXEL_THEME_VERSION' ), true );
+		wp_enqueue_script( 'js-master' );
+	}
 }
