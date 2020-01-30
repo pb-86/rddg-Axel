@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.10.1
+ * @version 0.10.3
  */
 
 /**
@@ -27,8 +27,7 @@ function axel_scripts() {
 		wp_register_script( 'jquery', $jquery_uri, false, '3.4.1', true );
 
 		// Main JS file.
-		$js_master_uri = AXEL_THEME_SCRIPTS . '/master.js';
-		wp_register_script( 'js-master', $js_master_uri, array( 'jquery' ), constant( 'AXEL_THEME_VERSION' ), true );
-		wp_enqueue_script( 'js-master' );
+		$js_master_uri = AXEL_THEME_SCRIPTS . '/master.min.js';
+		wp_enqueue_script( 'js-master', $js_master_uri, array( 'jquery' ), constant( 'AXEL_THEME_VERSION' ), true );
 	}
 }
