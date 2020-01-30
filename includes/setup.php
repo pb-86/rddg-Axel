@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.10.1
+ * @version 0.10.2
  */
 
 /**
@@ -74,5 +74,5 @@ function axel_setup() {
 	 *
 	 * @link https://codex.wordpress.org/Function_Reference/load_theme_textdomain
 	 */
-	load_theme_textdomain( 'axel', AXEL_THEME_LANGS );
+	load_theme_textdomain( 'axel', AXEL_THEME_URI . '/languages' );
 }
