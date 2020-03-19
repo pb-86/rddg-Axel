@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.11
+ * @version 0.12
  */
 
 ?>
@@ -19,6 +19,10 @@
 <body <?php body_class(); ?>>
 
 <?php wp_body_open(); ?>
+
+<a class="skip-to-content" href="#axel-main">
+	<?php esc_html_e( 'Skip to content', 'axel' ); ?>
+</a>
 
 <nav class="axel-nav" role="navigation">
 	<?php
