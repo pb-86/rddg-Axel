@@ -4,10 +4,10 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.13.1
+ * @version 0.13.2
  */
 
-define( 'AXEL_THEME_VERSION', '0.13.1' );
+define( 'AXEL_THEME_VERSION', '0.13.2' );
 
 define( 'AXEL_THEME_URI', get_template_directory_uri() );
 define( 'AXEL_THEME_IMAGES', AXEL_THEME_URI . '/assets/images' );
@@ -28,8 +28,7 @@ function axel_logo() {
 	if ( has_custom_logo() ) {
 		$logo_id = get_theme_mod( 'custom_logo' );
 		$logo    = wp_get_attachment_image_src( $logo_id, 'full' );
-
-		$html = sprintf(
+		$html    = sprintf(
 			'<h1><a href="%s" aria-label="%s"><img src="%s" alt="" width="%u" height="%u"></a></h1>',
 			esc_url( home_url() ),
 			esc_attr( 'Go to home page', 'axel' ),
@@ -37,7 +36,6 @@ function axel_logo() {
 			esc_attr( $logo[1] ),
 			esc_attr( $logo[2] ),
 		);
-
 		echo wp_kses_post( $html );
 	}
 }
