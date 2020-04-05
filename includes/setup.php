@@ -4,15 +4,8 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.10.2
+ * @version 0.13
  */
-
-/**
- * This action runs after the theme is loaded
- *
- * @link https://codex.wordpress.org/Plugin_API/Action_Reference/after_setup_theme
- */
-add_action( 'after_setup_theme', 'axel_setup' );
 
 /**
  * This function runs basic setup of the theme
@@ -46,7 +39,15 @@ function axel_setup() {
 	 *
 	 * @link https://developer.wordpress.org/reference/functions/add_theme_support/#custom-logo
 	 */
-	add_theme_support( 'custom-logo', array() );
+	add_theme_support(
+		'custom-logo',
+		array(
+			'height'      => 160,
+			'width'       => 160,
+			'flex-height' => true,
+			'flex-width'  => true,
+		)
+	);
 
 	/**
 	 * This feature allows the use of HTML5 markup.
@@ -76,3 +77,10 @@ function axel_setup() {
 	 */
 	load_theme_textdomain( 'axel', AXEL_THEME_URI . '/languages' );
 }
+
+/**
+ * This action runs after the theme is loaded
+ *
+ * @link https://codex.wordpress.org/Plugin_API/Action_Reference/after_setup_theme
+ */
+add_action( 'after_setup_theme', 'axel_setup' );

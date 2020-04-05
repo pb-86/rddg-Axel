@@ -4,10 +4,10 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.12
+ * @version 0.13
  */
 
-define( 'AXEL_THEME_VERSION', '0.12' );
+define( 'AXEL_THEME_VERSION', '0.13' );
 
 define( 'AXEL_THEME_URI', get_template_directory_uri() );
 define( 'AXEL_THEME_IMAGES', AXEL_THEME_URI . '/assets/images' );
@@ -20,3 +20,39 @@ require_once 'includes/menus.php';    // Registering menus.
 require_once 'includes/sidebars.php'; // Registering sidebar.
 require_once 'includes/styles.php';   // Registering CSS styles.
 require_once 'includes/scripts.php';  // Registering JS scripts.
+
+/**
+ * This fucntion displays custom markup for custom logo.
+ */
+function axel_logo() {
+	if ( has_custom_logo() ) {
+		$logo_id = get_theme_mod( 'custom_logo' );
+		$logo    = wp_get_attachment_image_src( $logo_id, 'full' );
+
+		$html = sprintf(
+			'<h1><a href="%s" aria-label="%s"><img src="%s" alt="" width="%u" height="%u"></a></h1>',
+			esc_url( home_url() ),
+			esc_attr( 'Go to home page', 'axel' ),
+			esc_url( $logo[0] ),
+			esc_attr( $logo[1] ),
+			esc_attr( $logo[2] ),
+		);
+
+		echo wp_kses(
+			$html,
+			array(
+				'h1'  => array(),
+				'a'   => array(
+					'href'       => array(),
+					'aria-label' => array(),
+				),
+				'img' => array(
+					'src'    => array(),
+					'alt'    => array(),
+					'width'  => array(),
+					'height' => array(),
+				),
+			),
+		);
+	}
+}

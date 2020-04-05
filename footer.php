@@ -4,12 +4,30 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.9
+ * @version 0.13
  */
 
 ?>
 
 <footer class="axel-footer" role="contentinfo">
+	<?php
+	/**
+	 * This function displays footer menu from list registered
+	 * in file: includes/menus.php
+	 *
+	 * @link https://developer.wordpress.org/reference/functions/wp_nav_menu
+	 */
+
+	$args = array(
+		'menu'           => 'footer_menu',
+		'menu_id'        => '',
+		'menu_class'     => 'axel-menu',
+		'container'      => '',
+		'theme_location' => 'footer_menu',
+	);
+	wp_nav_menu( $args );
+	?>
+
 	<?php esc_html_e( 'Axel theme made by Reddog Systems', 'axel' ); ?>
 </footer>
 

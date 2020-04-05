@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.12
+ * @version 0.13
  */
 
 ?>
@@ -27,8 +27,8 @@
 <nav class="axel-nav" role="navigation">
 	<?php
 	/**
-	 * This function displays current menu from list registered in
-	 * file: includes/menus.php
+	 * This function displays main menu from list registered
+	 * in file: includes/menus.php
 	 *
 	 * @link https://developer.wordpress.org/reference/functions/wp_nav_menu
 	 */
@@ -45,9 +45,13 @@
 </nav>
 
 <header class="axel-header" role="banner">
-	<a href="<?php echo esc_url( home_url() ); ?>">
-		<img class="logo" src="" alt="Logo">
-	</a>
+	<?php
+	/**
+	 * Displaying custom logo if it has been set.
+	 */
+	axel_logo();
+	?>
+
 	<?php
 	/**
 	 * This function displays search form.
