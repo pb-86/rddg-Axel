@@ -4,10 +4,10 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.13.2
+ * @version 0.13.3
  */
 
-define( 'AXEL_THEME_VERSION', '0.13.2' );
+define( 'AXEL_THEME_VERSION', '0.13.3' );
 
 define( 'AXEL_THEME_URI', get_template_directory_uri() );
 define( 'AXEL_THEME_IMAGES', AXEL_THEME_URI . '/assets/images' );
@@ -22,7 +22,7 @@ require_once 'includes/styles.php';   // Registering CSS styles.
 require_once 'includes/scripts.php';  // Registering JS scripts.
 
 /**
- * This fucntion displays custom markup for custom logo.
+ * This function displays custom markup for custom logo.
  */
 function axel_logo() {
 	if ( has_custom_logo() ) {
