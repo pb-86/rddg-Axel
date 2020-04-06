@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.11
+ * @version 0.15
  */
 
 get_header();
@@ -13,15 +13,14 @@ get_header();
 <main class="axel-main" role="main">
 	<article class="axel-search">
 		<header class="axel-search__header">
-			<h1 class="axel-search__title">
+			<h2 class="axel-search__title">
 				<?php esc_html_e( 'Search results', 'axel' ); ?>
-			</h1>
+			</h2>
 			<span class="axel-search__query">
 				<?php printf( esc_html( 'You searched for: %s' ), '<strong>' . get_search_query() . '</strong>' ); ?>
 			</span>
 		</header>
 	</article>
-
 	<?php
 	if ( have_posts() ) {
 		while ( have_posts() ) {

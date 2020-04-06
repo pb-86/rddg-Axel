@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.13
+ * @version 0.15
  */
 
 ?>
@@ -20,7 +20,7 @@
 
 <?php wp_body_open(); ?>
 
-<a class="skip-to-content" href="#axel-main">
+<a class="screen-reader-text" href="#axel-main">
 	<?php esc_html_e( 'Skip to content', 'axel' ); ?>
 </a>
 

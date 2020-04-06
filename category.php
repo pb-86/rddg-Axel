@@ -4,16 +4,17 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.9
+ * @version 0.15
  */
 
 get_header();
 ?>
 
 <main class="axel-main" role="main">
+	<h2>
+		<?php single_cat_title(); ?>
+	</h2>
 	<?php
-	single_cat_title();
-
 	if ( have_posts() ) {
 		while ( have_posts() ) {
 			the_post();

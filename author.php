@@ -4,24 +4,28 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.9
+ * @version 0.15
  */
 
 get_header();
 ?>
 
 <main class="axel-main" role="main">
-	<?php
-	the_author();
-	the_author_meta( 'description' );
+	<h2>
+		<?php the_author(); ?>
+	</h2>
+	<?php the_author_meta( 'description' ); ?>
 
+	<?php
 	if ( have_posts() ) {
 		while ( have_posts() ) {
 			the_post();
 			get_template_part( 'template-parts/part', 'default' );
 		}
 	}
+	?>
 
+	<?php
 	esc_html_e( 'See also other authors', 'axel' );
 	wp_list_authors();
 	?>

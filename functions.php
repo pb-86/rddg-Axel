@@ -4,10 +4,10 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.14
+ * @version 0.15
  */
 
-define( 'AXEL_THEME_VERSION', '0.14' );
+define( 'AXEL_THEME_VERSION', '0.15' );
 
 define( 'AXEL_THEME_URI', get_template_directory_uri() );
 define( 'AXEL_THEME_IMAGES', AXEL_THEME_URI . '/assets/images' );
@@ -29,12 +29,12 @@ function axel_logo() {
 		$logo_id   = get_theme_mod( 'custom_logo' );
 		$logo_data = wp_get_attachment_image_src( $logo_id, 'full' );
 		$html      = sprintf(
-			'<h1><a href="%s" aria-label="%s"><img src="%s" alt="" width="%u" height="%u"></a></h1>',
+			'<h1><a href="%s"><img src="%s" alt="" width="%u" height="%u"><span class="screen-reader-text">%s</span></a></h1>',
 			esc_url( home_url() ),
-			esc_attr( 'Go to home page', 'axel' ),
 			esc_url( $logo_data[0] ),
 			esc_attr( $logo_data[1] ),
 			esc_attr( $logo_data[2] ),
+			esc_attr( 'Go to home page', 'axel' ),
 		);
 		echo wp_kses_post( $html );
 	}
