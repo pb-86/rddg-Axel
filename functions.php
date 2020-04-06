@@ -4,10 +4,10 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.13.4
+ * @version 0.14
  */
 
-define( 'AXEL_THEME_VERSION', '0.13.4' );
+define( 'AXEL_THEME_VERSION', '0.14' );
 
 define( 'AXEL_THEME_URI', get_template_directory_uri() );
 define( 'AXEL_THEME_IMAGES', AXEL_THEME_URI . '/assets/images' );
