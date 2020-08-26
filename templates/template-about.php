@@ -1,12 +1,12 @@
 <?php
 /**
- * Template Name: Contact
+ * Template Name: About
  *
- * The template for displaying contact page
+ * The template for displaying the about page.
  *
- * @package WordPress
+ * @package WordPress3
  * @subpackage Axel
- * @version 0.9
+ * @version 1.16
  */
 
 get_header();

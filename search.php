@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.15
+ * @version 1.16
  */
 
 get_header();
@@ -25,11 +25,11 @@ get_header();
 	if ( have_posts() ) {
 		while ( have_posts() ) {
 			the_post();
-			get_template_part( 'template-parts/part', 'excerpt' );
+			get_template_part( 'templates/parts/excerpt' );
 		}
 		the_posts_pagination();
 	} else {
-		get_template_part( 'template-parts/part', 'noposts' );
+		get_template_part( 'templates/parts/noposts' );
 	}
 	?>
 </main>

@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 0.13
+ * @version 1.16
  */
 
 /**
