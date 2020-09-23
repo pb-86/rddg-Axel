@@ -4,15 +4,15 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 1.16
+ * @version 1.19
  */
 
 ?>
 
-<form class="axel-search" role="search" method="get" action="<?php echo esc_url( home_url() ); ?>">
+<form class="axel-search" method="get" action="<?php echo esc_url( home_url() ); ?>">
 	<label class="axel-search__label">
 		<?php esc_html_e( 'Search', 'axel' ); ?>
-		<input class="axel-search__input" type="search" name="s">
+		<input class="axel-search__input" type="search" name="s" autocomplete="on">
 	</label>
 	<button class="axel-search__submit" type="submit">
 		<?php esc_html_e( 'Go', 'axel' ); ?>

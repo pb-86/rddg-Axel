@@ -4,13 +4,13 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 1.16
+ * @version 1.19
  */
 
 get_header();
 ?>
 
-<main class="axel-main" role="main">
+<main class="axel-main" id="axel-main" tabindex="-1">
 	<h2>
 		<?php esc_html_e( "Page can't be found", 'axel' ); ?>
 	</h2>
@@ -20,7 +20,7 @@ get_header();
 	?>
 </main>
 
-<aside class="axel-sidebar" role="complementary">
+<aside class="axel-sidebar">
 	<?php get_sidebar(); ?>
 </aside>
 

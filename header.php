@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 1.16
+ * @version 1.19
  */
 
 ?>
@@ -24,7 +24,7 @@
 	<?php esc_html_e( 'Skip to content', 'axel' ); ?>
 </a>
 
-<nav class="axel-nav" role="navigation">
+<nav class="axel-nav">
 	<?php
 	/**
 	 * This function displays main menu from list registered
@@ -44,7 +44,7 @@
 	?>
 </nav>
 
-<header class="axel-header" role="banner">
+<header class="axel-header">
 	<?php
 	/**
 	 * Displaying custom logo if it has been set.

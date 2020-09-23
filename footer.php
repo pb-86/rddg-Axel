@@ -4,12 +4,12 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @version 1.16
+ * @version 1.19
  */
 
 ?>
 
-<footer class="axel-footer" role="contentinfo">
+<footer class="axel-footer">
 	<?php
 	/**
 	 * This function displays footer menu from list registered
