@@ -4,16 +4,14 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.21
+ * @since 1.23
  */
 
 get_header();
 ?>
 
 <main class="axel-main" id="axel-main" tabindex="-1">
-	<h2>
-		<?php esc_html_e( "Page can't be found", 'axel' ); ?>
-	</h2>
+	<h2><?php esc_html_e( "Page can't be found", 'axel' ); ?></h2>
 	<?php
 	esc_html_e( "Sorry, but we couldn't find the page you were looking for. Try to search.", 'axel' );
 	get_search_form();
