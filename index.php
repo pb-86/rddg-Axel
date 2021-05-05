@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.20
+ * @since 1.21
  */
 
 get_header();
@@ -27,8 +27,5 @@ get_header();
 	?>
 </main>
 
-<aside class="axel-sidebar">
-	<?php get_sidebar(); ?>
-</aside>
-
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>

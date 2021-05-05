@@ -4,13 +4,15 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.20
+ * @since 1.21
  */
 
 ?>
 
-<?php if ( is_active_sidebar( 'sidebar' ) ) : ?>
-	<ul id="sidebar">
-		<?php dynamic_sidebar( 'sidebar' ); ?>
-	</ul>
-<?php endif; ?>
+<aside class="axel-sidebar">
+	<?php if ( is_active_sidebar( 'axel-sidebar-1' ) ) : ?>
+		<ul id="sidebar">
+			<?php dynamic_sidebar( 'axel-sidebar-1' ); ?>
+		</ul>
+	<?php endif; ?>
+</aside>

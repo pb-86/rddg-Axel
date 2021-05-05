@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.20
+ * @since 1.21
  */
 
 /**
@@ -21,11 +21,11 @@ add_action( 'widgets_init', 'axel_sidebars' );
  */
 function axel_sidebars() {
 	$args = array(
-		'id'            => 'js-sidebar',
+		'id'            => 'axel-sidebar-1',
 		'name'          => __( 'Sidebar', 'axel' ),
-		'description'   => __( 'Sidebar', 'axel' ),
-		'before_title'  => '<h1>',
-		'after_title'   => '</h1>',
+		'description'   => __( 'You can place widgets here.', 'axel' ),
+		'before_title'  => '<h2>',
+		'after_title'   => '</h2>',
 		'before_widget' => '<section>',
 		'after_widget'  => '</section>',
 	);
