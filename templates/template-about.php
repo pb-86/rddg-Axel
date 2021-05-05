@@ -6,7 +6,7 @@
  *
  * @package WordPress3
  * @subpackage Axel
- * @version 1.19
+ * @since 1.20
  */
 
 get_header();
