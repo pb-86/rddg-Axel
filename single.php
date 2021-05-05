@@ -4,22 +4,14 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.21
+ * @since 1.22
  */
 
 get_header();
 ?>
 
 <main class="axel-main" id="axel-main" tabindex="-1">
-	<?php
-	while ( have_posts() ) {
-		the_post();
-		get_template_part( 'templates/parts/singular' );
-		if ( comments_open() || get_comments_number() ) {
-			comments_template();
-		}
-	}
-	?>
+	<?php get_template_part( 'templates/loops/loop', 'singular' ); ?>
 </main>
 
 <?php get_sidebar(); ?>

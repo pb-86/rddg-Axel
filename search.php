@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.21
+ * @since 1.22
  */
 
 get_header();
@@ -21,17 +21,7 @@ get_header();
 			</span>
 		</header>
 	</article>
-	<?php
-	if ( have_posts() ) {
-		while ( have_posts() ) {
-			the_post();
-			get_template_part( 'templates/parts/excerpt' );
-		}
-		the_posts_pagination();
-	} else {
-		get_template_part( 'templates/parts/noposts' );
-	}
-	?>
+	<?php get_template_part( 'templates/loops/loop', 'excerpt' ); ?>
 </main>
 
 <?php get_sidebar(); ?>

@@ -6,7 +6,7 @@
  *
  * @package WordPress3
  * @subpackage Axel
- * @since 1.20
+ * @since 1.22
  */
 
 get_header();
@@ -15,8 +15,5 @@ get_header();
 <main class="axel-main" id="axel-main" tabindex="-1">
 </main>
 
-<aside class="axel-sidebar">
-	<?php get_sidebar(); ?>
-</aside>
-
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>
