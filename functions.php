@@ -4,10 +4,10 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.23
+ * @since 1.24
  */
 
-define( 'AXEL_THEME_VERSION', '1.23' );
+define( 'AXEL_THEME_VERSION', '1.24' );
 
 define( 'AXEL_THEME_URI', get_template_directory_uri() );
 define( 'AXEL_THEME_IMAGES', AXEL_THEME_URI . '/assets/images/' );
@@ -20,22 +20,3 @@ require_once 'settings/menus.php';    // Registering menus.
 require_once 'settings/sidebars.php'; // Registering sidebar.
 require_once 'settings/styles.php';   // Registering CSS styles.
 require_once 'settings/scripts.php';  // Registering JS scripts.
-
-/**
- * This function displays custom markup for custom logo.
- */
-function axel_logo() {
-	if ( has_custom_logo() ) {
-		$logo_id   = get_theme_mod( 'custom_logo' );
-		$logo_data = wp_get_attachment_image_src( $logo_id, 'full' );
-		$html      = sprintf(
-			'<h1><a href="%s"><img src="%s" alt="" width="%u" height="%u"><span class="screen-reader-text">%s</span></a></h1>',
-			esc_url( home_url() ),
-			esc_url( $logo_data[0] ),
-			esc_attr( $logo_data[1] ),
-			esc_attr( $logo_data[2] ),
-			esc_attr_e( 'Go to home page', 'axel' ),
-		);
-		echo wp_kses_post( $html );
-	}
-}

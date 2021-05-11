@@ -4,31 +4,17 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.20
+ * @since 1.24
  */
 
 ?>
 
 <footer class="axel-footer">
 	<?php
-	/**
-	 * This function displays footer menu from list registered
-	 * in file: includes/menus.php
-	 *
-	 * @link https://developer.wordpress.org/reference/functions/wp_nav_menu
-	 */
-
-	$args = array(
-		'menu'           => 'footer_menu',
-		'menu_id'        => '',
-		'menu_class'     => 'axel-menu',
-		'container'      => '',
-		'theme_location' => 'footer_menu',
-	);
-	wp_nav_menu( $args );
+		get_template_part( 'templates/footer/scroll-to-top' );
+		get_template_part( 'templates/menus/footer-menu' );
+		get_template_part( 'templates/footer/credits' );
 	?>
-
-	<?php esc_html_e( 'Axel theme made by Reddog Systems', 'axel' ); ?>
 </footer>
 
 <?php wp_footer(); ?>
