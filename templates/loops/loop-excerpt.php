@@ -4,15 +4,15 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.22
+ * @since 1.28
  */
 
 if ( have_posts() ) {
 	while ( have_posts() ) {
 		the_post();
-		get_template_part( 'templates/parts/excerpt' );
+		get_template_part( 'templates/single/excerpt' );
 	}
 	the_posts_pagination();
 } else {
-	get_template_part( 'templates/parts/noposts' );
+	get_template_part( 'templates/single/noposts' );
 }

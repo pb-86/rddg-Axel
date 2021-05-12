@@ -1,14 +1,14 @@
 <?php
 /**
- * The template part used to display information about no posts
+ * The template part displayed when there is no post in loop.
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.20
+ * @since 1.28
  */
 
 ?>
 
-<article class="axel-article axel-article--noposts">
+<article>
 	<?php esc_html_e( 'Sorry, no posts yet. Try search.', 'axel' ); ?>
 </article>

@@ -4,27 +4,28 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.20
+ * @since 1.28
  */
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class( 'axel-article axel-article--excerpt' ); ?>>
-	<header class="axel-article__header">
-		<h3 class="axel-article__title">
+<article id="post-<?php the_ID(); ?>" <?php post_class( '' ); ?>>
+	<header>
+		<h3>
 			<a href="<?php the_permalink(); ?>">
 				<?php the_title(); ?>
 			</a>
 		</h3>
-		<time class="axel-article__date" datetime="<?php the_time( 'Y-m-d H:i' ); ?>">
+		<time datetime="<?php the_time( 'Y-m-d H:i' ); ?>">
 			<?php the_time( get_option( 'date_format' ) ); ?>
 		</time>
-		<div class="axel-article__author">
-			<?php esc_html_e( 'Written by: ', 'axel' ); ?><?php the_author_posts_link(); ?>
+		<div>
+			<?php esc_html_e( 'Written by: ', 'axel' ); ?>
+			<?php the_author_posts_link(); ?>
 		</div>
 	</header>
 
-	<div class="axel-article__content">
+	<div>
 		<?php the_content( '' ); ?>
 		<a href="<?php the_permalink(); ?>">
 			<?php esc_html_e( 'Read more', 'axel' ); ?>

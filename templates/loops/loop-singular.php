@@ -4,12 +4,12 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.22
+ * @since 1.28
  */
 
 while ( have_posts() ) {
 	the_post();
-	get_template_part( 'templates/parts/singular' );
+	get_template_part( 'templates/singular/singular' );
 	if ( comments_open() || get_comments_number() ) {
 		comments_template();
 	}
