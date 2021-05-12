@@ -4,20 +4,13 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.21
+ * @since 1.26
  */
 
-/**
- * This action runs after all default WordPress widgets have been registered.
- *
- * @link https://developer.wordpress.org/reference/hooks/widgets_init
- */
 add_action( 'widgets_init', 'axel_sidebars' );
 
 /**
- * This function is registering sidebar.
- *
- * @link https://codex.wordpress.org/Function_Reference/register_sidebar
+ * Registers sidebar.
  */
 function axel_sidebars() {
 	$args = array(

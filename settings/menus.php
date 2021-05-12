@@ -4,20 +4,13 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.20
+ * @since 1.26
  */
 
-/**
- * This action runs after WordPress has finished loading
- *
- * @link https://codex.wordpress.org/Plugin_API/Action_Reference/init
- */
 add_action( 'init', 'axel_menu' );
 
 /**
- * This function is registering all navigation menus
- *
- * @link https://codex.wordpress.org/Function_Reference/register_nav_menus
+ * Registers all menus.
  */
 function axel_menu() {
 	$locations = array(
