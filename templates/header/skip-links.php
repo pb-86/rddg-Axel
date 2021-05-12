@@ -4,11 +4,11 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.24
+ * @since 1.25
  */
 
 ?>
 
 <a class="screen-reader-text" href="#axel-main">
-	<?php esc_html_e( 'Przejdź do treści', 'axel' ); ?>
+	<?php esc_html_e( 'Skip to content', 'axel' ); ?>
 </a>

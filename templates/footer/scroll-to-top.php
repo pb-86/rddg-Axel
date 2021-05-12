@@ -4,11 +4,11 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.24
+ * @since 1.25
  */
 
 ?>
 
 <button class="axel-scroll-to-top" id="scroll-to-top">
-	<?php esc_html_e( 'Do góry', 'axel' ); ?>
+	<?php esc_html_e( 'Go to top', 'axel' ); ?>
 </button>

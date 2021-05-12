@@ -3,4 +3,17 @@ body {
 	padding: 0;
 }
 
+.axel-header,
+.axel-main,
+.axel-footer {
+	margin: 0 auto;
+	width: 72rem;
+}
+
+.axel-main {
+	display: grid;
+	gap: 4rem;
+	grid-template-columns: 44rem 24rem;
+}
+
 @import 'parts/screen-reader-text';

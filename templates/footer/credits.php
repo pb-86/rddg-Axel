@@ -4,13 +4,13 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.24
+ * @since 1.25
  */
 
 ?>
 
 <div class="axel-credits">
-	<?php esc_html_e( 'Strona zaprojektowana i wykonana przez ', 'axel' ); ?>
+	<?php esc_html_e( 'Axel theme by ', 'axel' ); ?>
 	<a class="axel-credits__link" href="https://reddog.systems">
 		<?php esc_html_e( 'Reddog Systems', 'axel' ); ?>
 	</a>

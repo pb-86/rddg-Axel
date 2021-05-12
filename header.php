@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.24
+ * @since 1.25
  */
 
 ?>
@@ -20,12 +20,12 @@
 	<?php wp_body_open(); ?>
 	<?php get_template_part( 'templates/header/skip-link' ); ?>
 
-	<div class="axel-wrapper">
-		<header class="axel-header">
+	<header class="axel-header">
+		<div class="axel-wrapper">
 			<?php
 			get_template_part( 'templates/header/site-name' );
 			get_search_form();
 			get_template_part( 'templates/menus/header-menu' );
 			?>
-		</header>
-	</div>
+		</div>
+	</header>

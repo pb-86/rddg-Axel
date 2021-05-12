@@ -17,7 +17,7 @@ function axel_setup() {
 	 * @link https://codex.wordpress.org/Content_Width
 	 */
 	if ( ! isset( $content_width ) ) {
-		$content_width = 1170;
+		$content_width = 1152;
 	}
 
 	/**
