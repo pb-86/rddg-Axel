@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.25
+ * @since 1.29
  */
 
 ?>
@@ -12,9 +12,9 @@
 <footer class="axel-footer">
 	<div class="axel-wrapper">
 		<?php
-		get_template_part( 'templates/footer/scroll-to-top' );
-		get_template_part( 'templates/menus/footer-menu' );
-		get_template_part( 'templates/footer/credits' );
+		get_template_part( 'template-parts/footer/scroll-to-top' );
+		get_template_part( 'template-parts/menus/footer-menu' );
+		get_template_part( 'template-parts/footer/credits' );
 		?>
 	</div>
 </footer>

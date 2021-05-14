@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.25
+ * @since 1.29
  */
 
 get_header();
@@ -12,7 +12,7 @@ get_header();
 
 <main class="axel-main" id="axel-main" tabindex="-1">
 	<div class="axel-main__content">
-		<?php get_template_part( 'templates/loops/loop', 'singular' ); ?>
+		<?php get_template_part( 'template-parts/loops/loop', 'singular' ); ?>
 	</div>
 
 	<?php get_sidebar(); ?>

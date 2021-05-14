@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.25
+ * @since 1.29
  */
 
 ?>
