@@ -1,0 +1,45 @@
+.axel-main {
+	& > .axel-wrapper {
+		margin: 0 auto;
+		width: 72rem;
+	}
+
+	&__title,
+	&__search-info {
+		font-family: sans-serif;
+		text-align: center;
+	}
+
+	&__title {
+		font-size: 2rem;
+		font-weight: 700;
+	}
+
+	&__search-info {
+		margin-top: -1.5rem;
+	}
+
+	&__404-message {
+		text-align: center;
+	}
+
+	&__authors-bio,
+	&__authors-list {
+		width: 36rem;
+	}
+
+	&__authors-bio {
+		margin: -1.5rem auto 2rem;
+	}
+
+	&__authors-list {
+		font-family: sans-serif;
+		font-size: 1rem;
+		margin: 4rem auto;
+		text-align: center;
+
+		a {
+			color: #00f;
+		}
+	}
+}

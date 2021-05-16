@@ -5,17 +5,6 @@ body {
 	padding: 0;
 }
 
-.axel-main {
-	margin: 0 auto;
-	width: 72rem;
-}
-
-.axel-main {
-	display: grid;
-	gap: 4rem;
-	grid-template-columns: 44rem 24rem;
-}
-
 ul,
 ol {
 	margin: 0;
@@ -33,6 +22,9 @@ ol {
 @import 'parts/navigation/menus.scss';
 @import 'parts/navigation/search-form';
 @import 'parts/navigation/pagination';
+
+// Main
+@import 'parts/main/main';
 
 // Posts
 @import 'parts/posts/excerpt';

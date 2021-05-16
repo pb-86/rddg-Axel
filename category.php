@@ -4,19 +4,23 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.29
+ * @since 1.36
  */
 
 get_header();
 ?>
 
 <main class="axel-main" id="axel-main" tabindex="-1">
-	<div class="axel-main__content">
-		<h2><?php single_cat_title(); ?></h2>
-		<?php get_template_part( 'template-parts/loops/loop', 'excerpt' ); ?>
-	</div>
+	<div class="axel-wrapper">
 
-	<?php get_sidebar(); ?>
+		<div class="axel-main__content">
+			<h2 class="axel-main__title"><?php single_cat_title(); ?></h2>
+			<?php get_template_part( 'template-parts/loops/loop', 'excerpt' ); ?>
+		</div>
+
+		<?php get_sidebar(); ?>
+
+	</div>
 </main>
 
 <?php get_footer(); ?>
