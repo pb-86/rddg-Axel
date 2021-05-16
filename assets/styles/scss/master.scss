@@ -3,8 +3,7 @@ body {
 	padding: 0;
 }
 
-.axel-main,
-.axel-footer {
+.axel-main {
 	margin: 0 auto;
 	width: 72rem;
 }
@@ -31,3 +30,8 @@ ol {
 @import 'parts/navigation/navbars.scss';
 @import 'parts/navigation/menus.scss';
 @import 'parts/navigation/search-form';
+
+// Footer
+@import 'parts/footer/footer';
+@import 'parts/footer/scroll-top-top';
+@import 'parts/footer/credits';
