@@ -3,7 +3,6 @@ body {
 	padding: 0;
 }
 
-.axel-header,
 .axel-main,
 .axel-footer {
 	margin: 0 auto;
@@ -24,6 +23,11 @@ ol {
 
 @import 'parts/screen-reader-text';
 
+// Header
+@import 'parts/header/header';
+@import 'parts/header/site-name';
+
 // Navigation
 @import 'parts/navigation/navbars.scss';
 @import 'parts/navigation/menus.scss';
+@import 'parts/navigation/search-form';

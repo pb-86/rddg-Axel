@@ -1,0 +1,17 @@
+.axel-search-form {
+	margin: 2rem 0;
+	text-align: center;
+
+	&__input,
+	&__button {
+		height: 3rem;
+		padding: 0 1rem;
+	}
+
+	&__input {
+		font-family: sans-serif;
+		font-size: 1rem;
+		margin-right: 0.5rem;
+		width: 16rem;
+	}
+}

@@ -9,12 +9,12 @@
 
 ?>
 
-<div class="axel-sitename">
+<div class="axel-site-name">
 	<?php if ( is_front_page() || is_home() ) : ?>
-		<h1>
+		<h1 class="axel-site-name__title">
 	<?php endif; ?>
 
-	<a class="axel-sitename__link" href="<?php echo esc_url( get_bloginfo( 'url' ) ); ?>">
+	<a class="axel-site-name__link" href="<?php echo esc_url( get_bloginfo( 'url' ) ); ?>">
 		<?php echo esc_html( get_bloginfo( 'name' ) ); ?>
 	</a>
 
@@ -22,7 +22,7 @@
 		</h1>
 	<?php endif; ?>
 
-	<div class="axel-sitename__description">
+	<div class="axel-site-name__description">
 		<?php echo esc_html( get_bloginfo( 'description' ) ); ?>
 	</div>
 </div>

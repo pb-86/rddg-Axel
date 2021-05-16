@@ -1,0 +1,28 @@
+.axel-site-name {
+	margin: 2rem 0;
+	text-align: center;
+
+	&__title {
+		margin: 0;
+	}
+	
+	&__link,
+	&__description {
+		font-family: sans-serif;
+	}
+	
+	&__link {
+		color: #00f;
+		display: inline-block;
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 1;
+		margin-bottom: 0.5rem;
+	}
+
+	&__description {
+		font-size: 1rem;
+		font-weight: 400;
+		line-height: 1.5;
+	}
+}

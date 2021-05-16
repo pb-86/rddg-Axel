@@ -9,12 +9,12 @@
 
 ?>
 
-<form class="axel-searchform" method="get" action="<?php echo esc_url( get_bloginfo( 'url' ) ); ?>">
+<form class="axel-search-form" method="get" action="<?php echo esc_url( get_bloginfo( 'url' ) ); ?>">
 	<label class="screen-reader-text" for="search">
 		<?php esc_html_e( 'Wyszukiwarka', 'axel' ); ?>
 	</label>
-	<input type="search" id="search" name="s" autocomplete="on">
-	<button type="submit">
-		<?php esc_html_e( 'Szukaj', 'axel' ); ?>
+	<input class="axel-search-form__input" type="search" id="search" name="s" autocomplete="on" placeholder="<?php esc_html_e( 'What are you looking for?', 'axel' ); ?>">
+	<button class="axel-search-form__button" type="submit">
+		<?php esc_html_e( 'Search', 'axel' ); ?>
 	</button>
 </form>

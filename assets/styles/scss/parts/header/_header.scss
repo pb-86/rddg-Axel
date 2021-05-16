@@ -1,0 +1,10 @@
+.axel-header {
+	background-color: #eee;
+	margin-bottom: 4rem;
+	padding: 2rem 0;
+
+	& > .axel-wrapper {
+		margin: 0 auto;
+		width: 72rem;
+	}
+}
