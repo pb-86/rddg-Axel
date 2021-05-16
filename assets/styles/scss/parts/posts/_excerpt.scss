@@ -1,0 +1,31 @@
+.axel-excerpt {
+	margin: 4rem 0;
+
+	&__title {
+		font-size: 1.25rem;
+		line-height: 1.25;
+		margin: 0.25rem 0 0.5rem;
+	}
+
+	&__title-link {
+		color: #00f;
+		font-family: sans-serif;
+	}
+
+	&__date,
+	&__author {
+		display: inline;
+		font-family: sans-serif;
+		font-size: 1rem;
+	}
+
+	&__content {
+		font-family: serif;
+	}
+
+	&__read-more {
+		color: #00f;
+		font-family: sans-serif;
+		font-size: 1rem;
+	}
+}

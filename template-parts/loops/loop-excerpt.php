@@ -10,9 +10,9 @@
 if ( have_posts() ) {
 	while ( have_posts() ) {
 		the_post();
-		get_template_part( 'template-parts/post/excerpt' );
+		get_template_part( 'template-parts/posts/excerpt' );
 	}
 	the_posts_pagination();
 } else {
-	get_template_part( 'template-parts/post/no-posts' );
+	get_template_part( 'template-parts/posts/no-posts' );
 }

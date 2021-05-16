@@ -1,4 +1,6 @@
 body {
+	font-size: 16px;
+	line-height: 1.5;
 	margin: 0;
 	padding: 0;
 }
@@ -31,6 +33,9 @@ ol {
 @import 'parts/navigation/menus.scss';
 @import 'parts/navigation/search-form';
 @import 'parts/navigation/pagination';
+
+// Posts
+@import 'parts/posts/excerpt';
 
 // Footer
 @import 'parts/footer/footer';
