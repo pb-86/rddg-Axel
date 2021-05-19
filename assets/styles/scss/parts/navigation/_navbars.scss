@@ -1,7 +1,11 @@
 .axel-navbar {
-	margin: 2rem 0;
 	text-align: center;
 
-	&--header {}
-	&--footer {}
+	&--header {
+		margin: 2rem 0 0;
+	}
+
+	&--footer {
+		margin: 2rem 0;
+	}
 }
