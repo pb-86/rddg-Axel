@@ -2,21 +2,27 @@
 	margin: 2rem 0;
 	text-align: center;
 
-	&__input,
-	&__button {
-		height: 3rem;
-		padding: 0 1rem;
+	&__label {
+		align-items: center;
+		background-color: #fff;
+		border: 0.0625rem solid #666;
+		border-radius: 0.25rem;
+		display: inline-flex;
 	}
-
+	
 	&__input {
+		background: #fff;
+		border: 0;
+		border-radius: 0.25rem;
 		font-family: sans-serif;
 		font-size: 1rem;
-		margin-right: 0.5rem;
+		height: 3rem;
+		padding: 0 1rem;
 		width: 16rem;
 	}
 
 	&__button {
-		font-family: sans-serif;
-		font-size: 1rem;
+		height: 2.5rem;
+		margin: 0 0.25rem;
 	}
 }

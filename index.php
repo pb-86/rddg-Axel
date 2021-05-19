@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.36
+ * @since 1.37
  */
 
 get_header();
@@ -14,7 +14,7 @@ get_header();
 	<div class="axel-wrapper">
 
 		<div class="axel-main__content">
-			<h2 class="axel-main__title"><?php esc_html_e( 'Recent posts', 'axel' ); ?></h2>
+			<h2 class="screen-reader-text"><?php esc_html_e( 'Recent posts', 'axel' ); ?></h2>
 			<?php get_template_part( 'template-parts/loops/loop', 'excerpt' ); ?>
 		</div>
 

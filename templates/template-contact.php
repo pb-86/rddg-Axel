@@ -13,7 +13,7 @@ get_header();
 ?>
 
 <main class="axel-main" id="axel-main" tabindex="-1">
-	<div class="axel-main__content">
+	<div class="axel-wrapper">
 		<h2><?php esc_html_e( 'Contact', 'axel' ); ?></h2>
 	</div>
 

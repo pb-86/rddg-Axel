@@ -4,17 +4,19 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.32
+ * @since 1.37
  */
 
 ?>
 
 <form class="axel-search-form" method="get" action="<?php echo esc_url( get_bloginfo( 'url' ) ); ?>">
-	<label class="screen-reader-text" for="search">
-		<?php esc_html_e( 'Wyszukiwarka', 'axel' ); ?>
+	<label class="axel-search-form__label">
+		<span class="screen-reader-text">
+			<?php esc_html_e( 'Wyszukiwarka', 'axel' ); ?>
+		</span>
+		<input class="axel-search-form__input" type="search" id="search" name="s" autocomplete="on" placeholder="<?php esc_html_e( 'What are you looking for?', 'axel' ); ?>">
+		<button class="axel-button axel-search-form__button" type="submit">
+			<?php esc_html_e( 'Search', 'axel' ); ?>
+		</button>
 	</label>
-	<input class="axel-search-form__input" type="search" id="search" name="s" autocomplete="on" placeholder="<?php esc_html_e( 'What are you looking for?', 'axel' ); ?>">
-	<button class="axel-search-form__button" type="submit">
-		<?php esc_html_e( 'Search', 'axel' ); ?>
-	</button>
 </form>
