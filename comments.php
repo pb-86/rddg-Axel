@@ -4,12 +4,12 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.20
+ * @since 1.45
  */
 
 ?>
 
-<div>
+<div class="axel-comments">
 	<?php
 	comment_form();
 	wp_list_comments();
