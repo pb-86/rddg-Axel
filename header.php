@@ -18,7 +18,7 @@
 </head>
 <body <?php body_class(); ?>>
 	<?php wp_body_open(); ?>
-	<?php get_template_part( 'template-parts/header/skip-link' ); ?>
+	<?php get_template_part( 'template-parts/header/skip-links' ); ?>
 
 	<header class="axel-header">
 		<div class="axel-wrapper">

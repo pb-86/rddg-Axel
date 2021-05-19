@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.38
+ * @since 1.39
  */
 
 define( 'AXEL_THEME_VERSION', '1.38' );
