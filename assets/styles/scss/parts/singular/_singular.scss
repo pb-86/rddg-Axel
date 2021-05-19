@@ -1,0 +1,30 @@
+.axel-singular {
+	&__header {
+		margin: 0 auto 4rem;
+		text-align: center;
+		width: 54rem;
+	}
+
+	&__date,
+	&__author {
+		color: #666;
+		display: inline-block;
+		font-size: 0.875rem;
+	}
+
+	&__title {
+		font-size: 3rem;
+		line-height: 1.25;
+		margin: 1.75rem 0 4rem;
+	}
+
+	&__content {
+		margin: 4rem auto;
+		width: 36rem;
+	}
+
+	&__footer {
+		margin: 4rem 0;
+		text-align: center;
+	}
+}

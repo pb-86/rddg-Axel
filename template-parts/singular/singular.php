@@ -4,29 +4,30 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.29
+ * @since 1.42
  */
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class( '' ); ?>>
-	<header>
-		<h2><?php the_title(); ?></h2>
-		<time datetime="<?php the_time( 'Y-m-d H:i' ); ?>">
-			<?php the_time( get_option( 'date_format' ) ); ?>
+<article id="post-<?php the_ID(); ?>" <?php post_class( 'axel-singular' ); ?>>
+	<header class="axel-singular__header">
+		<time class="axel-singular__date" datetime="<?php the_time( 'Y-m-d H:i' ); ?>">
+			<?php the_time( get_option( 'date_format' ) ); ?>,
 		</time>
-		<div>
-			<?php esc_html_e( 'Written by: ', 'axel' ); ?>
+		<div class="axel-singular__author">
 			<?php the_author_posts_link(); ?>
 		</div>
+		<h2 class="axel-singular__title">
+			<?php the_title(); ?>
+		</h2>
 	</header>
 
-	<div>
+	<div class="axel-singular__content">
 		<?php the_content(); ?>
 	</div>
 
-	<footer>
-		<a href="<?php echo esc_url( home_url() ); ?>">
+	<footer class="axel-singular__footer">
+		<a class="axel-singular__home-link" href="<?php echo esc_url( home_url() ); ?>">
 			<?php esc_html_e( 'Back to home page', 'axel' ); ?>
 		</a>
 	</footer>
