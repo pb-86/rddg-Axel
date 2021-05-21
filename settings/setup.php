@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.26
+ * @since 1.46
  */
 
 add_action( 'after_setup_theme', 'axel_setup' );
@@ -19,7 +19,12 @@ function axel_setup() {
 	}
 
 	// Enables post thumbnails support.
-	add_theme_support( 'post-thumbnails', array() );
+	add_theme_support( 'post-thumbnails', array( 'post', 'pages' ) );
+
+	// Sets post thubmnail size.
+	update_option( 'thumbnail_size_w', 544 );
+	update_option( 'thumbnail_size_h', 352 );
+	update_option( 'thumbnail_crop', 1 );
 
 	// Enables custom header support.
 	add_theme_support( 'custom-header', array() );

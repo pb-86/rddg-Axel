@@ -1,6 +1,11 @@
 .axel-excerpt {
-	margin: 4rem auto;
-	width: 36rem;
+	border: 0.0625rem solid #e5e5e5;
+	padding: 2rem;
+
+	&__thumbnail {
+		display: block;
+		margin: -2rem -2rem 2rem;
+	}
 
 	&__title {
 		font-size: 1.25rem;
