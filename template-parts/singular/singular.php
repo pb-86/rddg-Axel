@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.42
+ * @since 1.47
  */
 
 ?>
@@ -20,6 +20,10 @@
 		<h2 class="axel-singular__title">
 			<?php the_title(); ?>
 		</h2>
+		<figure class="axel-singular__thumbnail">
+			<?php the_post_thumbnail( 'axel-singular-thumbnail' ); ?>
+			<figcaption><?php the_post_thumbnail_caption(); ?></figcaption>
+		</figure>
 	</header>
 
 	<div class="axel-singular__content">

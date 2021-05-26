@@ -4,14 +4,14 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.46
+ * @since 1.47
  */
 
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class( 'axel-excerpt' ); ?>>
 	<header class="axel-excerpt__header">
-		<?php the_post_thumbnail( 'thumbnail', array( 'class' => 'axel-excerpt__thumbnail' ) ); ?>
+		<?php the_post_thumbnail( 'axel-excerpt-thumbnail', array( 'class' => 'axel-excerpt__thumbnail' ) ); ?>
 		<time class="axel-excerpt__date" datetime="<?php the_time( 'Y-m-d H:i' ); ?>">
 			<?php the_time( get_option( 'date_format' ) ); ?>,
 		</time>

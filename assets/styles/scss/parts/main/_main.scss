@@ -1,7 +1,7 @@
 .axel-main {
 	& > .axel-wrapper {
 		margin: 0 auto;
-		width: 72rem;
+		width: 70rem;
 	}
 
 	&__title,
@@ -17,7 +17,7 @@
 	}
 
 	&__search-info {
-		margin-top: -1.5rem;
+		margin: -3rem 0 4rem;
 	}
 
 	&__404-message {
@@ -26,11 +26,11 @@
 
 	&__authors-bio,
 	&__authors-list {
-		width: 36rem;
+		width: 40rem;
 	}
 
 	&__authors-bio {
-		margin: -1.5rem auto 2rem;
+		margin: -1.5rem auto 4rem;
 	}
 
 	&__authors-list {
