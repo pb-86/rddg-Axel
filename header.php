@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.29
+ * @since 1.48
  */
 
 ?>
@@ -21,11 +21,9 @@
 	<?php get_template_part( 'template-parts/header/skip-links' ); ?>
 
 	<header class="axel-header">
-		<div class="axel-wrapper">
-			<?php
-			get_template_part( 'template-parts/header/site-name' );
-			get_search_form();
-			get_template_part( 'template-parts/menus/header-menu' );
-			?>
-		</div>
+		<?php
+		get_template_part( 'template-parts/header/site-name' );
+		get_search_form();
+		get_template_part( 'template-parts/menus/header-menu' );
+		?>
 	</header>

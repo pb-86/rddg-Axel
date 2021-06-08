@@ -1,8 +1,6 @@
 .axel-main {
-	& > .axel-wrapper {
-		margin: 0 auto;
-		width: 70rem;
-	}
+	margin: 8rem auto;
+	max-width: 70rem;
 
 	&__title,
 	&__search-info {
