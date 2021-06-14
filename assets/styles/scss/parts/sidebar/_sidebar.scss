@@ -1,4 +1,18 @@
 .axel-sidebar {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
 	margin: 8rem auto;
 	width: 70rem;
+
+	section {
+		h2,
+		h3 {
+			line-height: 1;
+			margin: 0 0 1rem;
+		}
+
+		ul {
+			list-style: none;
+		}
+	}
 }
