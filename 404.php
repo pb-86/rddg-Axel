@@ -19,8 +19,12 @@ get_header();
 
 	<!-- Error message -->
 	<div class="axel-main__404-message">
-		<?php esc_html_e( "Sorry, but we couldn't find the page you were looking for. Try to search.", 'axel' ); ?>
+		<?php esc_html_e( "Sorry, but we couldn't find the page you were looking for.", 'axel' ); ?>
 	</div>
+
+	<a class="axel-main__404-button" href="<?php echo esc_url( get_bloginfo( 'url' ) ); ?>">
+		<?php esc_html_e( 'Go back to home page' ); ?>
+	</a>
 
 </main>
 

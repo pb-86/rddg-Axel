@@ -18,8 +18,15 @@
 		margin: -3rem 0 4rem;
 	}
 
-	&__404-message {
+	&__404-message,
+	&__404-button {
+		margin-top: 2rem;
+		margin-bottom: 2rem;
 		text-align: center;
+	}
+
+	&__404-button {
+		display: block;
 	}
 
 	&__authors-bio,
