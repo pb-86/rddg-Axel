@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.47
+ * @since 1.51
  */
 
 add_action( 'after_setup_theme', 'axel_setup' );
@@ -36,6 +36,9 @@ function axel_setup() {
 
 	// Allows plugins to manage the document title tag.
 	add_theme_support( 'title-tag' );
+
+	// Enables Automatic Feed Links for post and comment.
+	add_theme_support( 'automatic-feed-links' );
 
 	// Loads a CSS file with custom editor styles.
 	add_editor_style( AXEL_THEME_STYLES . '/editor.min.css' );

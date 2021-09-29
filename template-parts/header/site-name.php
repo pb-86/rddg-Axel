@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.29
+ * @since 1.51
  */
 
 ?>
@@ -14,7 +14,7 @@
 		<h1 class="axel-site-name__title">
 	<?php endif; ?>
 
-	<a class="axel-site-name__link" href="<?php echo esc_url( get_bloginfo( 'url' ) ); ?>">
+	<a class="axel-site-name__link" href="<?php echo esc_url( home_url() ); ?>">
 		<?php echo esc_html( get_bloginfo( 'name' ) ); ?>
 	</a>
 

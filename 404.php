@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.48
+ * @since 1.51
  */
 
 get_header();
@@ -22,8 +22,8 @@ get_header();
 		<?php esc_html_e( "Sorry, but we couldn't find the page you were looking for.", 'axel' ); ?>
 	</div>
 
-	<a class="axel-main__404-button" href="<?php echo esc_url( get_bloginfo( 'url' ) ); ?>">
-		<?php esc_html_e( 'Go back to home page' ); ?>
+	<a class="axel-main__404-button" href="<?php echo esc_url( home_url() ); ?>">
+		<?php esc_html_e( 'Go back to home page', 'axel' ); ?>
 	</a>
 
 </main>
