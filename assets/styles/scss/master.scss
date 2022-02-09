@@ -1,44 +1,15 @@
-body {
-	font-family: sans-serif;
-	font-size: 16px;
-	line-height: 1.5;
-	margin: 0;
-	padding: 0;
-}
+// Base
+@import 'base/reset';
 
-ul,
-ol {
-	margin: 0;
-	padding: 0;
-}
-
-a {
-	color: #00f;
-}
-
-.axel-button {
-	background-color: #666;
-	border: 0;
-	border-radius: 0.25rem;
-	color: #fff;
-	font-family: sans-serif;
-	font-size: 1rem;
-	height: 3rem;
-	min-width: 6rem;
-	padding: 0 1rem;
-
-	&:hover {
-		background-color: #4d4d4d;
-	}
-}
-
-@import 'parts/screen-reader-text';
+// Helpers
+@import 'helpers/button';
 
 // Header
 @import 'parts/header/header';
 @import 'parts/header/site-name';
 
 // Navigation
+@import 'parts/navigation/screen-reader-text';
 @import 'parts/navigation/navbars.scss';
 @import 'parts/navigation/menus.scss';
 @import 'parts/navigation/search-form';
@@ -62,3 +33,6 @@ a {
 @import 'parts/footer/footer';
 @import 'parts/footer/scroll-top-top';
 @import 'parts/footer/credits';
+
+// Block editor
+@import 'block-editor/block-editor';

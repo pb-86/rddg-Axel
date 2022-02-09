@@ -1,24 +1,30 @@
 {
-  "name": "axel",
+  "name": "reddog-systems",
   "version": "1.0.0",
-  "description": "Axel is a WordPress starer theme used by me to develop websites for my clients.",
+  "description": "",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pb-86/axel.git"
+    "url": "git+https://github.com/pb-86/reddog-systems.git"
   },
-  "author": "Reddog Systems",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pb-86/axel/issues"
+    "url": "https://github.com/pb-86/reddog-systems/issues"
   },
-  "homepage": "https://github.com/pb-86/axel#readme",
+  "homepage": "https://github.com/pb-86/reddog-systems#readme",
   "devDependencies": {
+    "browser-sync": "^2.27.5",
     "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-image": "^6.2.1",
+    "gulp-minify": "^3.1.0",
     "gulp-rename": "^2.0.0",
-    "gulp-sass": "^4.1.0"
+    "gulp-sass": "^5.0.0",
+    "node-sass": "^6.0.1",
+    "sass": "^1.43.2"
   }
 }

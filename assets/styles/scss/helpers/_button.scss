@@ -1,0 +1,15 @@
+.axel-button {
+	background-color: #666;
+	border: 0;
+	border-radius: 0.25rem;
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 1rem;
+	height: 3rem;
+	min-width: 6rem;
+	padding: 0 1rem;
+
+	&:hover {
+		background-color: #4d4d4d;
+	}
+}

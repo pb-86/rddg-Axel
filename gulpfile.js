@@ -2,7 +2,7 @@
  * Config
  */
 const gulp 				 = require( 'gulp' ),
-			sass 				 = require( 'gulp-sass' ),
+			sass 				 = require( 'gulp-sass' )( require( 'sass' ) ),
 			rename 			 = require( 'gulp-rename' ),
 			image 			 = require( 'gulp-image' ),
 			minify       = require( 'gulp-minify' ),
