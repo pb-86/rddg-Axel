@@ -4,10 +4,10 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.52
+ * @since 1.53
  */
 
-define( 'AXEL_THEME_VERSION', '1.52' );
+define( 'AXEL_THEME_VERSION', '1.53' );
 
 define( 'AXEL_THEME_URI', get_template_directory_uri() );
 define( 'AXEL_THEME_IMAGES', AXEL_THEME_URI . '/assets/images/compressed/' );
@@ -21,4 +21,3 @@ require_once 'settings/scripts.php';      // Registering JS scripts.
 require_once 'settings/menus.php';        // Registering menus.
 require_once 'settings/sidebars.php';     // Registering sidebar.
 require_once 'settings/optimisation.php'; // Code that helps speed up site.
-
