@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.48
+ * @since 1.58
  */
 
 get_header();
@@ -17,6 +17,7 @@ get_header();
 		<?php esc_html_e( 'Recent posts', 'axel' ); ?>
 	</h2>
 
+	<!-- Recent posts excerpts -->
 	<?php get_template_part( 'template-parts/loops/loop', 'excerpt' ); ?>
 
 </main>

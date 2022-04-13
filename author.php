@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.48
+ * @since 1.58
  */
 
 get_header();
@@ -22,6 +22,7 @@ get_header();
 		<?php the_author_meta( 'description' ); ?>
 	</div>
 
+	<!-- Excerpts of authors posts -->
 	<?php get_template_part( 'template-parts/loops/loop', 'excerpt' ); ?>
 
 	<!-- Other authors list -->

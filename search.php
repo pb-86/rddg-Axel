@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.48
+ * @since 1.58
  */
 
 get_header();
@@ -22,6 +22,7 @@ get_header();
 		<?php printf( esc_html( 'You searched for: %s' ), '<strong>' . get_search_query() . '</strong>' ); ?>
 	</div>
 
+	<!-- Excertps -->
 	<?php get_template_part( 'template-parts/loops/loop', 'excerpt' ); ?>
 
 </main>
