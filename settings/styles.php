@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.53
+ * @since 1.56
  */
 
 add_action( 'wp_enqueue_scripts', 'axel_styles' );
@@ -18,5 +18,10 @@ function axel_styles() {
 	}
 
 	// Removes the default CSS of blocks.
+	wp_dequeue_style( 'wp-block-library' );
 	wp_deregister_style( 'wp-block-library' );
+
+	// Removes default styles.
+	wp_dequeue_style( 'global-styles' );
+	wp_deregister_style( 'global-styles' );
 }
