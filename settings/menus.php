@@ -4,15 +4,15 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.26
+ * @since 1.57
  */
 
-add_action( 'init', 'axel_menu' );
+add_action( 'init', 'axel_menus' );
 
 /**
  * Registers all menus.
  */
-function axel_menu() {
+function axel_menus() {
 	$locations = array(
 		'header_menu' => __( 'Header menu', 'axel' ),
 		'footer_menu' => __( 'Footer menu', 'axel' ),
