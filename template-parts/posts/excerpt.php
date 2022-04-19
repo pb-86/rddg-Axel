@@ -14,7 +14,9 @@
 	<!-- Excerpt header -->
 	<header class="axel-excerpt__header">
 		<!-- Thumbnail -->
-		<?php the_post_thumbnail( 'axel-excerpt-thumbnail', array( 'class' => 'axel-excerpt__thumbnail' ) ); ?>
+		<a class="axel-excerpt__thumbnail-link" href="<?php the_permalink(); ?>" tabindex="-1">
+			<?php the_post_thumbnail( 'axel-excerpt-thumbnail', array( 'class' => 'axel-excerpt__thumbnail' ) ); ?>
+		</a>
 
 		<!-- Date -->
 		<time class="axel-excerpt__date" datetime="<?php the_time( 'Y-m-d H:i' ); ?>">
@@ -40,7 +42,7 @@
 
 		<!-- Read more link -->
 		<div class="axel-excerpt__read-more">
-			<a class="axel-excerpt__read-more_link" href="<?php the_permalink(); ?>">
+			<a class="axel-excerpt__read-more_link" href="<?php the_permalink(); ?>" tabindex="-1">
 				<?php esc_html_e( 'Read more', 'axel' ); ?>
 				<span class="screen-reader-text">
 					<?php
