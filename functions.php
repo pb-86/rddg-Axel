@@ -4,10 +4,10 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.61
+ * @since 1.62
  */
 
-define( 'AXEL_THEME_VERSION', '1.61' );
+define( 'AXEL_THEME_VERSION', '1.62' );
 
 // Defining useful constants for further use.
 define( 'AXEL_THEME_URI', get_template_directory_uri() );
