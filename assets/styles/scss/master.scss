@@ -1,3 +1,5 @@
+// This is the main SCSS files that combines all of the partials. It's used as a fallback.
+
 // Base
 @import 'base/reset';
 
@@ -26,6 +28,9 @@
 @import 'parts/singular/singular';
 @import 'parts/singular/comments';
 
+// Block editor
+@import 'block-editor/block-editor';
+
 // Sidebar
 @import 'parts/sidebar/sidebar';
 
@@ -33,6 +38,3 @@
 @import 'parts/footer/footer';
 @import 'parts/footer/scroll-top-top';
 @import 'parts/footer/credits';
-
-// Block editor
-@import 'block-editor/block-editor';
