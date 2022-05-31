@@ -1,6 +1,8 @@
 // This is the main SCSS files that combines all of the partials. It's used as a fallback.
 
 // Base
+@import 'base/fonts';
+@import 'base/variables';
 @import 'base/reset';
 
 // Helpers
