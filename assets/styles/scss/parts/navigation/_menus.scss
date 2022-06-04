@@ -29,6 +29,10 @@
 		top: 2rem;
 		white-space: nowrap;
 
+		&--show {
+			display: block !important;
+		}
+
 		.menu-item {
 			display: block;
 			margin: 0.25rem 0;
