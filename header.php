@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.48
+ * @since 1.66.1
  */
 
 ?>
@@ -18,7 +18,6 @@
 </head>
 <body <?php body_class(); ?>>
 	<?php wp_body_open(); ?>
-	<?php get_template_part( 'template-parts/header/skip-links' ); ?>
 
 	<header class="axel-header">
 		<?php

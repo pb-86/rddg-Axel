@@ -4,17 +4,17 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.66
+ * @since 1.66.1
  */
 
-define( 'AXEL_THEME_VERSION', '1.66' );
+define( 'AXEL_THEME_VERSION', '1.66.1' );
 
 // Defining useful constants for further use.
-define( 'AXEL_THEME_URI', get_template_directory_uri() );
-define( 'AXEL_THEME_IMAGES', AXEL_THEME_URI . '/assets/images/' );
-define( 'AXEL_THEME_STYLES', AXEL_THEME_URI . '/assets/styles/' );
-define( 'AXEL_THEME_SCRIPTS', AXEL_THEME_URI . '/assets/scripts/' );
-define( 'AXEL_THEME_VENDOR', AXEL_THEME_URI . '/assets/vendor/' );
+define( 'AXEL_THEME_URI', get_template_directory_uri() . '/' );
+define( 'AXEL_THEME_IMAGES', AXEL_THEME_URI . 'assets/images/' );
+define( 'AXEL_THEME_STYLES', AXEL_THEME_URI . 'assets/styles/' );
+define( 'AXEL_THEME_SCRIPTS', AXEL_THEME_URI . 'assets/scripts/' );
+define( 'AXEL_THEME_VENDOR', AXEL_THEME_URI . 'assets/vendor/' );
 
 // Basic theme setup.
 require_once 'settings/setup.php';
@@ -33,3 +33,11 @@ require_once 'settings/sidebars.php';
 
 // Code that helps speed up site.
 require_once 'settings/optimisation.php';
+
+/**
+ * Adds skip links.
+ */
+function axel_skip_links() {
+	get_template_part( 'template-parts/header/skip-links' );
+}
+add_action( 'wp_body_open', 'axel_skip_links', 5 );
