@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.48
+ * @since 1.66.2
  */
 
 get_header();
@@ -14,5 +14,6 @@ get_header();
 	<?php get_template_part( 'template-parts/loops/loop', 'singular' ); ?>
 </main>
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+<?php
+get_sidebar();
+get_footer();

@@ -6,7 +6,7 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.59
+ * @since 1.66.2
  */
 
 get_header();
@@ -21,5 +21,6 @@ get_header();
 
 </main>
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+<?php
+get_sidebar();
+get_footer();
