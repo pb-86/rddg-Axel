@@ -43,10 +43,10 @@
 		<!-- Read more link -->
 		<div class="axel-excerpt__read-more">
 			<a class="axel-excerpt__read-more_link" href="<?php the_permalink(); ?>" tabindex="-1">
-				<?php esc_html_e( 'Read more', 'axel' ); ?>
+				<?php esc_html_e( 'Czytaj dalej', 'axel' ); ?>
 				<span class="screen-reader-text">
 					<?php
-					esc_html_e( 'about ', 'axel' );
+					esc_html_e( 'wpis pt. ', 'axel' );
 					the_title();
 					?>
 				</span>

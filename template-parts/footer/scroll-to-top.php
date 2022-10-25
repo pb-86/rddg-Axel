@@ -10,5 +10,5 @@
 ?>
 
 <button class="axel-button axel-scroll-to-top" id="scroll-to-top">
-	<?php esc_html_e( 'Go to top', 'axel' ); ?>
+	<?php esc_html_e( 'Wróć do góry', 'axel' ); ?>
 </button>

@@ -28,7 +28,7 @@ get_header();
 	<!-- Other authors list -->
 	<div class="axel-main__authors-list">
 		<?php
-		esc_html_e( 'See also other authors', 'axel' );
+		esc_html_e( 'Sprawdź innych autorów', 'axel' );
 		wp_list_authors();
 		?>
 	</div>

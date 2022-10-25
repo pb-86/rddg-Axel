@@ -10,5 +10,5 @@
 ?>
 
 <article>
-	<?php esc_html_e( 'Sorry, no posts yet. Try search.', 'axel' ); ?>
+	<?php esc_html_e( 'Brak wpisów.', 'axel' ); ?>
 </article>

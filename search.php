@@ -14,12 +14,12 @@ get_header();
 
 	<!-- Title -->
 	<h2 class="axel-main__title">
-		<?php esc_html_e( 'Search results', 'axel' ); ?>
+		<?php esc_html_e( 'Wyniki wyszukiwania', 'axel' ); ?>
 	</h2>
 
 	<!-- Search phrase -->
 	<div class="axel-main__search-info">
-		<?php printf( esc_html( 'You searched for: %s' ), '<strong>' . get_search_query() . '</strong>' ); ?>
+		<?php printf( esc_html( 'Szukałeś: %s' ), '<strong>' . get_search_query() . '</strong>' ); ?>
 	</div>
 
 	<!-- Excertps -->

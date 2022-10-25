@@ -18,11 +18,11 @@
 		</span>
 
 		<!-- Input field -->
-		<input class="axel-search-form__input" type="search" id="search" name="s" autocomplete="on" placeholder="<?php esc_attr_e( 'What are you looking for?', 'axel' ); ?>">
+		<input class="axel-search-form__input" type="search" id="search" name="s" autocomplete="on" placeholder="<?php esc_attr_e( 'Wpisz szukaną frazę', 'axel' ); ?>">
 
 		<!-- Submit button -->
 		<button class="axel-button axel-search-form__button" type="submit">
-			<?php esc_html_e( 'Search', 'axel' ); ?>
+			<?php esc_html_e( 'Szukaj', 'axel' ); ?>
 		</button>
 
 	</label>

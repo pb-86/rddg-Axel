@@ -14,17 +14,17 @@ get_header();
 
 	<!-- Title -->
 	<h2 class="axel-main__title">
-		<?php esc_html_e( "Page can't be found", 'axel' ); ?>
+		<?php esc_html_e( 'Nie znaleziono strony', 'axel' ); ?>
 	</h2>
 
 	<!-- Error message -->
 	<div class="axel-main__404-message">
-		<?php esc_html_e( "Sorry, but we couldn't find the page you were looking for.", 'axel' ); ?>
+		<?php esc_html_e( 'Przepraszamy, ale nie znaleźliśmy strony, której szukasz.', 'axel' ); ?>
 	</div>
 
 	<!-- Back to home page link -->
 	<a class="axel-main__404-button" href="<?php echo esc_url( home_url() ); ?>">
-		<?php esc_html_e( 'Go back to home page', 'axel' ); ?>
+		<?php esc_html_e( 'Wróć do strony głównej', 'axel' ); ?>
 	</a>
 
 </main>

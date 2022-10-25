@@ -44,7 +44,7 @@
 	<footer class="axel-singular__footer">
 		<!-- Back to home page link -->
 		<a class="axel-singular__home-link" href="<?php echo esc_url( home_url() ); ?>">
-			<?php esc_html_e( 'Back to home page', 'axel' ); ?>
+			<?php esc_html_e( 'Wróć do strony głównej', 'axel' ); ?>
 		</a>
 	</footer>
 

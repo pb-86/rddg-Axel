@@ -16,7 +16,7 @@ get_header();
 
 	<!-- Title -->
 	<h2 class="axel-main__title">
-		<?php esc_html_e( 'Contact', 'axel' ); ?>
+		<?php esc_html_e( 'Kontakt', 'axel' ); ?>
 	</h2>
 
 </main>

@@ -14,7 +14,7 @@ get_header();
 
 	<!-- Title -->
 	<h2 class="screen-reader-text">
-		<?php esc_html_e( 'Recent posts', 'axel' ); ?>
+		<?php esc_html_e( 'Najnowsze wpisy', 'axel' ); ?>
 	</h2>
 
 	<!-- Recent posts excerpts -->
