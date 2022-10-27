@@ -1,16 +1,16 @@
 <?php
 /**
- * File used to register menus
+ * Rejestrowanie menu.
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.57
+ * @since 1.66.3
  */
 
 add_action( 'init', 'axel_menus' );
 
 /**
- * Registers all menus.
+ * Rejestruje wszystkie menu.
  */
 function axel_menus() {
 	$locations = array(

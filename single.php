@@ -1,10 +1,10 @@
 <?php
 /**
- * The template for displaying single post
+ * Szablon wpisów.
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.66.2
+ * @since 1.66.3
  */
 
 get_header();

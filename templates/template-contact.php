@@ -1,12 +1,12 @@
 <?php
 /**
- * Template Name: Contact
+ * Template Name: Kontakt
  *
- * The template for displaying contact page.
+ * Dodatkowy szablon dla strony "Kontakt"
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.66.2
+ * @since 1.66.3
  */
 
 get_header();

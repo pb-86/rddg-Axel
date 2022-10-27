@@ -1,10 +1,10 @@
 <?php
 /**
- * File comment
+ * Szablon załączników do wpisów.
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.66.2
+ * @since 1.66.3
  */
 
 get_header();
@@ -12,12 +12,12 @@ get_header();
 
 <main class="axel-main" id="axel-main" tabindex="-1">
 
-	<!-- Attachment title -->
+	<!-- Tytuł -->
 	<h2 class="axel-main__title">
 		<?php the_title(); ?>
 	</h2>
 
-	<!-- Attachment -->
+	<!-- Załącznik -->
 	<?php echo wp_get_attachment_image( get_the_ID(), 'large' ); ?>
 
 </main>

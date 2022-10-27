@@ -1,10 +1,10 @@
 <?php
 /**
- * The template for displaying comments
+ * Szablon komentarzy.
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.45
+ * @since 1.66.3
  */
 
 ?>

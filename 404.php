@@ -1,10 +1,10 @@
 <?php
 /**
- * The template for displaying 404 pages
+ * Szablon błędu 404.
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.66.2
+ * @since 1.66.3
  */
 
 get_header();
@@ -12,17 +12,17 @@ get_header();
 
 <main class="axel-main" id="axel-main" tabindex="-1">
 
-	<!-- Title -->
+	<!-- Tytuł -->
 	<h2 class="axel-main__title">
 		<?php esc_html_e( 'Nie znaleziono strony', 'axel' ); ?>
 	</h2>
 
-	<!-- Error message -->
+	<!-- Komunikat błędu -->
 	<div class="axel-main__404-message">
 		<?php esc_html_e( 'Przepraszamy, ale nie znaleźliśmy strony, której szukasz.', 'axel' ); ?>
 	</div>
 
-	<!-- Back to home page link -->
+	<!-- Odnośnik do strony głównej -->
 	<a class="axel-main__404-button" href="<?php echo esc_url( home_url() ); ?>">
 		<?php esc_html_e( 'Wróć do strony głównej', 'axel' ); ?>
 	</a>

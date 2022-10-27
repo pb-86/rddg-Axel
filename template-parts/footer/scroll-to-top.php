@@ -1,10 +1,10 @@
 <?php
 /**
- * The template part for displaying scroll to top button.
+ * Przycisk "Wróć do góry strony".
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.29
+ * @since 1.66.3
  */
 
 ?>

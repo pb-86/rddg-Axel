@@ -1,10 +1,10 @@
 <?php
 /**
- * The template for displaying sidebar with widget area
+ * Szablon sidebara.
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.58
+ * @since 1.66.3
  */
 
 ?>

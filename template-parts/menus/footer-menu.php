@@ -1,10 +1,10 @@
 <?php
 /**
- * The template part for displaying footer menu.
+ * Menu w stopce.
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.51
+ * @since 1.66.3
  */
 
 wp_nav_menu(

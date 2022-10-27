@@ -1,16 +1,16 @@
 <?php
 /**
- * File used to register and enqueue all CSS files
+ * Rejestrowanie i kolejkowanie styli CSS.
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.66
+ * @since 1.66.3
  */
 
 add_action( 'wp_enqueue_scripts', 'axel_styles' );
 
 /**
- * Registers and enqueues all required CSS files.
+ * Rejestruje i kolejkuje wszystkie pliki CSS.
  */
 function axel_styles() {
 	if ( ! is_admin() || ! is_customize_preview() ) {
@@ -18,11 +18,11 @@ function axel_styles() {
 		wp_enqueue_style( 'master' );
 	}
 
-	// Removes the default CSS of blocks.
+	// Wyłącza style CSS bloków.
 	wp_dequeue_style( 'wp-block-library' );
 	wp_deregister_style( 'wp-block-library' );
 
-	// Removes default styles.
+	// Wyłącza domyślne style.
 	wp_dequeue_style( 'global-styles' );
 	wp_deregister_style( 'global-styles' );
 }

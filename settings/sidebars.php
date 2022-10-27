@@ -1,16 +1,16 @@
 <?php
 /**
- * File used to register dynamic sidebars
+ * Rejestrowanie sidebarów.
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.26
+ * @since 1.66.3
  */
 
 add_action( 'widgets_init', 'axel_sidebars' );
 
 /**
- * Registers sidebar.
+ * Rejestruje sidebary.
  */
 function axel_sidebars() {
 	$args = array(

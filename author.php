@@ -1,10 +1,10 @@
 <?php
 /**
- * The template for displaing authors page
+ * Szablon strony o autorach.
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.66.2
+ * @since 1.66.3
  */
 
 get_header();
@@ -12,20 +12,20 @@ get_header();
 
 <main class="axel-main" id="axel-main" tabindex="-1">
 
-	<!-- Authors name -->
+	<!-- Nazwa autora -->
 	<h2 class="axel-main__title">
 		<?php the_author(); ?>
 	</h2>
 
-	<!-- Authors biography -->
+	<!-- Biografia -->
 	<div class="axel-main__authors-bio">
 		<?php the_author_meta( 'description' ); ?>
 	</div>
 
-	<!-- Excerpts of authors posts -->
+	<!-- Skróty wpisów autora -->
 	<?php get_template_part( 'template-parts/loops/loop', 'excerpt' ); ?>
 
-	<!-- Other authors list -->
+	<!-- Lista pozostałych autorów -->
 	<div class="axel-main__authors-list">
 		<?php
 		esc_html_e( 'Sprawdź innych autorów', 'axel' );

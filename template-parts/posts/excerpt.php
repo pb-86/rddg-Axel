@@ -1,34 +1,34 @@
 <?php
 /**
- * The template part for displaying posts excerpts in loop
+ * Skrót wpisu.
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.59
+ * @since 1.66.3
  */
 
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class( 'axel-excerpt' ); ?>>
 
-	<!-- Excerpt header -->
+	<!-- Nagłówek -->
 	<header class="axel-excerpt__header">
-		<!-- Thumbnail -->
+		<!-- Obrazek wyróżniający -->
 		<a class="axel-excerpt__thumbnail-link" href="<?php the_permalink(); ?>" tabindex="-1">
 			<?php the_post_thumbnail( 'axel-excerpt-thumbnail', array( 'class' => 'axel-excerpt__thumbnail' ) ); ?>
 		</a>
 
-		<!-- Date -->
+		<!-- Data -->
 		<time class="axel-excerpt__date" datetime="<?php the_time( 'Y-m-d H:i' ); ?>">
 			<?php the_time( get_option( 'date_format' ) ); ?>,
 		</time>
 
-		<!-- Author -->
+		<!-- Autor -->
 		<div class="axel-excerpt__author">
 			<?php the_author_posts_link(); ?>
 		</div>
 
-		<!-- Title -->
+		<!-- Tytuł -->
 		<h3 class="axel-excerpt__title">
 			<a class="axel-excerpt__title-link" href="<?php the_permalink(); ?>">
 				<?php the_title(); ?>
@@ -36,11 +36,11 @@
 		</h3>
 	</header>
 
-	<!-- Excertpt content -->
+	<!-- Treść skrótu -->
 	<div class="axel-excerpt__content">
 		<?php the_content( '' ); ?>
 
-		<!-- Read more link -->
+		<!-- Przycisk "Czytaj dalej" -->
 		<div class="axel-excerpt__read-more">
 			<a class="axel-excerpt__read-more_link" href="<?php the_permalink(); ?>" tabindex="-1">
 				<?php esc_html_e( 'Czytaj dalej', 'axel' ); ?>

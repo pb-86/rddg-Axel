@@ -1,48 +1,48 @@
 <?php
 /**
- * The template part for displaying post or page content
+ * Szablon dla wpisów i stron.
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.59
+ * @since 1.66.3
  */
 
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class( 'axel-singular' ); ?>>
 
-	<!-- Article header -->
+	<!-- Nagłówek -->
 	<header class="axel-singular__header">
-		<!-- Date -->
+		<!-- Data -->
 		<time class="axel-singular__date" datetime="<?php the_time( 'Y-m-d H:i' ); ?>">
 			<?php the_time( get_option( 'date_format' ) ); ?>,
 		</time>
 
-		<!-- Author -->
+		<!-- Autor -->
 		<div class="axel-singular__author">
 			<?php the_author_posts_link(); ?>
 		</div>
 
-		<!-- Title -->
+		<!-- Tytuł -->
 		<h2 class="axel-singular__title">
 			<?php the_title(); ?>
 		</h2>
 
-		<!-- Thumbnail -->
+		<!-- Obrazek wyróżniający -->
 		<figure class="axel-singular__thumbnail">
 			<?php the_post_thumbnail( 'axel-singular-thumbnail' ); ?>
 			<figcaption><?php the_post_thumbnail_caption(); ?></figcaption>
 		</figure>
 	</header>
 
-	<!-- Article content -->
+	<!-- Treść -->
 	<div class="axel-singular__content">
 		<?php the_content(); ?>
 	</div>
 
-	<!-- Article footer -->
+	<!-- Stopka -->
 	<footer class="axel-singular__footer">
-		<!-- Back to home page link -->
+		<!-- Odnośnik "Wróc do strony głównej" -->
 		<a class="axel-singular__home-link" href="<?php echo esc_url( home_url() ); ?>">
 			<?php esc_html_e( 'Wróć do strony głównej', 'axel' ); ?>
 		</a>

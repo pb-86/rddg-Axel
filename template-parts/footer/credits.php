@@ -1,10 +1,10 @@
 <?php
 /**
- * The template part for displaying credits.
+ * Informacje o wykonawcy.
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.29
+ * @since 1.66.3
  */
 
 ?>

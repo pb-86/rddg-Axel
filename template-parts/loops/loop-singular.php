@@ -1,10 +1,10 @@
 <?php
 /**
- * Loop for singles and pages
+ * Pętla dla wpisów i stron.
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.29
+ * @since 1.66.3
  */
 
 while ( have_posts() ) {

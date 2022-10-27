@@ -1,10 +1,10 @@
 <?php
 /**
- * The template for displaying the footer
+ * Stopka strony.
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.66.1
+ * @since 1.66.3
  */
 
 ?>

@@ -1,10 +1,10 @@
 <?php
 /**
- * The template for displaying pages
+ * Szablon stron.
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.66.2
+ * @since 1.66.3
  */
 
 get_header();

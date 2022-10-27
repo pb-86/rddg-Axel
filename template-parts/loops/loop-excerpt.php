@@ -1,10 +1,10 @@
 <?php
 /**
- * Default loop displaying excerpts
+ * Główna pętla
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.46
+ * @since 1.66.3
  */
 
 if ( have_posts() ) {

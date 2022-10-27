@@ -1,12 +1,12 @@
 <?php
 /**
- * Template Name: About
+ * Template Name: O nas
  *
- * The template for displaying the about page.
+ * Dodatkowy szablon dla strony "O nas".
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.66.2
+ * @since 1.66.3
  */
 
 get_header();

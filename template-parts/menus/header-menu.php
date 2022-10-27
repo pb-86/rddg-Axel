@@ -1,10 +1,10 @@
 <?php
 /**
- * The template part for displaying header menu.
+ * Menu w nagłówku.
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.51
+ * @since 1.66.3
  */
 
 wp_nav_menu(
