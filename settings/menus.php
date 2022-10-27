@@ -4,7 +4,6 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.66.3
  */
 
 add_action( 'init', 'axel_menus' );

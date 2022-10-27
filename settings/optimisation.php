@@ -4,7 +4,6 @@
  *
  * @package WordPress
  * @subpackage Axel and Timber
- * @since 1.66.3
  */
 
 // Usuwa WP Emoji.

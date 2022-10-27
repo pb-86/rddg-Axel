@@ -6,7 +6,6 @@
  *
  * @package WordPress
  * @subpackage Axel
- * @since 1.66.3
  */
 
 get_header();
