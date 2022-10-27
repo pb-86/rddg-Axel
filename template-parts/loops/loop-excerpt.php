@@ -10,10 +10,10 @@ if ( have_posts() ) {
 	echo '<div class="axel-excerpts">';
 	while ( have_posts() ) {
 		the_post();
-		get_template_part( 'template-parts/posts/excerpt' );
+		get_template_part( 'template-parts/singular/excerpt' );
 	}
 	echo '</div>';
 	the_posts_pagination();
 } else {
-	get_template_part( 'template-parts/posts/no-posts' );
+	get_template_part( 'template-parts/loops/no-posts' );
 }
