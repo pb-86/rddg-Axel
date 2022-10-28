@@ -6,7 +6,7 @@
  * @subpackage Axel
  */
 
-define( 'AXEL_THEME_VERSION', '1.67.1' );
+define( 'AXEL_THEME_VERSION', '1.67.2' );
 
 // Lista stałych do dalszego użycia.
 define( 'AXEL_THEME_URI', get_template_directory_uri() . '/' );
@@ -40,3 +40,16 @@ function axel_skip_links() {
 	get_template_part( 'template-parts/header/skip-links' );
 }
 add_action( 'wp_body_open', 'axel_skip_links', 5 );
+
+/**
+ * Zwraca etykietę ARIA dla przycisku "Czytaj dalej".
+ *
+ * @param int $id ID wpisu.
+ * @return string $label Etykieta ARIA.
+ */
+function axel_read_more_label( $id ) {
+	$prefix = esc_html_e( 'Czytaj dalej wpis pt. ', 'axel' );
+	$title  = get_the_title( $id );
+	$label  = $prefix . $title;
+	return $label;
+}

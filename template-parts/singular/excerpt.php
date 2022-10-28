@@ -38,18 +38,12 @@
 	<!-- Treść skrótu -->
 	<div class="axel-excerpt__content">
 		<?php the_content( '' ); ?>
+	</div>
 
-		<!-- Przycisk "Czytaj dalej" -->
-		<div class="axel-excerpt__read-more">
-			<a class="axel-excerpt__read-more_link" href="<?php the_permalink(); ?>" tabindex="-1">
-				<?php esc_html_e( 'Czytaj dalej', 'axel' ); ?>
-				<span class="screen-reader-text">
-					<?php
-					esc_html_e( 'wpis pt. ', 'axel' );
-					the_title();
-					?>
-				</span>
-			</a>
-		</div>
+	<!-- Przycisk "Czytaj dalej" -->
+	<div class="axel-excerpt__read-more">
+		<a class="axel-excerpt__read-more_link" href="<?php the_permalink(); ?>" aria-label="<?php echo esc_attr( axel_read_more_label( get_the_ID() ) ); ?>" tabindex="-1">
+			<?php esc_html_e( 'Czytaj dalej', 'axel' ); ?>
+		</a>
 	</div>
 </article>
