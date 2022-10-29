@@ -42,14 +42,12 @@ function axel_skip_links() {
 add_action( 'wp_body_open', 'axel_skip_links', 5 );
 
 /**
- * Zwraca etykietę ARIA dla przycisku "Czytaj dalej".
+ * Wyświetla etykietę ARIA dla przycisku "Czytaj dalej".
  *
  * @param int $id ID wpisu.
- * @return string $label Etykieta ARIA.
  */
 function axel_read_more_label( $id ) {
 	$prefix = esc_html_e( 'Czytaj dalej wpis pt. ', 'axel' );
 	$title  = get_the_title( $id );
-	$label  = $prefix . $title;
-	return $label;
+	echo esc_attr( $prefix . $title );
 }
