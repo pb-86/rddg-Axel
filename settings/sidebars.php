@@ -13,7 +13,7 @@ add_action( 'widgets_init', 'axel_sidebars' );
  */
 function axel_sidebars() {
 	$args = array(
-		'id'            => 'axel-sidebar-1',
+		'id'            => 'axel-sidebar',
 		'name'          => __( 'Sidebar', 'axel' ),
 		'description'   => __( 'You can place widgets here.', 'axel' ),
 		'before_title'  => '<h2>',

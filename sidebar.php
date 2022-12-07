@@ -10,8 +10,8 @@
 
 <aside class="axel-sidebar">
 
-	<?php if ( is_active_sidebar( 'axel-sidebar-1' ) ) : ?>
-		<?php dynamic_sidebar( 'axel-sidebar-1' ); ?>
+	<?php if ( is_active_sidebar( 'axel-sidebar' ) ) : ?>
+		<?php dynamic_sidebar( 'axel-sidebar' ); ?>
 	<?php endif; ?>
 
 </aside>
