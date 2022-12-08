@@ -34,14 +34,6 @@ require_once 'settings/sidebars.php';
 require_once 'settings/optimisation.php';
 
 /**
- * Dodawaje skip linki.
- */
-function axel_skip_links() {
-	get_template_part( 'template-parts/header/skip-links' );
-}
-add_action( 'wp_body_open', 'axel_skip_links', 5 );
-
-/**
  * Wyświetla etykietę ARIA dla przycisku "Czytaj dalej".
  *
  * @param int $id ID wpisu.
