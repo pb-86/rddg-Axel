@@ -15,7 +15,7 @@ function axel_sidebars() {
 	$args = array(
 		'id'            => 'axel-sidebar',
 		'name'          => __( 'Sidebar', 'axel' ),
-		'description'   => __( 'You can place widgets here.', 'axel' ),
+		'description'   => __( 'Tutaj możesz dodać widgety.', 'axel' ),
 		'before_title'  => '<h2>',
 		'after_title'   => '</h2>',
 		'before_widget' => '<section>',
