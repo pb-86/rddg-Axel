@@ -1,11 +1,27 @@
-@import 'text/paragraph';
+// Layout
+@import 'layout/separator';
+
+// Media
+@import 'media/file';
+@import 'media/gallery';
+@import 'media/image';
+
+// Text
 @import 'text/header';
 @import 'text/list';
+@import 'text/paragraph';
 @import 'text/quote';
 @import 'text/table';
 
-@import 'media/image';
-@import 'media/gallery';
-@import 'media/file';
+// Others
+.has-text-align-left {
+	text-align: left;
+}
 
-@import 'layout/separator';
+.has-text-align-center {
+	text-align: center;
+}
+
+.has-text-align-right {
+	text-align: right;
+}
