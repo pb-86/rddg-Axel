@@ -12,15 +12,15 @@
 
 	<!-- Nagłówek -->
 	<header class="axel-singular__header">
-		<!-- Data -->
-		<time class="axel-singular__date" datetime="<?php the_time( 'Y-m-d H:i' ); ?>">
-			<?php the_time( get_option( 'date_format' ) ); ?>,
-		</time>
-
 		<!-- Autor -->
 		<div class="axel-singular__author">
-			<?php the_author_posts_link(); ?>
+			<?php the_author_posts_link(); ?>, 
 		</div>
+
+		<!-- Data -->
+		<time class="axel-singular__date" datetime="<?php the_time( 'Y-m-d H:i' ); ?>">
+			<?php echo esc_html( human_time_diff( get_post_timestamp(), time() ) ); ?> temu
+		</time>
 
 		<!-- Tytuł -->
 		<h1 class="axel-singular__title">

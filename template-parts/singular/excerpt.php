@@ -17,15 +17,15 @@
 			<?php the_post_thumbnail( 'axel-excerpt-thumbnail', array( 'class' => 'axel-excerpt__thumbnail' ) ); ?>
 		</a>
 
-		<!-- Data -->
-		<time class="axel-excerpt__date" datetime="<?php the_time( 'Y-m-d H:i' ); ?>">
-			<?php the_time( get_option( 'date_format' ) ); ?>,
-		</time>
-
 		<!-- Autor -->
 		<div class="axel-excerpt__author">
-			<?php the_author_posts_link(); ?>
+			<?php the_author_posts_link(); ?>, 
 		</div>
+
+		<!-- Data -->
+		<time class="axel-excerpt__date" datetime="<?php the_time( 'Y-m-d H:i' ); ?>">
+			<?php echo esc_html( human_time_diff( get_post_timestamp(), time() ) ); ?> temu
+		</time>
 
 		<!-- Tytuł -->
 		<h2 class="axel-excerpt__title">
