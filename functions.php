@@ -6,7 +6,7 @@
  * @subpackage Axel
  */
 
-define( 'AXEL_THEME_VERSION', '1.67.3' );
+define( 'AXEL_THEME_VERSION', '1.67.4' );
 
 // Lista stałych do dalszego użycia.
 define( 'AXEL_THEME_URI', get_template_directory_uri() . '/' );
@@ -34,12 +34,21 @@ require_once 'settings/sidebars.php';
 require_once 'settings/optimisation.php';
 
 /**
+ * Pobiera etykietę ARIA dla przycisku "Czytaj dalej".
+ *
+ * @param int $post_id ID wpisu.
+ */
+function axel_get_read_more_label( $post_id ) {
+	$label_prefix = esc_html_e( 'Czytaj dalej wpis pt. ', 'axel' );
+	$post_title   = get_the_title( $post_id );
+	return $label_prefix . $post_title;
+}
+
+/**
  * Wyświetla etykietę ARIA dla przycisku "Czytaj dalej".
  *
- * @param int $id ID wpisu.
+ * @param int $post_id ID wpisu.
  */
-function axel_read_more_label( $id ) {
-	$prefix = esc_html_e( 'Czytaj dalej wpis pt. ', 'axel' );
-	$title  = get_the_title( $id );
-	echo esc_attr( $prefix . $title );
+function axel_the_read_more_label( $post_id ) {
+	echo esc_attr( axel_get_read_more_label( $post_id ) );
 }
