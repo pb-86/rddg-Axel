@@ -23,9 +23,9 @@
 		</div>
 
 		<!-- Tytuł -->
-		<h2 class="axel-singular__title">
+		<h1 class="axel-singular__title">
 			<?php the_title(); ?>
-		</h2>
+		</h1>
 
 		<!-- Obrazek wyróżniający -->
 		<figure class="axel-singular__thumbnail">
