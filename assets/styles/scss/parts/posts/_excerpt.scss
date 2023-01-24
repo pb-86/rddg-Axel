@@ -1,5 +1,5 @@
 .axel-excerpt {
-	border: 0.0625rem solid #e5e5e5;
+	border: 0.0625rem solid $silver;
 	padding: 2rem;
 
 	&__thumbnail {
@@ -15,7 +15,7 @@
 
 	&__date,
 	&__author {
-		color: #666;
+		color: $gray;
 		display: inline;
 		font-size: 0.875rem;
 	}

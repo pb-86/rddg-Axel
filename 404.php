@@ -12,9 +12,9 @@ get_header();
 <main class="axel-main" id="axel-main" tabindex="-1">
 
 	<!-- Tytuł -->
-	<h2 class="axel-main__title">
+	<h1 class="axel-main__title">
 		<?php esc_html_e( 'Nie znaleziono strony', 'axel' ); ?>
-	</h2>
+	</h1>
 
 	<!-- Komunikat błędu -->
 	<div class="axel-main__404-message">

@@ -8,10 +8,12 @@
 
 ?>
 
-<aside class="axel-sidebar">
+<?php if ( is_active_sidebar( 'axel-sidebar' ) ) : ?>
 
-	<?php if ( is_active_sidebar( 'axel-sidebar' ) ) : ?>
+	<aside class="axel-sidebar">
+
 		<?php dynamic_sidebar( 'axel-sidebar' ); ?>
-	<?php endif; ?>
 
-</aside>
+	</aside>
+
+<?php endif; ?>

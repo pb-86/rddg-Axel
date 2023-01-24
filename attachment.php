@@ -12,9 +12,9 @@ get_header();
 <main class="axel-main" id="axel-main" tabindex="-1">
 
 	<!-- Tytuł -->
-	<h2 class="axel-main__title">
+	<h1 class="axel-main__title">
 		<?php the_title(); ?>
-	</h2>
+	</h1>
 
 	<!-- Załącznik -->
 	<?php echo wp_get_attachment_image( get_the_ID(), 'large' ); ?>

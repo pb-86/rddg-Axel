@@ -11,8 +11,8 @@
 	word-wrap: normal !important;
 
 	&:focus {
-  	background-color: #fff;
-		border: 0.0625rem solid #666;
+  	background-color: $white;
+		border: 0.0625rem solid $gray;
 		border-radius: 0.25rem;
   	clip: auto !important;
   	clip-path: none;

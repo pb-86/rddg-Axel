@@ -37,7 +37,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   height: 3rem;
-  min-width: 6rem;
+  min-width: 3rem;
   padding: 0 1rem;
 }
 .axel-button:hover {
@@ -45,7 +45,7 @@ body {
 }
 
 .axel-header {
-  background-color: #f2f2f2;
+  background-color: #eee;
   margin-bottom: 8rem;
   padding: 4rem 0;
 }
@@ -133,7 +133,7 @@ body {
 }
 .axel-menu .sub-menu {
   background-color: #fff;
-  border: 1px solid #b2b2b2;
+  border: 1px solid #666;
   display: none;
   left: 0.5rem;
   padding: 0.75rem 1rem 1rem;
@@ -229,7 +229,7 @@ body {
 }
 
 .axel-excerpt {
-  border: 0.0625rem solid #e5e5e5;
+  border: 0.0625rem solid #eee;
   padding: 2rem;
 }
 .axel-excerpt__thumbnail {
@@ -315,7 +315,7 @@ body {
 }
 
 .axel-footer {
-  background-color: #f2f2f2;
+  background-color: #eee;
   margin-top: 8rem;
   padding: 4rem 0;
 }
