@@ -14,7 +14,7 @@ add_action( 'widgets_init', 'axel_sidebars' );
 function axel_sidebars() {
 	$args = array(
 		'id'            => 'axel-sidebar',
-		'name'          => __( 'Sidebar', 'axel' ),
+		'name'          => __( 'Pasek boczny', 'axel' ),
 		'description'   => __( 'Tutaj możesz dodać widgety.', 'axel' ),
 		'before_title'  => '<h2>',
 		'after_title'   => '</h2>',
