@@ -18,7 +18,13 @@ get_header();
 
 	<!-- Szukana fraza -->
 	<div class="axel-main__search-info">
-		<?php printf( esc_html( 'Szukałeś: %s' ), '<strong>' . get_search_query() . '</strong>' ); ?>
+		<?php
+		printf(
+			'%s: <strong>%s</strong>',
+			esc_html__( 'Szukałeś', 'axel' ),
+			get_search_query()
+		);
+		?>
 	</div>
 
 	<!-- Skróty wpisów -->
