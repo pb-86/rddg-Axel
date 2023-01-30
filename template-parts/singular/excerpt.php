@@ -17,10 +17,7 @@
 			<?php the_post_thumbnail( 'axel-excerpt-thumbnail', array( 'class' => 'axel-excerpt__thumbnail' ) ); ?>
 		</a>
 
-		<!-- Autor -->
-		<div class="axel-excerpt__author">
-			<?php the_author_posts_link(); ?>, 
-		</div>
+		<?php get_template_part( 'template-parts/singular/parts/author' ); ?>
 
 		<!-- Data -->
 		<time class="axel-excerpt__date" datetime="<?php the_time( 'Y-m-d H:i' ); ?>">
