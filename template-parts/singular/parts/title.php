@@ -8,14 +8,22 @@
 
 ?>
 
-<h2 class="axel-excerpt__title">
+<?php if ( is_singular() ) : ?>
+	<h1 class="singular__title">
+<?php else : ?>
+	<h2 class="singular__title">
+<?php endif; ?>
 
 	<?php
 	printf(
-		'<a class="axel-excerpt__title-link" href="%s">%s</a>',
+		'<a class="singular__title-link" href="%s">%s</a>',
 		esc_url( get_permalink() ),
 		esc_html( get_the_title() )
 	);
 	?>
 
-</h2>
+<?php if ( is_singular() ) : ?>
+	</h1>
+<?php else : ?>
+	</h2>
+<?php endif; ?>

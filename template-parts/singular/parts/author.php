@@ -8,7 +8,7 @@
 
 ?>
 
-<div class="axel-excerpt__author">
+<div class="singular__author">
 
 	<?php
 	printf(
