@@ -34,17 +34,10 @@
 		</figure>
 	</header>
 
-	<!-- Treść -->
-	<div class="axel-singular__content">
-		<?php the_content(); ?>
-	</div>
+	<?php	get_template_part( 'template-parts/singular/parts/content' ); ?>
 
-	<!-- Stopka -->
-	<footer class="axel-singular__footer">
-		<!-- Odnośnik "Wróc do strony głównej" -->
-		<a class="axel-singular__home-link" href="<?php echo esc_url( home_url() ); ?>">
-			<?php esc_html_e( 'Wróć do strony głównej', 'axel' ); ?>
-		</a>
+	<footer class="singular__footer">
+		<?php get_template_part( 'template-parts/singular/parts/back-to-home' ); ?>
 	</footer>
 
 </article>

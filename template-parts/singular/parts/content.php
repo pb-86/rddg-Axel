@@ -1,6 +1,6 @@
 <?php
 /**
- * Data dodania wpisu
+ * Treść wpisu
  *
  * @package WordPress
  * @subpackage Axel
@@ -8,6 +8,6 @@
 
 ?>
 
-<div class="axel-excerpt__content">
+<div class="singular__content">
 	<?php the_content( '' ); ?>
 </div>
