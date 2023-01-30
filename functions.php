@@ -39,7 +39,7 @@ require_once 'settings/optimisation.php';
  * @param int $post_id ID wpisu.
  */
 function axel_get_read_more_label( $post_id ) {
-	$label_prefix = esc_html_e( 'Czytaj dalej wpis pt. ', 'axel' );
+	$label_prefix = esc_html__( 'Czytaj dalej wpis pt. ', 'axel' );
 	$post_title   = get_the_title( $post_id );
 	return $label_prefix . $post_title;
 }
