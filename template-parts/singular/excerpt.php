@@ -17,12 +17,10 @@
 			<?php the_post_thumbnail( 'axel-excerpt-thumbnail', array( 'class' => 'axel-excerpt__thumbnail' ) ); ?>
 		</a>
 
-		<?php get_template_part( 'template-parts/singular/parts/author' ); ?>
-
-		<!-- Data -->
-		<time class="axel-excerpt__date" datetime="<?php the_time( 'Y-m-d H:i' ); ?>">
-			<?php echo esc_html( human_time_diff( get_post_timestamp(), time() ) ); ?> temu
-		</time>
+		<?php
+		get_template_part( 'template-parts/singular/parts/author' );
+		get_template_part( 'template-parts/singular/parts/date' );
+		?>
 
 		<!-- Tytuł -->
 		<h2 class="axel-excerpt__title">
