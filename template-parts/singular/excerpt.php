@@ -12,12 +12,9 @@
 
 	<!-- Nagłówek -->
 	<header class="axel-excerpt__header">
-		<!-- Obrazek wyróżniający -->
-		<a class="axel-excerpt__thumbnail-link" href="<?php the_permalink(); ?>" tabindex="-1">
-			<?php the_post_thumbnail( 'axel-excerpt-thumbnail', array( 'class' => 'axel-excerpt__thumbnail' ) ); ?>
-		</a>
 
 		<?php
+		get_template_part( 'template-parts/singular/parts/thumbnail' );
 		get_template_part( 'template-parts/singular/parts/author' );
 		get_template_part( 'template-parts/singular/parts/date' );
 		?>
