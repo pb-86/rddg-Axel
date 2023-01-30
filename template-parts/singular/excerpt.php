@@ -17,14 +17,9 @@
 		get_template_part( 'template-parts/singular/parts/thumbnail' );
 		get_template_part( 'template-parts/singular/parts/author' );
 		get_template_part( 'template-parts/singular/parts/date' );
+		get_template_part( 'template-parts/singular/parts/title' );
 		?>
 
-		<!-- Tytuł -->
-		<h2 class="axel-excerpt__title">
-			<a class="axel-excerpt__title-link" href="<?php the_permalink(); ?>">
-				<?php the_title(); ?>
-			</a>
-		</h2>
 	</header>
 
 	<!-- Treść skrótu -->
