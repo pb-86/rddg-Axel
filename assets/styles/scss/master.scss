@@ -22,11 +22,10 @@
 // Main
 @import 'parts/main/main';
 
-// Posts
-@import 'parts/posts/excerpts';
-@import 'parts/posts/excerpt';
 
 // Singular
+@import 'parts/singular/excerpts';
+@import 'parts/singular/excerpt';
 @import 'parts/singular/singular';
 @import 'parts/singular/comments';
 
