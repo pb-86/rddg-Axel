@@ -19,7 +19,7 @@
 	<?php wp_body_open(); ?>
 	<?php get_template_part( 'template-parts/header/skip-links' ); ?>
 
-	<header class="axel-header">
+	<header class="header">
 		<?php
 		get_template_part( 'template-parts/header/site-name' );
 		get_search_form();
