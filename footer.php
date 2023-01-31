@@ -8,7 +8,7 @@
 
 ?>
 
-	<footer class="axel-footer">
+	<footer class="footer">
 		<?php
 		get_template_part( 'template-parts/footer/scroll-to-top' );
 		get_template_part( 'template-parts/menus/footer-menu' );
