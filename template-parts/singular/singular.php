@@ -11,18 +11,12 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class( 'axel-singular' ); ?>>
 
 	<header class="axel-singular__header">
-
 		<?php
 		get_template_part( 'template-parts/singular/parts/author' );
 		get_template_part( 'template-parts/singular/parts/date' );
 		get_template_part( 'template-parts/singular/parts/title' );
+		get_template_part( 'template-parts/singular/parts/thumbnail' );
 		?>
-
-		<!-- Obrazek wyróżniający -->
-		<figure class="axel-singular__thumbnail">
-			<?php the_post_thumbnail( 'axel-singular-thumbnail' ); ?>
-			<figcaption><?php the_post_thumbnail_caption(); ?></figcaption>
-		</figure>
 	</header>
 
 	<?php	get_template_part( 'template-parts/singular/parts/content' ); ?>
