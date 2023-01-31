@@ -20,7 +20,7 @@
 		<input class="search-form__input" type="search" id="search" name="s" autocomplete="on">
 
 		<!-- Przycisk wyszukiwania -->
-		<button class="axel-button search-form__button" type="submit">
+		<button class="button search-form__button" type="submit">
 			<?php esc_html_e( 'Szukaj', 'axel' ); ?>
 		</button>
 

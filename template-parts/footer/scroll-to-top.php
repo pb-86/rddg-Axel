@@ -8,6 +8,6 @@
 
 ?>
 
-<button class="axel-button scroll-to-top" id="scroll-to-top">
+<button class="button scroll-to-top" id="scroll-to-top">
 	<?php esc_html_e( 'Wróć do góry', 'axel' ); ?>
 </button>
