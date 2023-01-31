@@ -9,11 +9,11 @@
 wp_nav_menu(
 	array(
 		'container'       => 'nav',
-		'container_id'    => 'axel-navbar-header',
-		'container_class' => 'axel-navbar axel-navbar--header',
+		'container_id'    => 'navbar-header',
+		'container_class' => 'navbar navbar--header',
 		'menu'            => 'header_menu',
-		'menu_id'         => 'axel-menu-header',
-		'menu_class'      => 'axel-menu axel-menu--header',
+		'menu_id'         => 'menu-header',
+		'menu_class'      => 'menu menu--header',
 		'theme_location'  => 'header_menu',
 	)
 );
