@@ -7,7 +7,7 @@
  */
 
 if ( have_posts() ) {
-	echo '<div class="axel-excerpts">';
+	echo '<div class="excerpts">';
 	while ( have_posts() ) {
 		the_post();
 		get_template_part( 'template-parts/singular/excerpt' );
