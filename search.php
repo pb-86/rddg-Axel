@@ -9,15 +9,15 @@
 get_header();
 ?>
 
-<main class="axel-main" id="axel-main" tabindex="-1">
+<main class="main" id="main" tabindex="-1">
 
 	<!-- Tytuł -->
-	<h1 class="axel-main__title">
+	<h1 class="main__title">
 		<?php esc_html_e( 'Wyniki wyszukiwania', 'axel' ); ?>
 	</h1>
 
 	<!-- Szukana fraza -->
-	<div class="axel-main__search-info">
+	<div class="main__search-info">
 		<?php
 		printf(
 			'%s: <strong>%s</strong>',

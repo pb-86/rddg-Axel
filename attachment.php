@@ -9,10 +9,10 @@
 get_header();
 ?>
 
-<main class="axel-main" id="axel-main" tabindex="-1">
+<main class="main" id="main" tabindex="-1">
 
 	<!-- Tytuł -->
-	<h1 class="axel-main__title">
+	<h1 class="main__title">
 		<?php the_title(); ?>
 	</h1>
 

@@ -9,7 +9,7 @@
 get_header();
 ?>
 
-<main class="axel-main" id="axel-main" tabindex="-1">
+<main class="main" id="main" tabindex="-1">
 	<?php get_template_part( 'template-parts/loops/loop', 'singular' ); ?>
 </main>
 

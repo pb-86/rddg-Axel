@@ -9,15 +9,15 @@
 get_header();
 ?>
 
-<main class="axel-main" id="axel-main" tabindex="-1">
+<main class="main" id="main" tabindex="-1">
 
 	<!-- Nazwa autora -->
-	<h1 class="axel-main__title">
+	<h1 class="main__title">
 		<?php the_author(); ?>
 	</h1>
 
 	<!-- Biografia -->
-	<div class="axel-main__authors-bio">
+	<div class="main__authors-bio">
 		<?php the_author_meta( 'description' ); ?>
 	</div>
 
@@ -25,7 +25,7 @@ get_header();
 	<?php get_template_part( 'template-parts/loops/loop', 'excerpt' ); ?>
 
 	<!-- Lista pozostałych autorów -->
-	<div class="axel-main__authors-list">
+	<div class="main__authors-list">
 		<?php
 		esc_html_e( 'Sprawdź innych autorów', 'axel' );
 		wp_list_authors();
