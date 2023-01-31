@@ -1,6 +1,10 @@
 .excerpts {
-	display: grid;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 	gap: 4rem;
-	grid-template-columns: repeat(2, 1fr);
-	width: 100%;
+
+	@media (min-width:1120px) {
+		justify-content: unset;
+	}
 }

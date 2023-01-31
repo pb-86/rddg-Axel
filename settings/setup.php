@@ -21,8 +21,8 @@ function axel_setup() {
 	add_theme_support( 'post-thumbnails', array( 'post', 'pages' ) );
 
 	// Dodaje dodatkowe rozmiary obrazków.
-	add_image_size( 'axel-excerpt-thumbnail', 526, 352, true );
-	add_image_size( 'axel-singular-thumbnail', 1120, 640, true );
+	add_image_size( 'axel-excerpt-thumbnail', 528, 297, true );
+	add_image_size( 'axel-singular-thumbnail', 1120, 630, true );
 
 	// Włącza obsługę customowego nagłówka.
 	add_theme_support( 'custom-header', array() );
