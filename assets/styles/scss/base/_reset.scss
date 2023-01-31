@@ -12,6 +12,19 @@ figure {
 	padding: 0;
 }
 
+header,
+footer {
+	a {
+		color: $black;
+	}
+}
+
+main {
+	a {
+		color: $blue;
+	}
+}
+
 a[tabindex="-1"] {
 	text-decoration: none;
 }
