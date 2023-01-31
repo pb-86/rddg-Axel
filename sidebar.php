@@ -8,11 +8,11 @@
 
 ?>
 
-<?php if ( is_active_sidebar( 'axel-sidebar' ) ) : ?>
+<?php if ( is_active_sidebar( 'sidebar' ) ) : ?>
 
-	<aside class="axel-sidebar">
+	<aside class="sidebar">
 
-		<?php dynamic_sidebar( 'axel-sidebar' ); ?>
+		<?php dynamic_sidebar( 'sidebar' ); ?>
 
 	</aside>
 
