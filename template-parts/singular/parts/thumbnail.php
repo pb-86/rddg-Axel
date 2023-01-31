@@ -15,7 +15,7 @@
 		<?php
 		if ( ! is_singular() ) {
 			printf(
-				'<a href="%s"><img src="%s" alt=""></a>',
+				'<a href="%s" tabindex="-1"><img src="%s" alt=""></a>',
 				esc_url( get_permalink() ),
 				esc_url( get_the_post_thumbnail_url( null, 'axel-excerpt-thumbnail' ) )
 			);
