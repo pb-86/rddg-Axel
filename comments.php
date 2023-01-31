@@ -8,7 +8,7 @@
 
 ?>
 
-<div class="axel-comments">
+<div class="comments">
 	<?php
 	comment_form();
 	wp_list_comments();
