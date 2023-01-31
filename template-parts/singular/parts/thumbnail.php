@@ -10,25 +10,25 @@
 
 <?php if ( has_post_thumbnail() ) : ?>
 
-	<figure class="singular__thumbnail">
+	<figure class="thumbnail">
 
 		<?php
 		if ( ! is_singular() ) {
 			printf(
-				'<a href="%s" tabindex="-1"><img src="%s" alt=""></a>',
+				'<a class="thumbnail__link" href="%s" tabindex="-1"><img class="thumbnail__image" src="%s" alt=""></a>',
 				esc_url( get_permalink() ),
 				esc_url( get_the_post_thumbnail_url( null, 'axel-excerpt-thumbnail' ) )
 			);
 		} else {
 			printf(
-				'<img src="%s" alt="">',
+				'<img class="thumbnail__image" src="%s" alt="">',
 				esc_url( get_the_post_thumbnail_url( null, 'axel-singular-thumbnail' ) )
 			);
 		}
 		?>
 
 		<?php if ( is_singular() && get_the_post_thumbnail_caption() ) : ?>
-			<figcaption>
+			<figcaption class="thumbnail__caption">
 				<?php the_post_thumbnail_caption(); ?>
 			</figcaption>
 		<?php endif; ?>

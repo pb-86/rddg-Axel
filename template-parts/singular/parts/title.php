@@ -9,14 +9,14 @@
 ?>
 
 <?php if ( is_singular() ) : ?>
-	<h1 class="singular__title">
+	<h1 class="title">
 <?php else : ?>
-	<h2 class="singular__title">
+	<h2 class="title">
 <?php endif; ?>
 
 	<?php
 	printf(
-		'<a class="singular__title-link" href="%s">%s</a>',
+		'<a class="title__link" href="%s">%s</a>',
 		esc_url( get_permalink() ),
 		esc_html( get_the_title() )
 	);

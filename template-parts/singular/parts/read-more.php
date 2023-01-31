@@ -8,11 +8,11 @@
 
 ?>
 
-<div class="axel-excerpt__read-more">
+<div class="read-more">
 
 	<?php
 	printf(
-		'<a class="axel-excerpt__read-more_link" href="%s" tabindex="-1">%s</a>',
+		'<a class="read-more__link" href="%s" tabindex="-1">%s</a>',
 		esc_url( get_permalink() ),
 		esc_html__( 'Czytaj dalej', 'axel' )
 	);
