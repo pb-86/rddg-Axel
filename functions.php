@@ -32,23 +32,3 @@ require_once 'settings/sidebars.php';
 
 // Przyspieszanie działania strony.
 require_once 'settings/optimisation.php';
-
-/**
- * Pobiera etykietę ARIA dla przycisku "Czytaj dalej".
- *
- * @param int $post_id ID wpisu.
- */
-function axel_get_read_more_label( $post_id ) {
-	$label_prefix = esc_html__( 'Czytaj dalej wpis pt. ', 'axel' );
-	$post_title   = get_the_title( $post_id );
-	return $label_prefix . $post_title;
-}
-
-/**
- * Wyświetla etykietę ARIA dla przycisku "Czytaj dalej".
- *
- * @param int $post_id ID wpisu.
- */
-function axel_the_read_more_label( $post_id ) {
-	echo esc_attr( axel_get_read_more_label( $post_id ) );
-}
