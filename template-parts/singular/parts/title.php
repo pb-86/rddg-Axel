@@ -6,24 +6,15 @@
  * @subpackage Axel
  */
 
-?>
-
-<?php if ( is_singular() ) : ?>
-	<h1 class="title">
-<?php else : ?>
-	<h2 class="title">
-<?php endif; ?>
-
-	<?php
+if ( is_singular() ) {
 	printf(
-		'<a class="title__link" href="%s">%s</a>',
+		'<h1 class="title">%s</h1>',
+		esc_html( get_the_title() )
+	);
+} else {
+	printf(
+		'<h2 class="title"><a class="title__link" href="%s">%s</a></h2>',
 		esc_url( get_permalink() ),
 		esc_html( get_the_title() )
 	);
-	?>
-
-<?php if ( is_singular() ) : ?>
-	</h1>
-<?php else : ?>
-	</h2>
-<?php endif; ?>
+}
