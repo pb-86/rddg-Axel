@@ -7,9 +7,19 @@ body {
 }
 
 body,
-figure {
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	margin: 0;
 	padding: 0;
+}
+
+p {
+	margin-block: 1.5rem;
 }
 
 header,
@@ -27,4 +37,21 @@ main {
 
 a[tabindex="-1"] {
 	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: $line-height--small;
+}
+
+figure {
+	font-size: 0;
+}
+
+figcaption {
+	font-size: $font-size--small;		
 }
