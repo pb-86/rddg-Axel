@@ -10,15 +10,17 @@ get_header();
 ?>
 
 <main class="main" id="main" tabindex="-1">
+	<div class="wrapper">
 
-	<!-- Tytuł kategorii -->
-	<h1 class="main__title">
-		<?php single_cat_title(); ?>
-	</h1>
+		<!-- Tytuł kategorii -->
+		<h1 class="main__title">
+			<?php single_cat_title(); ?>
+		</h1>
 
-	<!-- Lista wpisów -->
-	<?php get_template_part( 'template-parts/loops/loop', 'excerpt' ); ?>
+		<!-- Lista wpisów -->
+		<?php get_template_part( 'template-parts/loops/loop', 'excerpt' ); ?>
 
+	</div>
 </main>
 
 <?php
