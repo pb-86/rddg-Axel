@@ -22,17 +22,8 @@ p {
 	margin-block: 1.5rem;
 }
 
-header,
-footer {
-	a {
-		color: $black;
-	}
-}
-
-main {
-	a {
-		color: $blue;
-	}
+a {
+	color: $blue;
 }
 
 a[tabindex="-1"] {
