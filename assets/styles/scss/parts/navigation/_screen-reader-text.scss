@@ -1,3 +1,5 @@
+@use 'base/colors' as color;
+
 .screen-reader-text {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);
@@ -11,8 +13,8 @@
 	word-wrap: normal !important;
 
 	&:focus {
-  	background-color: $white;
-		border: 0.0625rem solid $gray;
+  	background-color: color.$white;
+		border: 0.0625rem solid color.$gray;
 		border-radius: 0.25rem;
   	clip: auto !important;
   	clip-path: none;

@@ -1,5 +1,7 @@
+@use 'base/colors' as color;
+
 .header {
-	background-color: $silver;
+	background-color: color.$silver;
 	margin-bottom: 8rem;
 	padding: 4rem 0;
 }

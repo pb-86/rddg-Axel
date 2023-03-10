@@ -6,7 +6,7 @@
  * @subpackage Axel
  */
 
-define( 'AXEL_THEME_VERSION', '1.68' );
+define( 'AXEL_THEME_VERSION', '1.69' );
 
 // Lista stałych do dalszego użycia.
 define( 'AXEL_THEME_URI', get_template_directory_uri() . '/' );

@@ -1,5 +1,7 @@
+@use 'base/colors' as color;
+
 .footer {
-	background-color: $silver;
+	background-color: color.$silver;
 	margin-top: 8rem;
 	padding: 4rem 0;
 }

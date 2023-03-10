@@ -1,3 +1,5 @@
+@use 'base/colors' as color;
+
 .singular {
 	&__header {
 		margin: 0 auto 4rem;
@@ -7,7 +9,7 @@
 
 	&__date,
 	&__author {
-		color: $gray;
+		color: color.$gray;
 		display: inline-block;
 		font-size: 0.875rem;
 	}

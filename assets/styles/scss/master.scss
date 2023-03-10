@@ -1,42 +1,43 @@
 // This is the main SCSS files that combines all of the partials. It's used as a fallback.
 
 // Base
-@import 'base/fonts';
-@import 'base/variables';
-@import 'base/reset';
+@use 'base/colors';
+@use 'base/fonts';
+@use 'base/typography';
+@use 'base/reset';
 
 // Helpers
-@import 'helpers/wrapper';
-@import 'helpers/button';
+@use 'helpers/wrapper';
+@use 'helpers/button';
 
 // Header
-@import 'parts/header/header';
-@import 'parts/header/site-name';
+@use 'parts/header/header';
+@use 'parts/header/site-name';
 
 // Navigation
-@import 'parts/navigation/screen-reader-text';
-@import 'parts/navigation/navbars.scss';
-@import 'parts/navigation/menus.scss';
-@import 'parts/navigation/search-form';
-@import 'parts/navigation/pagination';
+@use 'parts/navigation/screen-reader-text';
+@use 'parts/navigation/navbars.scss';
+@use 'parts/navigation/menus.scss';
+@use 'parts/navigation/search-form';
+@use 'parts/navigation/pagination';
 
 // Main
-@import 'parts/main/main';
+@use 'parts/main/main';
 
 
 // Singular
-@import 'parts/singular/excerpts';
-@import 'parts/singular/excerpt';
-@import 'parts/singular/singular';
-@import 'parts/singular/comments';
+@use 'parts/singular/excerpts';
+@use 'parts/singular/excerpt';
+@use 'parts/singular/singular';
+@use 'parts/singular/comments';
 
 // Block editor
-@import 'block-editor/block-editor';
+@use 'block-editor/block-editor';
 
 // Sidebar
-@import 'parts/sidebar/sidebar';
+@use 'parts/sidebar/sidebar';
 
 // Footer
-@import 'parts/footer/footer';
-@import 'parts/footer/scroll-top-top';
-@import 'parts/footer/credits';
+@use 'parts/footer/footer';
+@use 'parts/footer/scroll-top-top';
+@use 'parts/footer/credits';

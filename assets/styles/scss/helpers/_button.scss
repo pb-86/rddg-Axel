@@ -1,15 +1,18 @@
+@use 'base/typography' as typography;
+@use 'base/colors' as color;
+
 .button {
-	background-color: $gray;
+	background-color: color.$gray;
 	border: 0;
 	border-radius: 0.25rem;
 	color: #fff;
-	font-family: $font-family;
-	font-size: $font-size;
+	font-family: typography.$fontFamily;
+	font-size: typography.$fontSize;
 	height: 3rem;
 	min-width: 3rem;
 	padding: 0 1rem;
 
 	&:hover {
-		background-color: darken($gray, 10%);
+		background-color: darken(color.$gray, 10%);
 	}
 }

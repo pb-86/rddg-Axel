@@ -1,9 +1,15 @@
+@use 'base/typography' as typography;
+@use 'base/colors' as color;
+
 html {
 	scroll-behavior: smooth;
 }
 
 body {
-	font: 400 #{ $font-size }/#{ $line-height } $font-family;
+	font-family: typography.$fontFamily;
+	font-size: typography.$fontSize;
+	font-weight: typography.$fontWeight--normal;
+	line-height: typography.$lineHeight;
 }
 
 body,
@@ -18,25 +24,25 @@ h6 {
 	padding: 0;
 }
 
-p {
-	margin-block: 1.5rem;
-}
-
-a {
-	color: $blue;
-}
-
-a[tabindex="-1"] {
-	text-decoration: none;
-}
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-	line-height: $line-height--small;
+	line-height: typography.$lineHeight--small;
+}
+
+p {
+	margin-block: 1.5rem;
+}
+
+a {
+	color: color.$blue;
+}
+
+a[tabindex="-1"] {
+	text-decoration: none;
 }
 
 figure {
@@ -44,5 +50,5 @@ figure {
 }
 
 figcaption {
-	font-size: $font-size--small;		
+	font-size: typography.$fontSize--small;		
 }
