@@ -35,4 +35,8 @@
 
 	</figure>
 
+<?php else : ?>
+
+	<div class="placeholder"></div>
+
 <?php endif; ?>
