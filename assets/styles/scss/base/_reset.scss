@@ -34,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-	line-height: typography.$lineHeight--small;
+	line-height: typography.$lineHeight--sm;
 }
 
 p {
@@ -54,5 +54,5 @@ figure {
 }
 
 figcaption {
-	font-size: typography.$fontSize--small;		
+	font-size: typography.$fontSize--sm;		
 }

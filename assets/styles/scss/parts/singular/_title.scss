@@ -1,10 +1,10 @@
 @use 'base/typography';
 
 .title {
-	line-height: typography.$lineHeight--small;
+	line-height: typography.$lineHeight--sm;
 	margin-block: 1rem 1.5rem;
 	
 	&__link {
-		line-height: typography.$lineHeight--small;
+		line-height: typography.$lineHeight--sm;
 	}
 }
