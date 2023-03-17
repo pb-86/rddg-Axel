@@ -8,7 +8,15 @@
 
 while ( have_posts() ) {
 	the_post();
-	get_template_part( 'template-parts/singular/singular' );
+
+	if ( is_single() ) {
+		get_template_part( 'template-parts/singular/single' );
+	}
+
+	if ( is_page() ) {
+		get_template_part( 'template-parts/singular/page' );
+	}
+
 	if ( comments_open() || get_comments_number() ) {
 		comments_template();
 	}

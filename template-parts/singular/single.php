@@ -1,6 +1,6 @@
 <?php
 /**
- * Szablon dla wpisów i stron.
+ * Szablon dla wpisów.
  *
  * @package WordPress
  * @subpackage Axel
@@ -8,7 +8,7 @@
 
 ?>
 
-<article <?php post_class( 'singular' ); ?> id="post-<?php the_ID(); ?>">
+<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
 	<?php
 	get_template_part( 'template-parts/singular/parts/author' );
