@@ -9,7 +9,7 @@
 ?>
 
 <div class="comments">
-	<div class="wrapper">
+	<div class="wrapper wrapper--small">
 
 		<?php
 		comment_form();
