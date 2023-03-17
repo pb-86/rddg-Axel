@@ -1,0 +1,5 @@
+@use 'base/typography';
+
+.author {
+	line-height: typography.$lineHeight--reset;
+}
