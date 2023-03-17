@@ -1,3 +1,15 @@
 .thumbnail {
-	margin-block: 0 1.5rem;
+	
+	// Obrazek wyróżniający w skrótach wpisów
+	.blog &,
+	.category &,
+	.archive & {
+		margin-block: 0 1.5rem;
+	}
+
+	// Obrazek wyróżniający we wpisach i na stronach
+	.page &,
+	.single & {
+		margin-block: 3rem;
+	}
 }

@@ -1,5 +1,11 @@
 @use 'base/typography';
 
 .author {
-	line-height: typography.$lineHeight--reset;
+	line-height: typography.$lineHeight;
+
+	// Info o autorze we wpisach i na stronach
+	.page &,
+	.single & {
+		text-align: center;
+	}
 }
