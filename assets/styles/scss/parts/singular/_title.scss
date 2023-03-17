@@ -2,9 +2,26 @@
 
 .title {
 	line-height: typography.$lineHeight--sm;
-	margin-block: 1rem 1.5rem;
 	
+	// Tytuł w skrótach wpisów
+	.blog &,
+	.category &,
+	.archive & {
+		font-size: typography.$fontSize--reset;
+		margin-block: 1rem 1.5rem;
+	}
+
+	// Tytuł we wpisach i na stronach
+	.page &,
+	.single & {
+		font-size: typography.$fontSize--lg;
+		margin-block: 1rem 3rem;
+		text-align: center;
+	}
+
+	// Odnośnik w tytule
 	&__link {
+		font-size: typography.$fontSize--md;
 		line-height: typography.$lineHeight--sm;
 	}
 }
