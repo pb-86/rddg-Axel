@@ -1,6 +1,10 @@
 @use 'base/typography' as typography;
 @use 'base/colors' as color;
 
+:focus-visible {
+	outline: 0.125rem solid color.$blue;
+}
+
 html {
 	scroll-behavior: smooth;
 }
