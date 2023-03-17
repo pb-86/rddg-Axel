@@ -1,3 +1,4 @@
+@use 'base/typography';
 @use 'base/colors' as color;
 
 .menu {
@@ -10,8 +11,7 @@
 	}
 
 	a {
-		line-height: 1;
-		margin: 0 0.5rem;
+		line-height: typography.$lineHeight--reset;
 		padding: 0.5rem;
 		text-decoration: none;
 
