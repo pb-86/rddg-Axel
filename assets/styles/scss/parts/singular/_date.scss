@@ -1,0 +1,5 @@
+@use 'base/typography';
+
+.date {
+	line-height: typography.$lineHeight--reset;
+}
