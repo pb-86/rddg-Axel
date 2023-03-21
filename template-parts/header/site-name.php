@@ -9,23 +9,26 @@
 ?>
 
 <?php if ( get_bloginfo( 'name' ) || get_bloginfo( 'description' ) ) : ?>
-
 	<div class="site-name">
 
-		<?php if ( get_bloginfo( 'name' ) ) : ?>
-			<div class="site-name__title">
-				<a class="site-name__link" href="<?php echo esc_url( home_url() ); ?>">
-					<?php echo esc_html( get_bloginfo( 'name' ) ); ?>
-				</a>
-			</div>
-		<?php endif; ?>
+		<?php
+		/* Tytuł strony */
+		if ( get_bloginfo( 'name' ) ) {
+			printf(
+				'<div class="site-name__title"><a class="site-name__link" href="%s">%s</a></div>',
+				esc_url( get_bloginfo( 'url' ) ),
+				esc_html( get_bloginfo( 'name' ) )
+			);
+		}
 
-		<?php if ( get_bloginfo( 'description' ) ) : ?>
-			<div class="site-name__description">
-				<?php echo esc_html( get_bloginfo( 'description' ) ); ?>
-			</div>
-		<?php endif; ?>
+		/* Opis strony */
+		if ( get_bloginfo( 'description' ) ) {
+			printf(
+				'<div class="site-name__description">%s</div>',
+				esc_html( get_bloginfo( 'description' ) )
+			);
+		}
+		?>
 
 	</div>
-
 <?php endif; ?>
