@@ -39,9 +39,6 @@ function axel_setup() {
 	// Włącza automatyczne odnośniki do kanałów RSS i komentarzy.
 	add_theme_support( 'automatic-feed-links' );
 
-	// Ładuje plik styli CSS dla edytora.
-	add_editor_style( AXEL_THEME_STYLES . '/editor.min.css' );
-
 	// Ładuje pliki z tłumaczeniami.
 	load_theme_textdomain( 'axel', AXEL_THEME_URI . '/languages' );
 }
