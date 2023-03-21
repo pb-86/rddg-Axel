@@ -13,8 +13,8 @@ add_action( 'init', 'axel_menus' );
  */
 function axel_menus() {
 	$locations = array(
-		'header_menu' => __( 'Górne menu', 'axel' ),
-		'footer_menu' => __( 'Dolne menu', 'axel' ),
+		'axel_header_menu' => __( 'Górne menu', 'axel' ),
+		'axel_footer_menu' => __( 'Dolne menu', 'axel' ),
 	);
 	register_nav_menus( $locations );
 }
