@@ -18,7 +18,7 @@ function axel_setup() {
 	}
 
 	// Włącza obsługę miniaturek.
-	add_theme_support( 'post-thumbnails', array( 'post', 'pages' ) );
+	add_theme_support( 'post-thumbnails', array() );
 
 	// Dodaje dodatkowe rozmiary obrazków.
 	add_image_size( 'axel-excerpt-thumbnail', 528, 288, true );
