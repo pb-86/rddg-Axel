@@ -2,12 +2,6 @@
 
 .title {
 	line-height: typography.$lineHeight--sm;
-	
-	// Tytuł w skrótach wpisów
-	.excerpt & {
-		font-size: typography.$fontSize--reset;
-		margin-block: 1rem 1.5rem;
-	}
 
 	// Tytuł dla: wpisów, stron i błędu 404
 	.page &,
@@ -19,6 +13,13 @@
 		font-size: typography.$fontSize--lg;
 		margin-block: 0 1rem;
 		text-align: center;
+	}
+
+	// Tytuł w skrótach wpisów
+	.excerpt & {
+		font-size: typography.$fontSize--reset;
+		margin-block: 1rem 1.5rem;
+		text-align: left;
 	}
 
 	// Odnośnik w tytule
