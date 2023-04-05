@@ -40,6 +40,10 @@
 // Search
 @use 'parts/search/search-query';
 
+// Author
+@use 'parts/author/author-bio';
+@use 'parts/author/other-authors';
+
 // Block editor
 @use 'block-editor/block-editor';
 
