@@ -18,14 +18,14 @@ get_header();
 		</h1>
 
 		<!-- Komunikat błędu -->
-		<div class="main__404-message">
-			<?php esc_html_e( 'Przepraszamy, ale nie znaleźliśmy strony, której szukasz.', 'axel' ); ?>
-		</div>
+		<div class="e404-message">
+			<p><?php esc_html_e( 'Przepraszamy, ale nie znaleźliśmy strony, której szukasz.', 'axel' ); ?></p>
 
-		<!-- Odnośnik do strony głównej -->
-		<a class="main__404-button" href="<?php echo esc_url( home_url() ); ?>">
-			<?php esc_html_e( 'Wróć do strony głównej', 'axel' ); ?>
-		</a>
+			<!-- Odnośnik do strony głównej -->
+			<a href="<?php echo esc_url( home_url() ); ?>">
+				<?php esc_html_e( 'Wróć do strony głównej', 'axel' ); ?>
+			</a>
+		</div>
 
 	</div>
 </main>

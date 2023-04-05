@@ -44,6 +44,9 @@
 @use 'parts/author/author-bio';
 @use 'parts/author/other-authors';
 
+// Error 404
+@use 'parts/error404/e404-message';
+
 // Block editor
 @use 'block-editor/block-editor';
 
