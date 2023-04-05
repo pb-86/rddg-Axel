@@ -13,7 +13,7 @@ get_header();
 	<div class="wrapper">
 
 		<!-- Nazwa autora -->
-		<h1 class="main__title">
+		<h1 class="title">
 			<?php the_author(); ?>
 		</h1>
 

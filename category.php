@@ -13,7 +13,7 @@ get_header();
 	<div class="wrapper">
 
 		<!-- Tytuł kategorii -->
-		<h1 class="main__title">
+		<h1 class="title">
 			<?php single_cat_title(); ?>
 		</h1>
 

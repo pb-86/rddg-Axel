@@ -14,7 +14,7 @@ get_header();
 <main class="main" id="main" tabindex="-1">
 
 	<!-- Title -->
-	<h1 class="main__title">
+	<h1 class="title">
 		<?php esc_html_e( 'Kontakt', 'axel' ); ?>
 	</h1>
 
