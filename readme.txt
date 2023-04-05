@@ -11,3 +11,11 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Motyw startowy.
 
 == Changelog ==
+
+= 1.71 =
+* Zmieniono: Klasę tytułów we wszystkich szablonach
+* Zmieniono: Klasę frazy wyszukiwania
+* Zmieniono: Klasy w szablonie strony autora
+* Zmieniono: Klasy w szablonie strony błędu 404
+* Poprawiono: Wygląd wyników wyszukiwania
+* Poprawiono: Style CSS tytułów
