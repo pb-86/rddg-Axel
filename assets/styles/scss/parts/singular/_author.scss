@@ -4,8 +4,8 @@
 	line-height: typography.$lineHeight;
 
 	// Info o autorze we wpisach i na stronach
-	.page &,
-	.single & {
+	body.page &,
+	body.single & {
 		text-align: center;
 	}
 }

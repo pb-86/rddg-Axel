@@ -9,7 +9,8 @@
 	}
 
 	body.search & {
-		display: block;
+		flex-direction: column;
+		flex-wrap: nowrap;
 		margin-inline: auto;
 		max-width: 33rem;
 	}

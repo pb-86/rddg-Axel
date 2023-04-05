@@ -3,28 +3,24 @@
 .title {
 	line-height: typography.$lineHeight--sm;
 
-	// Tytuł dla: wpisów, stron i błędu 404
-	.page &,
-	.single &,
-	.archive &,
-	.category &,
-	.error404 &,
-	.search & {
-		font-size: typography.$fontSize--lg;
-		margin-block: 0 1rem;
-		text-align: center;
-	}
-
-	// Tytuł w skrótach wpisów
-	.excerpt & {
-		font-size: typography.$fontSize--reset;
-		margin-block: 1rem 1.5rem;
-		text-align: left;
-	}
-
 	// Odnośnik w tytule
 	&__link {
 		font-size: typography.$fontSize--md;
 		line-height: typography.$lineHeight--sm;
+	}
+}
+
+h1.title {
+	font-size: typography.$fontSize--lg;
+	margin-block: 0 1rem;
+	text-align: center;
+}
+
+h2.title {
+	font-size: typography.$fontSize--reset;
+	margin-block: 1rem 1.5rem;
+
+	body.search & {
+		margin-block: 0;
 	}
 }
