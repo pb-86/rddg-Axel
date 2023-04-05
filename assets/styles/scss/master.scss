@@ -24,7 +24,6 @@
 // Main
 @use 'parts/main/main';
 
-
 // Singular
 @use 'parts/singular/excerpts';
 @use 'parts/singular/excerpt';
@@ -37,6 +36,9 @@
 @use 'parts/singular/content';
 @use 'parts/singular/back-to-home';
 @use 'parts/singular/comments';
+
+// Search
+@use 'parts/search/search-query';
 
 // Block editor
 @use 'block-editor/block-editor';

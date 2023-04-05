@@ -18,7 +18,7 @@ get_header();
 		</h1>
 
 		<!-- Szukana fraza -->
-		<div class="main__search-info">
+		<div class="search-query">
 			<?php
 			printf(
 				'%s: <strong>%s</strong>',
