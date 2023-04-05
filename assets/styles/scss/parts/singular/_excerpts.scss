@@ -7,4 +7,10 @@
 	@media (min-width:1120px) {
 		justify-content: unset;
 	}
+
+	body.search & {
+		display: block;
+		margin-inline: auto;
+		max-width: 33rem;
+	}
 }

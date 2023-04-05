@@ -8,10 +8,17 @@
 
 if ( have_posts() ) {
 	echo '<div class="excerpts">';
+
 	while ( have_posts() ) {
 		the_post();
-		get_template_part( 'template-parts/singular/excerpt' );
+
+		if ( is_search() ) {
+			get_template_part( 'template-parts/singular/excerpt', 'search' );
+		} else {
+			get_template_part( 'template-parts/singular/excerpt' );
+		}
 	}
+
 	echo '</div>';
 	the_posts_pagination();
 } else {
