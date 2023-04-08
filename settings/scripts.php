@@ -13,6 +13,7 @@ add_action( 'wp_enqueue_scripts', 'axel_scripts' );
  */
 function axel_scripts() {
 	if ( ! is_admin() ) {
+		wp_dequeue_script( 'jquery');
 		wp_deregister_script( 'jquery' );
 	}
 
