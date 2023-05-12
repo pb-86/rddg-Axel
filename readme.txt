@@ -14,6 +14,7 @@ Motyw startowy.
 
 = 1.72 =
 * Dodano: Możliwość wyłączenia jQuery
+* Poprawiono: RWD obrazków
 * Poprawiono: Wyświetlanie obrazków wyróżniających
 
 = 1.71 =

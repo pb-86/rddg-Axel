@@ -56,3 +56,9 @@ figure {
 figcaption {
 	font-size: typography.$fontSize--sm;		
 }
+
+img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
