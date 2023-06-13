@@ -1,3 +1,22 @@
+@use 'base/colors' as c;
+@use 'base/typography' as t;
+
 .wp-block-file {
+	align-items: center;
+	background-color: c.$silver;
+	border-radius: 0.375rem;
+	display: flex;
+	justify-content: space-between;
+	margin-block: 0.75rem;
+	padding: 0.375rem 0.75rem;
 	
+	&__button {
+		background-color: c.$gray;
+		border-radius: 0.1875rem;
+		padding: 0.375rem 0.75rem;
+
+		&:hover {
+			background-color: darken(c.$gray, 10%);
+		}
+	}
 }
