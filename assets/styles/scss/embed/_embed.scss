@@ -1,0 +1,13 @@
+.wp-block-embed {
+	margin-block: 1.5rem;
+}
+
+.is-type-video {
+	iframe {
+		aspect-ratio: 16 / 9;
+		display: block;
+		height: auto;
+		margin-inline: auto;
+		width: 100%;
+	}
+}
