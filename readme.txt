@@ -14,6 +14,7 @@ Motyw startowy.
 
 = 1.74 = 
 * Zmieniono: Numer wersji
+* Poprawiono: Ładowanie pliku CSS
 
 = 1.72 =
 * Dodano: Możliwość wyłączenia jQuery
