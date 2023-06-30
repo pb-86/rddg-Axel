@@ -1,0 +1,25 @@
+@use 'base/variables' as v;
+
+// Lista mixinów:
+//   1. Flex
+//   2. Grid
+
+
+//---
+// 1. Flex
+@mixin flex($align:normal, $justify:flex-start, $direction:row, $gap:normal normal) {
+	align-items: $align;
+	display: flex;
+	flex-direction: $direction;
+	justify-content: $justify;
+	gap: $gap;
+}
+
+//---
+// 2. Grid
+@mixin grid($columns:none, $rows:none, $gap:normal normal) {
+	display: grid;
+	gap: $gap;
+	grid-template-columns: $columns;
+	grid-template-rows: $rows;
+}

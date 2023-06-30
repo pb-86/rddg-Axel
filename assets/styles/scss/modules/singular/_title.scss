@@ -1,0 +1,26 @@
+@use 'base/variables' as v;
+
+.title {
+	line-height: v.$line-height--small;
+
+	// Odnośnik w tytule
+	&__link {
+		font-size: v.$font-size--medium;
+		line-height: v.$line-height--small;
+	}
+}
+
+h1.title {
+	font-size: v.$font-size--large;
+	margin-block: 0 1rem;
+	text-align: center;
+}
+
+h2.title {
+	font-size: v.$font-size--reset;
+	margin-block: 1rem 1.5rem;
+
+	body.search & {
+		margin-block: 0;
+	}
+}

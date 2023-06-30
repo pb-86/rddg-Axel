@@ -1,0 +1,21 @@
+@use 'base/variables' as v;
+
+.wp-block-file {
+	align-items: center;
+	background-color: v.$silver;
+	border-radius: 0.375rem;
+	display: flex;
+	justify-content: space-between;
+	margin-block: 0.75rem;
+	padding: 0.375rem 0.75rem;
+	
+	&__button {
+		background-color: v.$gray;
+		border-radius: 0.1875rem;
+		padding: 0.375rem 0.75rem;
+
+		&:hover {
+			background-color: darken(v.$gray, 10%);
+		}
+	}
+}

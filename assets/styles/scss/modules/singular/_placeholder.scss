@@ -1,0 +1,14 @@
+@use 'base/variables' as v;
+
+.placeholder {
+
+	// Zastepczy obrazek wyróżniający w skrótach wpisów
+	.blog &,
+	.category &,
+	.archive & {
+		background-color: v.$silver;
+		height: 18rem;
+		margin-block: 0 1.5rem;
+		width: 33rem;
+	}
+}

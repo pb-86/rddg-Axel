@@ -1,0 +1,12 @@
+@use 'base/variables' as v;
+
+.date {
+	display: block;
+	line-height: v.$line-height;
+
+	// Data we wpisach i na stronach
+	body.page &,
+	body.single & {
+		text-align: center;
+	}
+}

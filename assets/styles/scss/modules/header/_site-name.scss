@@ -1,0 +1,23 @@
+.site-name {
+	margin: 0 0 4rem;
+	text-align: center;
+
+	.site-name__title {
+		margin: 0;
+	}
+	
+	.site-name__link {
+		display: inline-block;
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 1;
+		margin-bottom: 0.5rem;
+		text-decoration: none;
+	}
+
+	.site-name__description {
+		font-size: 1rem;
+		font-weight: 400;
+		line-height: 1.5;
+	}
+}

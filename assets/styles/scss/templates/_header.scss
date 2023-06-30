@@ -1,0 +1,7 @@
+@use 'base/variables' as v;
+
+.header {
+	background-color: v.$silver;
+	margin-bottom: 8rem;
+	padding: 4rem 0;
+}

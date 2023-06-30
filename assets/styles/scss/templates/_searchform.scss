@@ -1,0 +1,30 @@
+@use 'base/variables' as v;
+
+.search-form {
+	margin: 0;
+	text-align: center;
+
+	&__label {
+		align-items: center;
+		background-color: v.$white;
+		border: 0.0625rem solid v.$gray;
+		border-radius: 0.25rem;
+		display: inline-flex;
+	}
+	
+	&__input {
+		background: v.$white;
+		border: 0;
+		border-radius: 0.25rem;
+		font-family: v.$font-family;
+		font-size: v.$font-size;
+		height: 3rem;
+		padding: 0 1rem;
+		width: 16rem;
+	}
+
+	&__button {
+		height: 2.5rem;
+		margin: 0 0.25rem;
+	}
+}

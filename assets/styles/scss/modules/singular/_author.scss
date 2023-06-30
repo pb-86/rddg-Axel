@@ -1,0 +1,11 @@
+@use 'base/variables' as v;
+
+.author {
+	line-height: v.$line-height;
+
+	// Info o autorze we wpisach i na stronach
+	body.page &,
+	body.single & {
+		text-align: center;
+	}
+}

@@ -1,0 +1,7 @@
+@use 'base/variables' as v;
+
+.footer {
+	background-color: v.$silver;
+	margin-top: 8rem;
+	padding: 4rem 0;
+}

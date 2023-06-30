@@ -1,0 +1,18 @@
+@use 'base/variables' as v;
+
+.wp-block-video {
+	margin-block: 1.5rem;
+
+	video {
+		height: auto;
+		width: 100%;
+	}
+
+	figcaption {
+		color: v.$gray;
+		font-size: v.$font-size--small;
+		line-height: v.$line-height--small;
+		margin-block: 0.375rem 0;
+		text-align: center;
+	}
+}

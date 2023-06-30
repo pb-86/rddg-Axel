@@ -1,59 +1,52 @@
-// This is the main SCSS files that combines all of the partials. It's used as a fallback.
-
 // Base
-@use 'base/colors';
 @use 'base/fonts';
-@use 'base/typography';
 @use 'base/reset';
 
-// Helpers
-@use 'helpers/wrapper';
-@use 'helpers/button';
+// Tools
+@use 'tools/placeholders';
+@use 'tools/mixins';
+@use 'tools/helpers';
 
-// Header
-@use 'parts/header/header';
-@use 'parts/header/site-name';
+// Templates
+@use 'templates/header';
+@use 'templates/searchform';
+@use 'templates/search';
+@use 'templates/sidebar';
+@use 'templates/footer';
+@use 'templates/singular';
+@use 'templates/e404';
 
-// Navigation
-@use 'parts/navigation/screen-reader-text';
-@use 'parts/navigation/navbars.scss';
-@use 'parts/navigation/menus.scss';
-@use 'parts/navigation/search-form';
-@use 'parts/navigation/pagination';
+// Modules
+	//-- Header
+	@use 'modules/header/site-name';
 
-// Main
-@use 'parts/main/main';
+	//-- Navigation
+	@use 'modules/navigation/screen-reader-text';
+	@use 'modules/navigation/navbars';
+	@use 'modules/navigation/menus';
+	@use 'modules/navigation/pagination';
 
-// Singular
-@use 'parts/singular/excerpts';
-@use 'parts/singular/excerpt';
-@use 'parts/singular/singular';
-@use 'parts/singular/thumbnail';
-@use 'parts/singular/placeholder';
-@use 'parts/singular/author';
-@use 'parts/singular/date';
-@use 'parts/singular/title';
-@use 'parts/singular/content';
-@use 'parts/singular/back-to-home';
-@use 'parts/singular/comments';
+	//-- Singular
+	@use 'modules/singular/thumbnail';
+	@use 'modules/singular/placeholder';
+	@use 'modules/singular/author';
+	@use 'modules/singular/date';
+	@use 'modules/singular/title';
+	@use 'modules/singular/content';
+	@use 'modules/singular/back-to-home';
+	@use 'modules/singular/comments';
 
-// Search
-@use 'parts/search/search-query';
+	//-- Single
+	@use 'modules/single/excerpts';
+	@use 'modules/single/excerpt';
 
-// Author
-@use 'parts/author/author-bio';
-@use 'parts/author/other-authors';
+	//-- Footer
+	@use 'modules/footer/scroll-top-top';
+	@use 'modules/footer/credits';
 
-// Error 404
-@use 'parts/error404/e404-message';
+	//-- Author
+	@use 'modules/author/author-bio';
+	@use 'modules/author/other-autors';
 
-// Block editor
-@use 'block-editor/block-editor';
-
-// Sidebar
-@use 'parts/sidebar/sidebar';
-
-// Footer
-@use 'parts/footer/footer';
-@use 'parts/footer/scroll-top-top';
-@use 'parts/footer/credits';
+// Blocks
+@use 'blocks/blocks';
