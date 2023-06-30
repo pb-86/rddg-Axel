@@ -1,3 +1,5 @@
+@use 'tools/placeholders';
+
 .sidebar {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -12,7 +14,7 @@
 		}
 
 		ul {
-			list-style: none;
+			@extend %list-reset;
 		}
 	}
 }

@@ -1,4 +1,5 @@
 @use 'base/variables' as v;
+@use 'tools/placeholders';
 
 :focus-visible {
 	outline: 0.125rem solid v.$blue;
@@ -45,7 +46,7 @@ a {
 }
 
 a[tabindex="-1"] {
-	text-decoration: none;
+	@extend %inverted-underline;
 }
 
 figure {

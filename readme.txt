@@ -19,6 +19,7 @@ Motyw startowy.
 * Poprawiono: Drobne problemy w kodzie SCSS
 * Zmieniono: Organizację szablonów
 * Poprawiono: Zachowanie rozwijanego menu
+* Poprawiono: Wykorzystanie placeholderów SCSS
 
 = 1.72 =
 * Dodano: Możliwość wyłączenia jQuery

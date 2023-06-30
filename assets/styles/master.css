@@ -19,6 +19,20 @@
   font-weight: 700;
   src: local(""), url("../fonts/roboto-700.woff2") format("woff2"), url("../fonts/roboto-700.woff") format("woff");
 }
+.menu, .sidebar section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a, .site-name .site-name__link, a[tabindex="-1"] {
+  text-decoration: none;
+}
+.menu a:hover, .site-name .site-name__link:hover, a[tabindex="-1"]:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.0625rem;
+}
+
 :focus-visible {
   outline: 0.125rem solid hsl(240deg, 100%, 50%);
 }
@@ -61,10 +75,6 @@ p {
 
 a {
   color: hsl(240deg, 100%, 50%);
-}
-
-a[tabindex="-1"] {
-  text-decoration: none;
 }
 
 figure {
@@ -153,10 +163,6 @@ img {
   line-height: 1;
   margin: 0 0 1rem;
 }
-.sidebar section ul {
-  list-style: none;
-}
-
 .footer {
   background-color: hsl(0deg, 0%, 95%);
   margin-top: 8rem;
@@ -205,7 +211,6 @@ img {
   font-weight: 700;
   line-height: 1;
   margin-bottom: 0.5rem;
-  text-decoration: none;
 }
 .site-name .site-name__description {
   font-size: 1rem;
@@ -255,8 +260,7 @@ img {
 }
 
 .menu {
-  list-style: none;
-  padding: 0;
+  margin-block: 2rem 0;
 }
 .menu .menu-item {
   display: inline-block;
@@ -265,10 +269,6 @@ img {
 .menu a {
   line-height: 1;
   padding: 0.75rem;
-  text-decoration: none;
-}
-.menu a:hover {
-  text-decoration: underline;
 }
 .menu .sub-menu {
   background-color: hsl(0deg, 0%, 100%);
