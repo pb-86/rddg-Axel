@@ -164,9 +164,29 @@ img {
   margin: 0 0 1rem;
 }
 .footer {
-  background-color: hsl(0deg, 0%, 95%);
   margin-top: 8rem;
-  padding: 4rem 0;
+}
+.footer .footer__navigation {
+  background-color: hsl(0deg, 0%, 95%);
+}
+.footer .footer__navigation .wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: normal normal;
+  padding-block: 2rem;
+}
+.footer .footer__credits {
+  background-color: hsl(0deg, 0%, 100%);
+}
+.footer .footer__credits .wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: normal normal;
+  height: 4rem;
 }
 
 .singular .singular__header {
@@ -259,9 +279,6 @@ img {
   margin: 2rem 0;
 }
 
-.menu {
-  margin-block: 2rem 0;
-}
 .menu .menu-item {
   display: inline-block;
   position: relative;
@@ -290,6 +307,10 @@ img {
 }
 .menu .sub-menu a {
   margin: 0;
+}
+
+.menu--header {
+  margin-block: 2rem 0;
 }
 
 .pagination {
@@ -390,11 +411,10 @@ body.search .excerpts {
 
 .scroll-to-top {
   display: block;
-  margin: 0 auto 2rem;
 }
 
 .credits {
-  margin-top: 2rem;
+  line-height: 1;
   text-align: center;
 }
 

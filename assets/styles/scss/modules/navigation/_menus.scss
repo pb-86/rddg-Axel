@@ -3,7 +3,6 @@
 
 .menu {
 	@extend %list-reset;
-	margin-block: 2rem 0;
 
 	.menu-item {
 		display: inline-block;
@@ -40,4 +39,8 @@
 			margin: 0;
 		}
 	}
+}
+
+.menu--header {
+	margin-block: 2rem 0;
 }

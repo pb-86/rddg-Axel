@@ -1,7 +1,24 @@
 @use 'base/variables' as v;
+@use 'tools/mixins' as m;
 
 .footer {
-	background-color: v.$silver;
 	margin-top: 8rem;
-	padding: 4rem 0;
+
+	.footer__navigation {
+		background-color: v.$silver;
+
+		.wrapper {
+			@include m.flex($align:center, $justify:space-between);
+			padding-block: 2rem;
+		}
+	}
+
+	.footer__credits {
+		background-color: v.$white;
+
+		.wrapper {
+			@include m.flex($align:center, $justify:flex-end);
+			height: 4rem;
+		}
+	}
 }

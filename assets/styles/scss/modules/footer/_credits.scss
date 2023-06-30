@@ -1,4 +1,6 @@
+@use 'base/variables' as v;
+
 .credits {
-	margin-top: 2rem;
+	line-height: v.$line-height--reset;
 	text-align: center;
 }

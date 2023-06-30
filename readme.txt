@@ -14,6 +14,7 @@ Motyw startowy.
 
 = 1.75 =
 * Zmieniono: Numer wersji
+* Zmieniono: Wygląd stopki
 
 = 1.74 = 
 * Zmieniono: Numer wersji
