@@ -103,7 +103,7 @@ img {
   background-color: hsl(0deg, 0%, 40%);
   border: 0;
   border-radius: 0.25rem;
-  color: #fff;
+  color: hsl(0deg, 0%, 100%);
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   height: 3rem;

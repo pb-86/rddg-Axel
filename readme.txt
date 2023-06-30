@@ -20,6 +20,7 @@ Motyw startowy.
 * Zmieniono: Organizację szablonów
 * Poprawiono: Zachowanie rozwijanego menu
 * Poprawiono: Wykorzystanie placeholderów SCSS
+* Dodano: Mixin dla przycisków
 
 = 1.72 =
 * Dodano: Możliwość wyłączenia jQuery
