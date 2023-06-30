@@ -17,6 +17,7 @@ Motyw startowy.
 * Poprawiono: Ładowanie pliku CSS
 * Zmieniono: Organizację plików SCSS
 * Poprawiono: Drobne problemy w kodzie SCSS
+* Zmieniono: Organizację szablonów
 
 = 1.72 =
 * Dodano: Możliwość wyłączenia jQuery

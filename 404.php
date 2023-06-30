@@ -20,12 +20,10 @@ get_header();
 		<!-- Komunikat błędu -->
 		<div class="error-message">
 			<p><?php esc_html_e( 'Przepraszamy, ale nie znaleźliśmy strony, której szukasz.', 'axel' ); ?></p>
-
-			<!-- Odnośnik do strony głównej -->
-			<a href="<?php echo esc_url( home_url() ); ?>">
-				<?php esc_html_e( 'Wróć do strony głównej', 'axel' ); ?>
-			</a>
 		</div>
+
+		<!-- Wróc do strony głównej -->
+		<?php get_template_part( 'template-parts/singular/back-to-home' ); ?>
 
 	</div>
 </main>

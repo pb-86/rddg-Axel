@@ -23,7 +23,7 @@ get_header();
 		</div>
 
 		<!-- Skróty wpisów autora -->
-		<?php get_template_part( 'template-parts/loops/loop', 'excerpt' ); ?>
+		<?php get_template_part( 'template-parts/loops/loop', 'excerpts' ); ?>
 
 		<!-- Lista pozostałych autorów -->
 		<div class="other-authors">

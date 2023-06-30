@@ -18,7 +18,7 @@ get_header();
 		</h1>
 
 		<!-- Skróty wpisów -->
-		<?php get_template_part( 'template-parts/loops/loop', 'excerpt' ); ?>
+		<?php get_template_part( 'template-parts/loops/loop', 'excerpts' ); ?>
 
 	</div>
 </main>

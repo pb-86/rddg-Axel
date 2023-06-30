@@ -13,9 +13,9 @@ if ( have_posts() ) {
 		the_post();
 
 		if ( is_search() ) {
-			get_template_part( 'template-parts/singular/excerpt', 'search' );
+			get_template_part( 'template-parts/single/excerpt', 'search' );
 		} else {
-			get_template_part( 'template-parts/singular/excerpt' );
+			get_template_part( 'template-parts/single/excerpt' );
 		}
 	}
 

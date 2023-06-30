@@ -29,7 +29,7 @@ get_header();
 		</div>
 
 		<!-- Skróty wpisów -->
-		<?php get_template_part( 'template-parts/loops/loop', 'excerpt' ); ?>
+		<?php get_template_part( 'template-parts/loops/loop', 'excerpts' ); ?>
 
 	</div>
 </main>
