@@ -1,0 +1,17 @@
+.excerpts {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 4rem;
+
+	@media (min-width:1120px) {
+		justify-content: unset;
+	}
+
+	body.search & {
+		flex-direction: column;
+		flex-wrap: nowrap;
+		margin-inline: auto;
+		max-width: 33rem;
+	}
+}

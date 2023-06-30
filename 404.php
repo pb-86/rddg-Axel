@@ -18,7 +18,7 @@ get_header();
 		</h1>
 
 		<!-- Komunikat błędu -->
-		<div class="e404-message">
+		<div class="error-message">
 			<p><?php esc_html_e( 'Przepraszamy, ale nie znaleźliśmy strony, której szukasz.', 'axel' ); ?></p>
 
 			<!-- Odnośnik do strony głównej -->

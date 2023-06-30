@@ -14,7 +14,6 @@
 @use 'templates/sidebar';
 @use 'templates/footer';
 @use 'templates/singular';
-@use 'templates/e404';
 
 // Modules
 	//-- Header
@@ -47,6 +46,9 @@
 	//-- Author
 	@use 'modules/author/author-bio';
 	@use 'modules/author/other-autors';
+
+	//-- Error 404
+	@use 'modules/e404/error-message';
 
 // Blocks
 @use 'blocks/blocks';

@@ -1,21 +1,21 @@
 // Layout
-@import 'layout/separator';
+@use 'layout/separator';
 
 // Media
-@import 'media/file';
-@import 'media/gallery';
-@import 'media/image';
-@import 'media/video';
+@use 'media/file';
+@use 'media/gallery';
+@use 'media/image';
+@use 'media/video';
 
 // Text
-@import 'text/header';
-@import 'text/list';
-@import 'text/paragraph';
-@import 'text/quote';
-@import 'text/table';
+@use 'text/header';
+@use 'text/list';
+@use 'text/paragraph';
+@use 'text/quote';
+@use 'text/table';
 
 // Embed
-@import 'embed/embed';
+@use 'embed/embed';
 
 // Others
 .has-text-align-left {
