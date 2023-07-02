@@ -21,6 +21,7 @@ Motyw startowy.
 * Usunięto: Marginesy dla dolnego menu
 * Poprawiono: Kod SCSS dla sekcji z nazwą i opisem strony
 * Poprawiono: Kod SCSS dla formualrza wyszukiwarki
+* Poprawiono: Kod SCSS dla rozwijanego menu
 
 = 1.74 = 
 * Zmieniono: Numer wersji

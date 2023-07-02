@@ -308,13 +308,11 @@ img {
 
 .sub-menu {
   background-color: hsl(0deg, 0%, 100%);
-  border: 1px solid hsl(0deg, 0%, 0%);
+  border: 0.0625rem solid hsl(0deg, 0%, 0%);
   display: none;
-  left: 0.5rem;
+  inset: 2rem auto auto 0.5rem;
   padding: 0.75rem 1rem 1rem;
   position: absolute;
-  text-align: left;
-  top: 2rem;
   white-space: nowrap;
 }
 .sub-menu--show {
