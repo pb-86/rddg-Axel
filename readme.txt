@@ -19,6 +19,7 @@ Motyw startowy.
 * Zmieniono: Wygląd nawigacji
 * Zmieniono: Marginesy dla głównej treści
 * Usunięto: Marginesy dla dolnego menu
+* Poprawiono: Kod SCSS dla sekcji z nazwą i opisem strony
 
 = 1.74 = 
 * Zmieniono: Numer wersji

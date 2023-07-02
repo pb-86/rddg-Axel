@@ -222,10 +222,11 @@ img {
 }
 
 .site-name {
-  margin: 0 0 4rem;
+  margin-block: 0 2rem;
   text-align: center;
 }
 .site-name .site-name__title {
+  line-height: 1;
   margin: 0;
 }
 .site-name .site-name__link {
