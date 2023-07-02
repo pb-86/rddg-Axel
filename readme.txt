@@ -15,6 +15,7 @@ Motyw startowy.
 = 1.75 =
 * Zmieniono: Numer wersji
 * Zmieniono: Wygląd stopki
+* Dodano: Obsługę customowego obrazka w tle w nagłówku
 
 = 1.74 = 
 * Zmieniono: Numer wersji

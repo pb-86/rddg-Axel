@@ -25,7 +25,15 @@ function axel_setup() {
 	add_image_size( 'axel-singular-thumbnail', 1120, 624, true );
 
 	// Włącza obsługę customowego nagłówka.
-	add_theme_support( 'custom-header', array() );
+	add_theme_support(
+		'custom-header',
+		array(
+			'width'       => 2560,
+			'height'      => 408,
+			'flex-width'  => true,
+			'flex-height' => true,
+		)
+	);
 
 	// Włącza obsługę customowego logo.
 	add_theme_support( 'custom-logo', array() );

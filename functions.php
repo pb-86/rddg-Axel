@@ -32,3 +32,18 @@ require_once 'settings/sidebars.php';
 
 // Przyspieszanie działania strony.
 require_once 'settings/optimisation.php';
+
+/**
+ * Dodaje obrazek w tle nagłówka strony jeśli jest dostępny.
+ */
+function axel_custom_header() {
+	if ( ! has_custom_header() ) {
+		return false;
+	}
+
+	$custom_header = get_custom_header();
+	printf(
+		'style="background-image: url(%s)"',
+		esc_url( $custom_header->url )
+	);
+}

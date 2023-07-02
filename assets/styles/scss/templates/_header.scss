@@ -2,6 +2,13 @@
 
 .header {
 	background-color: v.$silver;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	margin-bottom: 8rem;
-	padding: 4rem 0;
+	
+	.header__dimm {
+		background-color: rgba(v.$black, 0);
+		padding: 4rem 0;
+	}
 }

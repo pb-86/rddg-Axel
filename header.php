@@ -19,7 +19,8 @@
 	<?php wp_body_open(); ?>
 	<?php get_template_part( 'template-parts/navigation/skip-links' ); ?>
 
-	<header class="header">
+	<header class="header" <?php axel_custom_header(); ?>>
+		<div class="header__dimm">
 
 		<?php
 		get_template_part( 'template-parts/header/site-name' );
@@ -27,4 +28,5 @@
 		get_template_part( 'template-parts/navigation/menu', 'header' );
 		?>
 
+		</div>
 	</header>

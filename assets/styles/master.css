@@ -42,6 +42,7 @@ html {
 }
 
 body {
+  background-color: hsl(0deg, 0%, 100%);
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -117,7 +118,13 @@ img {
 
 .header {
   background-color: hsl(0deg, 0%, 95%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-bottom: 8rem;
+}
+.header .header__dimm {
+  background-color: rgba(0, 0, 0, 0);
   padding: 4rem 0;
 }
 
