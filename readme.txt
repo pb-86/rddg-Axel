@@ -23,6 +23,7 @@ Motyw startowy.
 * Poprawiono: Kod SCSS dla formualrza wyszukiwarki
 * Poprawiono: Kod SCSS dla rozwijanego menu
 * Usunięto: Zbędny kod SCSS dla modułów w stopce
+* Poprawiono: Kod SCSS dla skrótów wpisów
 
 = 1.74 = 
 * Zmieniono: Numer wersji

@@ -1,16 +1,14 @@
+@use 'tools/mixins' as m;
+
 .excerpts {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 4rem;
+	@include m.flex($justify:center, $gap:4rem, $wrap:wrap);
 
 	@media (min-width:1120px) {
 		justify-content: unset;
 	}
 
 	body.search & {
-		flex-direction: column;
-		flex-wrap: nowrap;
+		@include m.flex($direction:column, $wrap:nowrap, $gap:2rem);
 		margin-inline: auto;
 		max-width: 33rem;
 	}

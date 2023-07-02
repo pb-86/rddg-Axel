@@ -8,10 +8,11 @@
 
 //---
 // 1. Flex
-@mixin flex($align:normal, $justify:flex-start, $direction:row, $gap:normal normal, $display:flex) {
+@mixin flex($display:flex, $align:normal, $justify:flex-start, $direction:row, $gap:normal normal, $wrap:nowrap) {
 	align-items: $align;
 	display: $display;
 	flex-direction: $direction;
+	flex-wrap: $wrap;
 	justify-content: $justify;
 	gap: $gap;
 }
