@@ -121,7 +121,6 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 8rem;
 }
 .header .header__dimm {
   background-color: rgba(0, 0, 0, 0);
@@ -174,7 +173,7 @@ img {
   margin-top: 8rem;
 }
 .footer .footer__navigation {
-  background-color: hsl(0deg, 0%, 95%);
+  background-color: hsl(240deg, 100%, 50%);
 }
 .footer .footer__navigation .wrapper {
   align-items: center;
@@ -279,24 +278,40 @@ img {
 .navbar {
   text-align: center;
 }
-.navbar .navbar--header {
-  margin: 2rem 0 0;
+.navbar.navbar--header {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: normal normal;
+  background-color: hsl(240deg, 100%, 50%);
+  height: 4rem;
+  margin-block: 0 8rem;
 }
-.navbar .navbar--footer {
+.navbar.navbar--footer {
   margin: 2rem 0;
 }
 
-.menu .menu-item {
-  display: inline-block;
+.menu {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.menu > .menu-item {
   position: relative;
 }
 .menu a {
+  color: hsl(0deg, 0%, 100%);
   line-height: 1;
-  padding: 0.75rem;
+  padding-block: 0.75rem;
+  padding-inline: 0.5rem;
 }
-.menu .sub-menu {
+
+.sub-menu {
   background-color: hsl(0deg, 0%, 100%);
-  border: 1px solid hsl(0deg, 0%, 40%);
+  border: 1px solid hsl(0deg, 0%, 0%);
   display: none;
   left: 0.5rem;
   padding: 0.75rem 1rem 1rem;
@@ -305,19 +320,16 @@ img {
   top: 2rem;
   white-space: nowrap;
 }
-.menu .sub-menu--show {
+.sub-menu--show {
   display: block !important;
 }
-.menu .sub-menu .menu-item {
+.sub-menu .menu-item {
   display: block;
   margin: 0.25rem 0;
 }
-.menu .sub-menu a {
+.sub-menu a {
+  color: hsl(0deg, 0%, 0%);
   margin: 0;
-}
-
-.menu--header {
-  margin-block: 2rem 0;
 }
 
 .pagination {
@@ -417,7 +429,20 @@ body.search .excerpts {
 }
 
 .scroll-to-top {
+  background-color: hsl(0deg, 0%, 95%);
+  border: 0;
+  border-radius: 0.25rem;
+  color: hsl(0deg, 0%, 0%);
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  height: 3rem;
+  min-width: 3rem;
+  padding: 0 1rem;
+  user-select: none;
   display: block;
+}
+.scroll-to-top:hover {
+  background-color: #d9d9d9;
 }
 
 .credits {

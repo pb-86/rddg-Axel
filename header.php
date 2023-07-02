@@ -25,8 +25,9 @@
 		<?php
 		get_template_part( 'template-parts/header/site-name' );
 		get_search_form();
-		get_template_part( 'template-parts/navigation/menu', 'header' );
 		?>
 
 		</div>
 	</header>
+
+	<?php get_template_part( 'template-parts/navigation/menu', 'header' ); ?>

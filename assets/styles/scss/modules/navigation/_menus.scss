@@ -1,46 +1,20 @@
 @use 'base/variables' as v;
+@use 'tools/mixins' as m;
 @use 'tools/placeholders';
 
 .menu {
 	@extend %list-reset;
+	@include m.flex($align:center, $justify:center, $gap:0.5rem);
 
-	.menu-item {
-		display: inline-block;
+	& > .menu-item {
 		position: relative;
 	}
 
 	a {
 		@extend %inverted-underline;
+		color: v.$white;
 		line-height: v.$line-height--reset;
-		padding: 0.75rem;
+		padding-block: 0.75rem;
+		padding-inline: 0.5rem;
 	}
-
-	.sub-menu {
-		background-color: v.$white;
-		border: 1px solid v.$gray;
-		display: none;
-		left: 0.5rem;
-		padding: 0.75rem 1rem 1rem;
-		position: absolute;
-		text-align: left;
-		top: 2rem;
-		white-space: nowrap;
-
-		&--show {
-			display: block !important;
-		}
-
-		.menu-item {
-			display: block;
-			margin: 0.25rem 0;
-		}
-
-		a {
-			margin: 0;
-		}
-	}
-}
-
-.menu--header {
-	margin-block: 2rem 0;
 }

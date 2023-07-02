@@ -16,6 +16,7 @@ Motyw startowy.
 * Zmieniono: Numer wersji
 * Zmieniono: Wygląd stopki
 * Dodano: Obsługę customowego obrazka w tle w nagłówku
+* Zmieniono: Wygląd nawigacji
 
 = 1.74 = 
 * Zmieniono: Numer wersji

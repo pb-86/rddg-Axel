@@ -1,11 +1,17 @@
+@use 'base/variables' as v;
+@use 'tools/mixins' as m;
+
 .navbar {
 	text-align: center;
 
-	.navbar--header {
-		margin: 2rem 0 0;
+	&.navbar--header {
+		@include m.flex($align:center, $justify:center);
+		background-color: v.$blue;
+		height: 4rem;
+		margin-block: 0 8rem;
 	}
-
-	.navbar--footer {
+	
+	&.navbar--footer {
 		margin: 2rem 0;
 	}
 }

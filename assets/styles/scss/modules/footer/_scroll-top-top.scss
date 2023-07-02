@@ -1,3 +1,7 @@
+@use 'base/variables' as v;
+@use 'tools/mixins' as m;
+
 .scroll-to-top {
+	@include m.button($background-color:v.$silver, $color:v.$black);
 	display: block;
 }
