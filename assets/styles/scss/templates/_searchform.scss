@@ -1,15 +1,15 @@
 @use 'base/variables' as v;
+@use 'tools/mixins' as m;
 
 .searchform {
 	margin: 0;
 	text-align: center;
 
 	.searchform__label {
-		align-items: center;
+		@include m.flex($align:center, $display:inline-flex);
 		background-color: v.$white;
 		border: 0.0625rem solid v.$gray;
 		border-radius: 0.25rem;
-		display: inline-flex;
 	}
 	
 	.searchform__input {

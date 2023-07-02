@@ -20,6 +20,7 @@ Motyw startowy.
 * Zmieniono: Marginesy dla głównej treści
 * Usunięto: Marginesy dla dolnego menu
 * Poprawiono: Kod SCSS dla sekcji z nazwą i opisem strony
+* Poprawiono: Kod SCSS dla formualrza wyszukiwarki
 
 = 1.74 = 
 * Zmieniono: Numer wersji

@@ -133,10 +133,13 @@ img {
 }
 .searchform .searchform__label {
   align-items: center;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: normal normal;
   background-color: hsl(0deg, 0%, 100%);
   border: 0.0625rem solid hsl(0deg, 0%, 40%);
   border-radius: 0.25rem;
-  display: inline-flex;
 }
 .searchform .searchform__input {
   background: hsl(0deg, 0%, 100%);
