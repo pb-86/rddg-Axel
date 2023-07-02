@@ -3,5 +3,4 @@
 
 .scroll-to-top {
 	@include m.button($background-color:v.$silver, $color:v.$black);
-	display: block;
 }

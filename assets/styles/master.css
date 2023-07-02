@@ -438,7 +438,6 @@ body.search .excerpts {
   min-width: 3rem;
   padding: 0 1rem;
   user-select: none;
-  display: block;
 }
 .scroll-to-top:hover {
   background-color: #d9d9d9;
@@ -446,7 +445,6 @@ body.search .excerpts {
 
 .credits {
   line-height: 1;
-  text-align: center;
 }
 
 .author-bio {
