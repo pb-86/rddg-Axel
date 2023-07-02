@@ -284,9 +284,6 @@ img {
   background-color: hsl(240deg, 100%, 50%);
   height: 4rem;
 }
-.navbar.navbar--footer {
-  margin: 2rem 0;
-}
 
 .menu {
   align-items: center;
