@@ -36,6 +36,9 @@
 	@use 'modules/singular/back-to-home';
 	@use 'modules/singular/comments';
 
+	//-- Main
+	@use 'modules/main/main';
+
 	//-- Single
 	@use 'modules/single/excerpts';
 	@use 'modules/single/excerpt';

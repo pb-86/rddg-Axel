@@ -17,6 +17,7 @@ Motyw startowy.
 * Zmieniono: Wygląd stopki
 * Dodano: Obsługę customowego obrazka w tle w nagłówku
 * Zmieniono: Wygląd nawigacji
+* Zmieniono: Marginesy dla głównej treści
 
 = 1.74 = 
 * Zmieniono: Numer wersji

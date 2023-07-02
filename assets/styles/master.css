@@ -169,9 +169,6 @@ img {
   line-height: 1;
   margin: 0 0 1rem;
 }
-.footer {
-  margin-top: 8rem;
-}
 .footer .footer__navigation {
   background-color: hsl(240deg, 100%, 50%);
 }
@@ -286,7 +283,6 @@ img {
   gap: normal normal;
   background-color: hsl(240deg, 100%, 50%);
   height: 4rem;
-  margin-block: 0 8rem;
 }
 .navbar.navbar--footer {
   margin: 2rem 0;
@@ -333,7 +329,7 @@ img {
 }
 
 .pagination {
-  margin: 4rem 0 8rem;
+  margin-block: 4rem 0;
   text-align: center;
 }
 .pagination .page-numbers {
@@ -403,6 +399,10 @@ body.search h2.title {
 
 .comments {
   margin: 4rem auto;
+}
+
+.main {
+  margin-block: 6rem;
 }
 
 .excerpts {
