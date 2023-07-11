@@ -1,4 +1,5 @@
 @use 'base/variables' as v;
+@use 'tools/mixins' as m;
 
 .header {
 	background-color: v.$silver;
@@ -7,7 +8,8 @@
 	background-size: cover;
 	
 	.header__dimm {
+		@include m.flex($align:center, $justify:center, $direction:column, $gap: 2rem);
 		background-color: rgba(v.$black, 0);
-		padding: 4rem 0;
+		height: 20rem;
 	}
 }

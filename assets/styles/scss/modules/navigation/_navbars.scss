@@ -7,6 +7,6 @@
 	&.navbar--header {
 		@include m.flex($align:center, $justify:center);
 		background-color: v.$blue;
-		height: 4rem;
+		height: 5rem;
 	}
 }

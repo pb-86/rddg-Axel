@@ -123,8 +123,14 @@ img {
   background-size: cover;
 }
 .header .header__dimm {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 2rem;
   background-color: rgba(0, 0, 0, 0);
-  padding: 4rem 0;
+  height: 20rem;
 }
 
 .searchform {
@@ -173,6 +179,10 @@ img {
   line-height: 1;
   margin: 0 0 1rem;
 }
+.footer .footer__navigation .wrapper,
+.footer .footer__credits .wrapper {
+  height: 5rem;
+}
 .footer .footer__navigation {
   background-color: hsl(240deg, 100%, 50%);
 }
@@ -183,7 +193,6 @@ img {
   flex-wrap: nowrap;
   justify-content: space-between;
   gap: normal normal;
-  padding-block: 2rem;
 }
 .footer .footer__credits {
   background-color: hsl(0deg, 0%, 100%);
@@ -195,7 +204,6 @@ img {
   flex-wrap: nowrap;
   justify-content: flex-end;
   gap: normal normal;
-  height: 4rem;
 }
 
 .singular .singular__header {
@@ -228,7 +236,6 @@ img {
 }
 
 .site-name {
-  margin-block: 0 2rem;
   text-align: center;
 }
 .site-name .site-name__title {
@@ -290,7 +297,7 @@ img {
   justify-content: center;
   gap: normal normal;
   background-color: hsl(240deg, 100%, 50%);
-  height: 4rem;
+  height: 5rem;
 }
 
 .menu {
