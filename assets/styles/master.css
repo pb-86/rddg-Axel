@@ -325,6 +325,7 @@ img {
   inset: 2rem auto auto 0.5rem;
   padding: 0.75rem 1rem 1rem;
   position: absolute;
+  text-align: left;
   white-space: nowrap;
 }
 .sub-menu--show {

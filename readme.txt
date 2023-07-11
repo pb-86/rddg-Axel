@@ -25,6 +25,7 @@ Motyw startowy.
 * Usunięto: Zbędny kod SCSS dla modułów w stopce
 * Poprawiono: Kod SCSS dla skrótów wpisów
 * Poprawiono: Odstępy elementów w nagłówku i stopce strony
+* Poprawiono: Wyrównanie tekstu w rozwijanym menu
 
 = 1.74 = 
 * Zmieniono: Numer wersji
