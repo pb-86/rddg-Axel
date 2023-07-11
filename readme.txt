@@ -14,6 +14,7 @@ Motyw startowy.
 
 = 1.76 =
 * Zmieniono: Numer wersji
+* Dodano: Osobny szablon dla tytułu zawierającego odnośnik
 
 = 1.75 =
 * Zmieniono: Numer wersji

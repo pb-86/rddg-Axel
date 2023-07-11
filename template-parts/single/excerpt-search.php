@@ -13,7 +13,7 @@
 	<?php
 	get_template_part( 'template-parts/singular/author' );
 	get_template_part( 'template-parts/singular/date' );
-	get_template_part( 'template-parts/singular/title' );
+	get_template_part( 'template-parts/singular/title', 'link' );
 	?>
 
 </article>
