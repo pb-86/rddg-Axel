@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-display: swap;
   font-family: "Roboto";
@@ -316,6 +317,12 @@ img {
   line-height: 1;
   padding-block: 0.75rem;
   padding-inline: 0.5rem;
+}
+
+.menu--header .menu-item-has-children::after {
+  color: hsl(0deg, 0%, 0%);
+  content: "🡫";
+  margin-inline: -0.5rem 0.5rem;
 }
 
 .sub-menu {

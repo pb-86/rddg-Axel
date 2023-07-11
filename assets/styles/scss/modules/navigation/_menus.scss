@@ -18,3 +18,13 @@
 		padding-inline: 0.5rem;
 	}
 }
+
+.menu--header {
+	.menu-item-has-children {
+		&::after {
+			color: v.$black;
+			content: "🡫";
+			margin-inline: -0.5rem 0.5rem;
+		}
+	}
+}

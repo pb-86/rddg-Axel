@@ -16,6 +16,7 @@ Motyw startowy.
 * Zmieniono: Numer wersji
 * Dodano: Osobny szablon dla tytułu zawierającego odnośnik
 * Dodano: Obsługę Boxicons w wersji 2.1.4
+* Dodano: Ikony strzałek w menu
 
 = 1.75 =
 * Zmieniono: Numer wersji
