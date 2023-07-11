@@ -15,6 +15,7 @@ Motyw startowy.
 = 1.76 =
 * Zmieniono: Numer wersji
 * Dodano: Osobny szablon dla tytułu zawierającego odnośnik
+* Dodano: Obsługę Boxicons w wersji 2.1.4
 
 = 1.75 =
 * Zmieniono: Numer wersji
