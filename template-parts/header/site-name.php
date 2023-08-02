@@ -16,7 +16,7 @@
 		if ( get_bloginfo( 'name' ) ) {
 			printf(
 				'<div class="site-name__title"><a class="site-name__link" href="%s">%s</a></div>',
-				esc_url( get_bloginfo( 'url' ) ),
+				esc_url( home_url( '/' ) ),
 				esc_html( get_bloginfo( 'name' ) )
 			);
 		}
