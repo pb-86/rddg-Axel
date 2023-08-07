@@ -19,6 +19,7 @@ Motyw startowy.
 * Dodano: Ikony strzałek w menu
 * Poprawiono: Pobieranie linku do strony głównej
 * Dodano: Szablon częściowy do wyświetlania loga strony
+* Poprawiono: Błędy w formularzu wyszukiwania
 
 = 1.75 =
 * Zmieniono: Numer wersji

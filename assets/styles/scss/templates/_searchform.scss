@@ -1,23 +1,19 @@
-@use 'base/variables' as v;
-@use 'tools/mixins' as m;
+@use 'base/variables' as *;
+@use 'tools/mixins' as *;
 
 .searchform {
+	background-color: $white;
+	border: 0.0625rem solid $gray;
+	border-radius: 0.25rem;
 	margin: 0;
 	text-align: center;
-
-	.searchform__label {
-		@include m.flex($align:center, $display:inline-flex);
-		background-color: v.$white;
-		border: 0.0625rem solid v.$gray;
-		border-radius: 0.25rem;
-	}
 	
 	.searchform__input {
-		background: v.$white;
+		background: $white;
 		border: 0;
 		border-radius: 0.25rem;
-		font-family: v.$font-family;
-		font-size: v.$font-size;
+		font-family: $font-family;
+		font-size: $font-size;
 		height: 3rem;
 		padding: 0 1rem;
 		width: 16rem;

@@ -135,19 +135,11 @@ img {
 }
 
 .searchform {
-  margin: 0;
-  text-align: center;
-}
-.searchform .searchform__label {
-  align-items: center;
-  display: inline-flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  gap: normal normal;
   background-color: hsl(0deg, 0%, 100%);
   border: 0.0625rem solid hsl(0deg, 0%, 40%);
   border-radius: 0.25rem;
+  margin: 0;
+  text-align: center;
 }
 .searchform .searchform__input {
   background: hsl(0deg, 0%, 100%);
