@@ -47,3 +47,16 @@ function axel_custom_header() {
 		esc_url( $custom_header->url )
 	);
 }
+
+/**
+ * Podmienia nazyw klas customowego loga.
+ *
+ * @param {string} $html Kod HTML loga.
+ * @return {string} $html Kod HTML loga po zmianach.
+ */
+function axel_custom_logo_classes( $html ) {
+	$html = str_replace( 'custom-logo-link', 'site-logo__link', $html );
+	$html = str_replace( 'custom-logo', 'site-logo__image', $html );
+	return $html;
+}
+add_filter( 'get_custom_logo', 'axel_custom_logo_classes' );

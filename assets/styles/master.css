@@ -236,6 +236,10 @@ img {
   text-align: center;
 }
 
+.site-logo .site-logo__link {
+  font-size: 0;
+}
+
 .site-name {
   text-align: center;
 }

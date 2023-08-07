@@ -12,16 +12,16 @@
 	<div class="site-name">
 
 		<?php
-		/* Tytuł strony */
+		// Tytuł strony.
 		if ( get_bloginfo( 'name' ) ) {
 			printf(
-				'<div class="site-name__title"><a class="site-name__link" href="%s">%s</a></div>',
+				'<h1 class="site-name__title"><a class="site-name__link" href="%s">%s</a></h1>',
 				esc_url( home_url( '/' ) ),
 				esc_html( get_bloginfo( 'name' ) )
 			);
 		}
 
-		/* Opis strony */
+		// Opis strony.
 		if ( get_bloginfo( 'description' ) ) {
 			printf(
 				'<div class="site-name__description">%s</div>',

@@ -1,0 +1,7 @@
+@use 'base/variables' as *;
+
+.site-logo {
+	.site-logo__link {
+		font-size: $font-size--reset;
+	}
+}
