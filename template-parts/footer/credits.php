@@ -11,9 +11,9 @@
 <div class="credits">
 	<?php
 	printf(
-		'%s <a class="credits__link" href="https://reddog.systems">%s</a>',
+		'<a class="credits__link" href="https://reddog.systems">%s <strong>%s</strong></a>',
 		esc_html__( 'Projekt i wykonanie', 'axel' ),
-		'Reddog Systems'
+		esc_html__( 'Reddog Systems', 'axel' )
 	);
 	?>
 </div>

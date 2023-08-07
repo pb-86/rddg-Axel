@@ -21,6 +21,7 @@ Motyw startowy.
 * Dodano: Szablon częściowy do wyświetlania loga strony
 * Poprawiono: Błędy w formularzu wyszukiwania
 * Poprawiono: Wygląd fokusu klawiatury
+* Poprawiono: Wygląd info o wykonawcy
 
 = 1.75 =
 * Zmieniono: Numer wersji
