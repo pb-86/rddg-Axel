@@ -22,6 +22,7 @@ Motyw startowy.
 * Poprawiono: Błędy w formularzu wyszukiwania
 * Poprawiono: Wygląd fokusu klawiatury
 * Poprawiono: Wygląd info o wykonawcy
+* Poprawiono: Wygląd strzałek w menu
 
 = 1.75 =
 * Zmieniono: Numer wersji

@@ -1,10 +1,10 @@
-@use 'base/variables' as v;
-@use 'tools/mixins' as m;
+@use 'base/variables' as *;
+@use 'tools/mixins' as *;
 @use 'tools/placeholders';
 
 .menu {
 	@extend %list-reset;
-	@include m.flex($align:center, $justify:center, $gap:0.5rem);
+	@include flex($align:center, $justify:center, $gap:0.5rem);
 
 	& > .menu-item {
 		position: relative;
@@ -12,8 +12,8 @@
 
 	a {
 		@extend %inverted-underline;
-		color: v.$white;
-		line-height: v.$line-height--reset;
+		color: $white;
+		line-height: $line-height--reset;
 		padding-block: 0.75rem;
 		padding-inline: 0.5rem;
 	}
@@ -22,7 +22,7 @@
 .menu--header {
 	.menu-item-has-children {
 		&::after {
-			color: v.$black;
+			color: $pink;
 			content: "🡫";
 			margin-inline: -0.5rem 0.5rem;
 		}

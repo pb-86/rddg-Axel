@@ -316,7 +316,7 @@ img {
 }
 
 .menu--header .menu-item-has-children::after {
-  color: hsl(0deg, 0%, 0%);
+  color: hsl(328deg, 100%, 54%);
   content: "🡫";
   margin-inline: -0.5rem 0.5rem;
 }
