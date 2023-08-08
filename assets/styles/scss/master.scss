@@ -36,6 +36,7 @@
 	@use 'modules/singular/content';
 	@use 'modules/singular/back-to-home';
 	@use 'modules/singular/comments';
+	@use 'modules/singular/post-meta';
 
 	//-- Main
 	@use 'modules/main/main';

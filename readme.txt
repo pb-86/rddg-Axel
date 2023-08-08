@@ -18,6 +18,7 @@ Motyw startowy.
 * Poprawiono: Drobne kwestie wyglądu
 * Zmieniono: Wygląd excerptów
 * Zmieniono: Wygląd wyników wyszukwiania
+* Zmieniono: Wygląd nagłówka wpisu
 
 = 1.76 =
 * Zmieniono: Numer wersji

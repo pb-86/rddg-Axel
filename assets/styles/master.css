@@ -438,6 +438,15 @@ h2.title {
   margin: 4rem auto;
 }
 
+.post-meta {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
 .main {
   margin-block: 6rem;
 }
