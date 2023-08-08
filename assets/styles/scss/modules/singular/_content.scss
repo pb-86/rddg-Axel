@@ -1,3 +1,5 @@
+@use 'base/variables' as *;
+
 .content {
 	
 	// Treść we wpisach i na stronach
@@ -5,5 +7,15 @@
 	.single & {
 		margin-inline: auto;
 		max-width: 45rem;
+
+		p {
+			color: $gray;
+		}
+	}
+
+	.excerpt & {
+		p {
+			color: $gray;
+		}
 	}
 }

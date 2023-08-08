@@ -47,7 +47,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 body,
@@ -136,7 +136,7 @@ img {
 
 .searchform {
   background-color: hsl(0deg, 0%, 100%);
-  border: 0.0625rem solid hsl(0deg, 0%, 40%);
+  border: 0.0625rem solid hsl(0deg, 0%, 30%);
   border-radius: 0.25rem;
   margin: 0;
   text-align: center;
@@ -206,7 +206,7 @@ img {
 }
 .singular .singular__date,
 .singular .singular__author {
-  color: hsl(0deg, 0%, 40%);
+  color: hsl(0deg, 0%, 30%);
   display: inline-block;
   font-size: 0.875rem;
 }
@@ -245,7 +245,7 @@ img {
 .site-name .site-name__description {
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .screen-reader-text {
@@ -262,7 +262,7 @@ img {
 }
 .screen-reader-text:focus {
   background-color: hsl(0deg, 0%, 100%);
-  border: 0.0625rem solid hsl(0deg, 0%, 40%);
+  border: 0.0625rem solid hsl(0deg, 0%, 30%);
   border-radius: 0.25rem;
   clip: auto !important;
   clip-path: none;
@@ -362,7 +362,7 @@ img {
 }
 
 .author {
-  line-height: 1.5;
+  line-height: 1.6;
 }
 body.page .author, body.single .author {
   text-align: center;
@@ -370,7 +370,7 @@ body.page .author, body.single .author {
 
 .date {
   display: block;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 body.page .date, body.single .date {
   text-align: center;
@@ -398,9 +398,20 @@ body.search h2.title {
   margin-block: 0;
 }
 
+.category h1.title,
+.archive h1.title {
+  margin-block: 0 3rem;
+}
+
 .page .content, .single .content {
   margin-inline: auto;
   max-width: 45rem;
+}
+.page .content p, .single .content p {
+  color: hsl(0deg, 0%, 30%);
+}
+.excerpt .content p {
+  color: hsl(0deg, 0%, 30%);
 }
 
 .back-to-home {
@@ -443,6 +454,11 @@ body.search .excerpts {
 .excerpt {
   flex-basis: 100%;
   max-width: 33rem;
+}
+
+.no-posts {
+  color: hsl(0deg, 0%, 30%);
+  text-align: center;
 }
 
 .scroll-to-top {
@@ -495,12 +511,12 @@ body.search .excerpts {
   padding: 0.375rem 0.75rem;
 }
 .wp-block-file .wp-block-file__button {
-  background-color: hsl(0deg, 0%, 40%);
+  background-color: hsl(0deg, 0%, 30%);
   border-radius: 0.1875rem;
   padding: 0.375rem 0.75rem;
 }
 .wp-block-file .wp-block-file__button:hover {
-  background-color: #4d4d4d;
+  background-color: #333333;
 }
 
 .wp-block-image figure.alignleft {
@@ -520,7 +536,7 @@ body.search .excerpts {
   margin-inline: auto;
 }
 .wp-block-image figcaption {
-  color: hsl(0deg, 0%, 40%);
+  color: hsl(0deg, 0%, 30%);
   font-size: 0.875rem;
   line-height: 1.25;
   margin-block: 0.25rem 0;
@@ -535,7 +551,7 @@ body.search .excerpts {
   width: 100%;
 }
 .wp-block-video figcaption {
-  color: hsl(0deg, 0%, 40%);
+  color: hsl(0deg, 0%, 30%);
   font-size: 0.875rem;
   line-height: 1.25;
   margin-block: 0.375rem 0;
@@ -561,7 +577,7 @@ body.search .excerpts {
   padding: 0.1875rem 0.375rem;
 }
 .wp-block-table figcaption {
-  color: hsl(0deg, 0%, 40%);
+  color: hsl(0deg, 0%, 30%);
   font-size: 0.875rem;
   line-height: 1.25;
   margin-block: 0.375rem 0;

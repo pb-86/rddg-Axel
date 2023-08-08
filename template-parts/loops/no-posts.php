@@ -8,6 +8,6 @@
 
 ?>
 
-<article>
-	<?php esc_html_e( 'Brak wpisów.', 'axel' ); ?>
-</article>
+<p class="no-posts">
+	<?php esc_html_e( 'W tej kategorii nie ma wpisów.', 'axel' ); ?>
+</p>
