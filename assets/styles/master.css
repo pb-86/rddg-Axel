@@ -20,7 +20,7 @@
   font-weight: 700;
   src: local(""), url("../fonts/roboto-700.woff2") format("woff2"), url("../fonts/roboto-700.woff") format("woff");
 }
-.menu, .sidebar section ul {
+.comments__list, .menu, .sidebar section ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -451,7 +451,85 @@ h2.title {
   width: 1.25rem;
 }
 .comments {
-  margin: 4rem auto;
+  color: hsl(0deg, 0%, 30%);
+  margin-block: 6rem;
+  margin-inline: auto;
+}
+.comments .comment-reply-title {
+  color: hsl(0deg, 0%, 0%);
+  font-size: 1.5rem;
+}
+.comments .comment-form p.comment-form-comment,
+.comments .comment-form p.comment-form-author,
+.comments .comment-form p.comment-form-email,
+.comments .comment-form p.comment-form-url,
+.comments .comment-form p.form-submit {
+  line-height: 1;
+}
+.comments .comment-form p.comment-form-comment label,
+.comments .comment-form p.comment-form-author label,
+.comments .comment-form p.comment-form-email label,
+.comments .comment-form p.comment-form-url label,
+.comments .comment-form p.form-submit label {
+  color: hsl(0deg, 0%, 0%);
+  display: block;
+  font-weight: 700;
+  line-height: 1;
+  margin-block: 0 0.5rem;
+}
+.comments .comment-form p.comment-form-cookies-consent {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  line-height: 1.25;
+}
+.comments .comment-form textarea,
+.comments .comment-form input:not([type=submit], [type=checkbox]) {
+  border: 0.0625rem solid hsl(0deg, 0%, 30%);
+  box-sizing: border-box;
+  color: hsl(0deg, 0%, 30%);
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  min-width: 35rem;
+  padding: 0.5rem;
+}
+.comments .comment-form textarea {
+  height: 9rem;
+}
+.comments .comment-form input:not([type=submit], [type=checkbox]) {
+  height: 3rem;
+}
+.comments .comment-form input[type=submit] {
+  background-color: hsl(354deg, 73%, 43%);
+  border: 0;
+  border-radius: 0.25rem;
+  color: hsl(0deg, 0%, 100%);
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  height: 3rem;
+  min-width: 3rem;
+  padding: 0 1rem;
+  user-select: none;
+}
+.comments .comment-form input[type=submit]:hover {
+  background-color: #a81a28;
+}
+.comments__list {
+  margin-block: 6rem 0;
+}
+.comments__list .comment-author {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  gap: 0.25rem;
+}
+.comments__list .comment-content p {
+  margin-block: 0.75rem;
 }
 
 .post-meta {
