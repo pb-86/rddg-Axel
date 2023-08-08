@@ -15,7 +15,7 @@
 		// Tytuł strony.
 		if ( get_bloginfo( 'name' ) ) {
 			printf(
-				'<h1 class="site-name__title"><a class="site-name__link" href="%s">%s</a></h1>',
+				'<a class="site-name__link" href="%s" rel="home">%s</a>',
 				esc_url( home_url( '/' ) ),
 				esc_html( get_bloginfo( 'name' ) )
 			);

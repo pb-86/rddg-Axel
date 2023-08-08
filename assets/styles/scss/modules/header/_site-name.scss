@@ -3,11 +3,6 @@
 
 .site-name {
 	text-align: center;
-
-	.site-name__title {
-		line-height: v.$line-height--reset;
-		margin: 0;
-	}
 	
 	.site-name__link {
 		@extend %inverted-underline;

@@ -235,10 +235,6 @@ img {
 .site-name {
   text-align: center;
 }
-.site-name .site-name__title {
-  line-height: 1;
-  margin: 0;
-}
 .site-name .site-name__link {
   display: inline-block;
   font-size: 4rem;

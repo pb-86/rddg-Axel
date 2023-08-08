@@ -14,6 +14,7 @@ Motyw startowy.
 
 = 1.77 =
 * Zmieniono: Numer wersji
+* Usunięto: Nagłówek H1 z tytułu strony
 
 = 1.76 =
 * Zmieniono: Numer wersji
