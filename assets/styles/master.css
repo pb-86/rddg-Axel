@@ -362,16 +362,18 @@ img {
 }
 
 .author {
-  line-height: 1.6;
-}
-.author__link {
   align-items: center;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
   gap: 0.1875rem;
+  line-height: 1.6;
+}
+.author box-icon {
   fill: hsl(354deg, 73%, 43%);
+  height: 1.25rem;
+  width: 1.25rem;
 }
 body.page .author, body.single .author {
   text-align: center;
@@ -385,8 +387,12 @@ body.page .author, body.single .author {
   justify-content: center;
   gap: 0.1875rem;
   color: hsl(0deg, 0%, 30%);
-  fill: hsl(354deg, 73%, 43%);
   line-height: 1.6;
+}
+.date box-icon {
+  fill: hsl(354deg, 73%, 43%);
+  height: 1.25rem;
+  width: 1.25rem;
 }
 body.page .date, body.single .date {
   text-align: center;
@@ -408,7 +414,7 @@ h1.title {
 
 h2.title {
   font-size: 0;
-  margin-block: 1.5rem;
+  margin-block: 1.5rem 0.75rem;
 }
 
 .category h1.title,
@@ -436,9 +442,13 @@ h2.title {
   flex-wrap: nowrap;
   justify-content: center;
   gap: 0.1875rem;
-  fill: hsl(354deg, 73%, 43%);
   margin-block: 3rem 0;
   text-align: center;
+}
+.back-to-home box-icon {
+  fill: hsl(354deg, 73%, 43%);
+  height: 1.25rem;
+  width: 1.25rem;
 }
 .comments {
   margin: 4rem auto;

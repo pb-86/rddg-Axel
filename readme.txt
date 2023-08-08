@@ -20,6 +20,7 @@ Motyw startowy.
 * Zmieniono: Wygląd wyników wyszukwiania
 * Zmieniono: Wygląd nagłówka wpisu
 * Zmieniono: Wygląd linku do strony głównej
+* Poprawiono: Wygląd ikon
 
 = 1.76 =
 * Zmieniono: Numer wersji

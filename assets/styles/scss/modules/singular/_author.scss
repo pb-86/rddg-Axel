@@ -3,12 +3,17 @@
 @use 'tools/placeholders';
 
 .author {
+	@include flex($align:center, $justify:center, $gap:0.1875rem);
 	line-height: $line-height;
+
+	box-icon {
+		fill: $red;
+		height: 1.25rem;
+		width: 1.25rem;
+	}
 	
 	&__link {
 		@extend %inverted-underline;
-		@include flex($align:center, $justify:center, $gap:0.1875rem);
-		fill: $red;
 	}
 
 	// Info o autorze we wpisach i na stronach

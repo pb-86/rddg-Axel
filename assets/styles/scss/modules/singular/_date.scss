@@ -4,8 +4,13 @@
 .date {
 	@include flex($align:center, $justify:center, $gap:0.1875rem);
 	color: $gray;
-	fill: $red;
 	line-height: $line-height;
+	
+	box-icon {
+		fill: $red;
+		height: 1.25rem;
+		width: 1.25rem;
+	}
 
 	// Data we wpisach i na stronach
 	body.page &,
