@@ -19,6 +19,7 @@ Motyw startowy.
 * Zmieniono: Wygląd excerptów
 * Zmieniono: Wygląd wyników wyszukwiania
 * Zmieniono: Wygląd nagłówka wpisu
+* Zmieniono: Wygląd linku do strony głównej
 
 = 1.76 =
 * Zmieniono: Numer wersji
