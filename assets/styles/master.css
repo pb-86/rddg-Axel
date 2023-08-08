@@ -26,10 +26,10 @@
   padding: 0;
 }
 
-.credits .credits__link, .menu a, .site-name .site-name__link, a[tabindex="-1"] {
+.credits .credits__link, .title__link, .author__link, .menu a, .site-name .site-name__link, a[tabindex="-1"] {
   text-decoration: none;
 }
-.credits .credits__link:hover, .menu a:hover, .site-name .site-name__link:hover, a[tabindex="-1"]:hover {
+.credits .credits__link:hover, .title__link:hover, .author__link:hover, .menu a:hover, .site-name .site-name__link:hover, a[tabindex="-1"]:hover {
   text-decoration: underline;
   text-decoration-thickness: 0.0625rem;
 }
@@ -364,12 +364,28 @@ img {
 .author {
   line-height: 1.6;
 }
+.author__link {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 0.1875rem;
+  fill: hsl(354deg, 73%, 43%);
+}
 body.page .author, body.single .author {
   text-align: center;
 }
 
 .date {
-  display: block;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 0.1875rem;
+  color: hsl(0deg, 0%, 30%);
+  fill: hsl(354deg, 73%, 43%);
   line-height: 1.6;
 }
 body.page .date, body.single .date {
@@ -386,13 +402,13 @@ body.page .date, body.single .date {
 
 h1.title {
   font-size: 2rem;
-  margin-block: 0 1rem;
+  margin-block: 1.5rem;
   text-align: center;
 }
 
 h2.title {
   font-size: 0;
-  margin-block: 1rem 1.5rem;
+  margin-block: 1.5rem;
 }
 body.search h2.title {
   margin-block: 0;
@@ -408,9 +424,6 @@ body.search h2.title {
   max-width: 45rem;
 }
 .page .content p, .single .content p {
-  color: hsl(0deg, 0%, 30%);
-}
-.excerpt .content p {
   color: hsl(0deg, 0%, 30%);
 }
 
@@ -454,6 +467,14 @@ body.search .excerpts {
 .excerpt {
   flex-basis: 100%;
   max-width: 33rem;
+}
+.excerpt__meta {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  gap: 1rem;
 }
 
 .no-posts {

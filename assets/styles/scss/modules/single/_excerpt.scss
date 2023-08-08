@@ -1,4 +1,10 @@
+@use 'tools/mixins' as *;
+
 .excerpt {
 	flex-basis: 100%;
 	max-width: 33rem;
+
+	&__meta {
+		@include flex($align:center, $gap:1rem);
+	}
 }

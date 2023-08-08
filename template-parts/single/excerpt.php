@@ -12,11 +12,18 @@
 
 	<?php
 	get_template_part( 'template-parts/singular/thumbnail' );
-	get_template_part( 'template-parts/singular/author' );
-	get_template_part( 'template-parts/singular/date' );
 	get_template_part( 'template-parts/singular/title', 'link' );
+	?>
+
+	<div class="excerpt__meta">
+		<?php
+		get_template_part( 'template-parts/singular/date' );
+		get_template_part( 'template-parts/singular/author' );
+		?>
+	</div>
+
+	<?php
 	get_template_part( 'template-parts/singular/content' );
-	get_template_part( 'template-parts/singular/read-more' );
 	?>
 
 </article>

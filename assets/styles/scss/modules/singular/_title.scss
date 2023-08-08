@@ -1,10 +1,12 @@
 @use 'base/variables' as v;
+@use 'tools/placeholders';
 
 .title {
 	line-height: v.$line-height--small;
 
 	// Odnośnik w tytule
 	&__link {
+		@extend %inverted-underline;
 		font-size: v.$font-size--medium;
 		line-height: v.$line-height--small;
 	}
@@ -12,13 +14,13 @@
 
 h1.title {
 	font-size: v.$font-size--large;
-	margin-block: 0 1rem;
+	margin-block: 1.5rem;
 	text-align: center;
 }
 
 h2.title {
 	font-size: v.$font-size--reset;
-	margin-block: 1rem 1.5rem;
+	margin-block: 1.5rem;
 
 	body.search & {
 		margin-block: 0;

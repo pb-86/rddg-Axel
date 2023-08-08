@@ -1,7 +1,15 @@
-@use 'base/variables' as v;
+@use 'base/variables' as *;
+@use 'tools/mixins' as *;
+@use 'tools/placeholders';
 
 .author {
-	line-height: v.$line-height;
+	line-height: $line-height;
+	
+	&__link {
+		@extend %inverted-underline;
+		@include flex($align:center, $justify:center, $gap:0.1875rem);
+		fill: $red;
+	}
 
 	// Info o autorze we wpisach i na stronach
 	body.page &,
