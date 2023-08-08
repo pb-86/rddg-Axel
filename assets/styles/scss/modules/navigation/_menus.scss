@@ -22,7 +22,7 @@
 .menu--header {
 	.menu-item-has-children {
 		&::after {
-			color: $pink;
+			color: $yellow;
 			content: "🡫";
 			margin-inline: -0.5rem 0.5rem;
 		}

@@ -35,7 +35,7 @@
 }
 
 :focus-visible {
-  outline: 0.125rem solid hsl(328deg, 100%, 54%);
+  outline: 0.25rem solid hsl(51deg, 100%, 55%);
 }
 
 html {
@@ -76,7 +76,7 @@ p {
 }
 
 a {
-  color: hsl(240deg, 100%, 50%);
+  color: hsl(225deg, 65%, 37%);
 }
 
 figure {
@@ -102,7 +102,7 @@ img {
 }
 
 .button {
-  background-color: hsl(0deg, 0%, 40%);
+  background-color: hsl(354deg, 73%, 43%);
   border: 0;
   border-radius: 0.25rem;
   color: hsl(0deg, 0%, 100%);
@@ -114,7 +114,7 @@ img {
   user-select: none;
 }
 .button:hover {
-  background-color: #4d4d4d;
+  background-color: #a81a28;
 }
 
 .header {
@@ -177,7 +177,7 @@ img {
   height: 5rem;
 }
 .footer .footer__navigation {
-  background-color: hsl(240deg, 100%, 50%);
+  background-color: hsl(225deg, 65%, 37%);
 }
 .footer .footer__navigation .wrapper {
   align-items: center;
@@ -293,7 +293,7 @@ img {
   flex-wrap: nowrap;
   justify-content: center;
   gap: normal normal;
-  background-color: hsl(240deg, 100%, 50%);
+  background-color: hsl(225deg, 65%, 37%);
   height: 5rem;
 }
 
@@ -316,7 +316,7 @@ img {
 }
 
 .menu--header .menu-item-has-children::after {
-  color: hsl(328deg, 100%, 54%);
+  color: hsl(51deg, 100%, 55%);
   content: "🡫";
   margin-inline: -0.5rem 0.5rem;
 }
@@ -450,10 +450,10 @@ body.search .excerpts {
 }
 
 .scroll-to-top {
-  background-color: hsl(0deg, 0%, 95%);
+  background-color: hsl(354deg, 73%, 43%);
   border: 0;
   border-radius: 0.25rem;
-  color: hsl(0deg, 0%, 0%);
+  color: hsl(0deg, 0%, 100%);
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   height: 3rem;
@@ -462,7 +462,7 @@ body.search .excerpts {
   user-select: none;
 }
 .scroll-to-top:hover {
-  background-color: #d9d9d9;
+  background-color: #a81a28;
 }
 
 .credits .credits__link {

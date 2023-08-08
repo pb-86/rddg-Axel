@@ -23,6 +23,7 @@ Motyw startowy.
 * Poprawiono: Wygląd fokusu klawiatury
 * Poprawiono: Wygląd info o wykonawcy
 * Poprawiono: Wygląd strzałek w menu
+* Zmieniono: Podstawowe kolory
 
 = 1.75 =
 * Zmieniono: Numer wersji

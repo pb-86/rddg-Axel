@@ -28,7 +28,7 @@
 
 //---
 // 3. Button
-@mixin button($background-color:v.$gray, $border-radius:0.25rem, $color:v.$white) {
+@mixin button($background-color:v.$red, $border-radius:0.25rem, $color:v.$white) {
 	background-color: $background-color;
 	border: 0;
 	border-radius: $border-radius;
@@ -41,6 +41,6 @@
 	user-select: none;
 
 	&:hover {
-		background-color: darken($background-color, 10%);
+		background-color: darken($background-color, 5%);
 	}
 }
