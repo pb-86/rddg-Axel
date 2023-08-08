@@ -17,6 +17,7 @@ Motyw startowy.
 * Usunięto: Nagłówek H1 z tytułu strony
 * Poprawiono: Drobne kwestie wyglądu
 * Zmieniono: Wygląd excerptów
+* Zmieniono: Wygląd wyników wyszukwiania
 
 = 1.76 =
 * Zmieniono: Numer wersji

@@ -410,13 +410,15 @@ h2.title {
   font-size: 0;
   margin-block: 1.5rem;
 }
-body.search h2.title {
-  margin-block: 0;
-}
 
 .category h1.title,
 .archive h1.title {
   margin-block: 0 3rem;
+}
+
+.search-results h2.title {
+  margin-block: 0 0.5rem;
+  color: violet !important;
 }
 
 .page .content, .single .content {
@@ -459,7 +461,7 @@ body.search .excerpts {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: flex-start;
-  gap: 2rem;
+  gap: 3rem;
   margin-inline: auto;
   max-width: 33rem;
 }

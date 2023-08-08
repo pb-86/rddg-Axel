@@ -8,7 +8,7 @@
 	}
 
 	body.search & {
-		@include m.flex($direction:column, $wrap:nowrap, $gap:2rem);
+		@include m.flex($direction:column, $wrap:nowrap, $gap:3rem);
 		margin-inline: auto;
 		max-width: 33rem;
 	}
