@@ -14,6 +14,7 @@ Motyw startowy.
 
 = 1.78 =
 * Zmieniono: Numer wersji
+* Zmieniono: Nazwę klasy linku do strony autora
 
 = 1.77 =
 * Zmieniono: Numer wersji

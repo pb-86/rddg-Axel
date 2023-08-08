@@ -1,4 +1,7 @@
+@use 'base/variables' as *;
+
 .author-bio {
+	color: $gray;
 	margin-block: 0 4rem;
 	margin-inline: auto;
 	max-width: 33rem;
