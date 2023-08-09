@@ -43,4 +43,8 @@
 	&:hover {
 		background-color: darken($background-color, 5%);
 	}
+
+	box-icon {
+		fill: $color;
+	}
 }

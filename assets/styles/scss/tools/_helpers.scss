@@ -1,5 +1,6 @@
 @use 'base/variables' as *;
 @use 'tools/mixins' as *;
+@use 'tools/placeholders';
 
 // Lista helperów:
 //   1. Wrapper
@@ -21,4 +22,17 @@
 // 2. Button
 .button {
 	@include button();
+
+	&--as-link {
+		@extend %inverted-underline;
+		background-color: unset;
+		cursor: pointer;
+		height: unset;
+		min-width: unset;
+		padding: 0;
+
+		&:hover {
+			background-color: unset;
+		}
+	}
 }

@@ -1,5 +1,5 @@
 @use 'tools/mixins' as *;
 
 .post-meta {
-	@include flex($align:center, $justify:center, $gap:1rem);
+	@include flex($align:center, $justify:center, $gap:1.5rem);
 }

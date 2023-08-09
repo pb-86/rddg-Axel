@@ -26,10 +26,10 @@
   padding: 0;
 }
 
-.credits .credits__link, .back-to-home__link, .title__link, .post-author__link, .menu a, .site-name .site-name__link, a[tabindex="-1"] {
+.credits .credits__link, .back-to-home__link, .title__link, .post-author__link, .menu a, .site-name .site-name__link, .button--as-link, a[tabindex="-1"] {
   text-decoration: none;
 }
-.credits .credits__link:hover, .back-to-home__link:hover, .title__link:hover, .post-author__link:hover, .menu a:hover, .site-name .site-name__link:hover, a[tabindex="-1"]:hover {
+.credits .credits__link:hover, .back-to-home__link:hover, .title__link:hover, .post-author__link:hover, .menu a:hover, .site-name .site-name__link:hover, .button--as-link:hover, a[tabindex="-1"]:hover {
   text-decoration: underline;
   text-decoration-thickness: 0.0625rem;
 }
@@ -115,6 +115,19 @@ img {
 }
 .button:hover {
   background-color: #a81a28;
+}
+.button box-icon {
+  fill: hsl(0deg, 0%, 100%);
+}
+.button--as-link {
+  background-color: unset;
+  cursor: pointer;
+  height: unset;
+  min-width: unset;
+  padding: 0;
+}
+.button--as-link:hover {
+  background-color: unset;
 }
 
 .header {
@@ -516,6 +529,9 @@ h2.title {
 .comments .comment-form input[type=submit]:hover {
   background-color: #a81a28;
 }
+.comments .comment-form input[type=submit] box-icon {
+  fill: hsl(0deg, 0%, 100%);
+}
 .comments__list {
   margin-block: 6rem 0;
 }
@@ -537,7 +553,27 @@ h2.title {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  gap: 1rem;
+  gap: 1.5rem;
+}
+
+.print {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 0.1875rem;
+  margin-block: 3rem 0;
+  text-align: center;
+}
+.print box-icon {
+  fill: hsl(354deg, 73%, 43%);
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+.print__button {
+  color: hsl(225deg, 65%, 37%);
 }
 
 .main {
@@ -600,6 +636,9 @@ body.search .excerpts {
 }
 .scroll-to-top:hover {
   background-color: #a81a28;
+}
+.scroll-to-top box-icon {
+  fill: hsl(0deg, 0%, 100%);
 }
 
 .credits .credits__link {

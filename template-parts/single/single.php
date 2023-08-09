@@ -22,7 +22,13 @@
 	<?php
 	get_template_part( 'template-parts/singular/thumbnail' );
 	get_template_part( 'template-parts/singular/content' );
-	get_template_part( 'template-parts/singular/back-to-home' );
 	?>
+
+	<div class="post-meta">
+		<?php
+		get_template_part( 'template-parts/singular/back-to-home' );
+		get_template_part( 'template-parts/singular/print' );
+		?>
+	</div>
 
 </article>
