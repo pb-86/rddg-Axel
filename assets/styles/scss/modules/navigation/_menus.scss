@@ -4,7 +4,7 @@
 
 .menu {
 	@extend %list-reset;
-	@include flex($align:center, $justify:center, $gap:0.5rem);
+	@include flex($align:center, $justify:center, $gap:0.75rem);
 
 	& > .menu-item {
 		position: relative;
@@ -20,11 +20,11 @@
 }
 
 .menu--header {
-	.menu-item-has-children {
-		&::after {
+	.menu-item-has-children > {
+		a::after {
 			color: $yellow;
 			content: "🡫";
-			margin-inline: -0.5rem 0.5rem;
+			margin-inline: 0.25rem 0;
 		}
 	}
 }

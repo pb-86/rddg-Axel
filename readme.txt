@@ -29,6 +29,7 @@ Motyw startowy.
 * Poprawiono: Wygląd pól w formualrzu dodawania komentarzy
 * Zmieniono: Odstępy zdjęć w bloku galerii
 * Poprawiono: Odstępy w bloku pobierania pliku
+* Poprawiono: Wygląd menu
 
 = 1.77 =
 * Zmieniono: Numer wersji
