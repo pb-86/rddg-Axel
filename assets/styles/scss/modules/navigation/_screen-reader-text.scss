@@ -1,4 +1,4 @@
-@use 'base/variables' as v;
+@use 'base/variables' as *;
 
 .screen-reader-text {
   border: 0;
@@ -13,8 +13,8 @@
 	word-wrap: normal !important;
 
 	&:focus {
-  	background-color: v.$white;
-		border: 0.0625rem solid v.$gray;
+  	background-color: $white;
+		border: 0.0625rem solid $gray;
 		border-radius: 0.25rem;
   	clip: auto !important;
   	clip-path: none;

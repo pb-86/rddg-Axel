@@ -1,5 +1,5 @@
-@use 'base/variables' as v;
-@use 'tools/mixins' as m;
+@use 'base/variables' as *;
+@use 'tools/mixins' as *;
 
 .footer {
 	.footer__navigation,
@@ -10,18 +10,18 @@
 	}
 
 	.footer__navigation {
-		background-color: v.$blue;
+		background-color: $blue;
 
 		.wrapper {
-			@include m.flex($align:center, $justify:space-between);
+			@include flex($align:center, $justify:space-between);
 		}
 	}
 
 	.footer__credits {
-		background-color: v.$white;
+		background-color: $white;
 
 		.wrapper {
-			@include m.flex($align:center, $justify:flex-end);
+			@include flex($align:center, $justify:flex-end);
 		}
 	}
 }

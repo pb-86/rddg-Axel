@@ -1,12 +1,12 @@
-@use 'base/variables' as v;
-@use 'tools/mixins' as m;
+@use 'base/variables' as *;
+@use 'tools/mixins' as *;
 
 .navbar {
 	text-align: center;
 
 	&.navbar--header {
-		@include m.flex($align:center, $justify:center);
-		background-color: v.$blue;
+		@include flex($align:center, $justify:center);
+		background-color: $blue;
 		height: 5rem;
 	}
 }

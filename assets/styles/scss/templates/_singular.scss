@@ -1,4 +1,4 @@
-@use 'base/variables' as v;
+@use 'base/variables' as *;
 
 .singular {
 
@@ -10,7 +10,7 @@
 
 	.singular__date,
 	.singular__author {
-		color: v.$gray;
+		color: $gray;
 		display: inline-block;
 		font-size: 0.875rem;
 	}

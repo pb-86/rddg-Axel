@@ -1,4 +1,4 @@
-@use 'base/variables' as v;
+@use 'base/variables' as *;
 
 // Lista mixinów:
 //   1. Flex
@@ -28,13 +28,13 @@
 
 //---
 // 3. Button
-@mixin button($background-color:v.$red, $border-radius:0.25rem, $color:v.$white) {
+@mixin button($background-color:$red, $border-radius:0.25rem, $color:$white) {
 	background-color: $background-color;
 	border: 0;
 	border-radius: $border-radius;
 	color: $color;
-	font-family: v.$font-family;
-	font-size: v.$font-size;
+	font-family: $font-family;
+	font-size: $font-size;
 	height: 3rem;
 	min-width: 3rem;
 	padding: 0 1rem;

@@ -1,8 +1,8 @@
-@use 'base/variables' as v;
+@use 'base/variables' as *;
 @use 'tools/placeholders';
 
 :focus-visible {
-	outline: 0.25rem solid v.$yellow;
+	outline: 0.25rem solid $yellow;
 }
 
 html {
@@ -10,11 +10,11 @@ html {
 }
 
 body {
-	background-color: v.$white;
-	font-family: v.$font-family;
-	font-size: v.$font-size;
-	font-weight: v.$font-weight--regular;
-	line-height: v.$line-height;
+	background-color: $white;
+	font-family: $font-family;
+	font-size: $font-size;
+	font-weight: $font-weight--regular;
+	line-height: $line-height;
 }
 
 body,
@@ -35,7 +35,7 @@ h3,
 h4,
 h5,
 h6 {
-	line-height: v.$line-height--small;
+	line-height: $line-height--small;
 }
 
 p {
@@ -43,7 +43,7 @@ p {
 }
 
 a {
-	color: v.$blue;
+	color: $blue;
 }
 
 a[tabindex="-1"] {
@@ -51,11 +51,11 @@ a[tabindex="-1"] {
 }
 
 figure {
-	font-size: v.$font-size--reset;
+	font-size: $font-size--reset;
 }
 
 figcaption {
-	font-size: v.$font-size--small;
+	font-size: $font-size--small;
 }
 
 img {

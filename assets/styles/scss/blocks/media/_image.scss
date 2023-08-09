@@ -1,4 +1,4 @@
-@use 'base/variables' as v;
+@use 'base/variables' as *;
 
 .wp-block-image {
 	figure.alignleft {
@@ -22,9 +22,9 @@
 	}
 
 	figcaption {
-		color: v.$gray;
-		font-size: v.$font-size--small;
-		line-height: v.$line-height--small;
+		color: $gray;
+		font-size: $font-size--small;
+		line-height: $line-height--small;
 		margin-block: 0.25rem 0;
 		text-align: center;
 	}

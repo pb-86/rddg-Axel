@@ -16,6 +16,7 @@ Motyw startowy.
 * Zmieniono: Numer wersji
 * Zmieniono: Nazwę klasy linku do strony autora
 * Zmieniono: Wygląd sekcji komentarzy
+* Usunięto: Aliasy zmiennych w plikach SCSS
 
 = 1.77 =
 * Zmieniono: Numer wersji

@@ -1,25 +1,25 @@
-@use 'base/variables' as v;
+@use 'base/variables' as *;
 @use 'tools/placeholders';
 
 .title {
-	line-height: v.$line-height--small;
+	line-height: $line-height--small;
 
 	// Odnośnik w tytule
 	&__link {
 		@extend %inverted-underline;
-		font-size: v.$font-size--medium;
-		line-height: v.$line-height--small;
+		font-size: $font-size--medium;
+		line-height: $line-height--small;
 	}
 }
 
 h1.title {
-	font-size: v.$font-size--large;
+	font-size: $font-size--large;
 	margin-block: 1.5rem;
 	text-align: center;
 }
 
 h2.title {
-	font-size: v.$font-size--reset;
+	font-size: $font-size--reset;
 	margin-block: 1.5rem 0.75rem;
 }
 
@@ -30,5 +30,4 @@ h2.title {
 
 .search-results h2.title {
 	margin-block: 0 0.5rem;
-	color: violet !important;
 }

@@ -1,8 +1,8 @@
-@use 'base/variables' as v;
+@use 'base/variables' as *;
 
 .sub-menu {
-	background-color: v.$white;
-	border: 0.0625rem solid v.$black;
+	background-color: $white;
+	border: 0.0625rem solid $black;
 	display: none;
 	inset: 2rem auto auto 0.5rem;
 	padding: 0.75rem 1rem 1rem;
@@ -20,7 +20,7 @@
 	}
 
 	a {
-		color: v.$black;
+		color: $black;
 		margin: 0;
 	}
 }

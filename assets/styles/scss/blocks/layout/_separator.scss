@@ -1,6 +1,6 @@
-@use 'base/variables' as v;
+@use 'base/variables' as *;
 
 .wp-block-separator {
-	border: 0.0625rem solid v.$silver;
+	border: 0.0625rem solid $silver;
 	margin-block: 1.5rem;
 }

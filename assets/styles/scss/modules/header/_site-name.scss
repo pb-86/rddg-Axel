@@ -1,4 +1,4 @@
-@use 'base/variables' as v;
+@use 'base/variables' as *;
 @use 'tools/placeholders';
 
 .site-name {
@@ -7,15 +7,15 @@
 	.site-name__link {
 		@extend %inverted-underline;
 		display: inline-block;
-		font-size: v.$font-size--xlarge;
-		font-weight: v.$font-weight--bold;
-		line-height: v.$line-height--reset;
+		font-size: $font-size--xlarge;
+		font-weight: $font-weight--bold;
+		line-height: $line-height--reset;
 		margin-bottom: 0.5rem;
 	}
 
 	.site-name__description {
-		font-size: v.$font-size;
-		font-weight: v.$font-weight--regular;
-		line-height: v.$line-height;
+		font-size: $font-size;
+		font-weight: $font-weight--regular;
+		line-height: $line-height;
 	}
 }

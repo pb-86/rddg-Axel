@@ -1,15 +1,15 @@
-@use 'base/variables' as v;
-@use 'tools/mixins' as m;
+@use 'base/variables' as *;
+@use 'tools/mixins' as *;
 
 .header {
-	background-color: v.$silver;
+	background-color: $silver;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	
 	.header__dimm {
-		@include m.flex($align:center, $justify:center, $direction:column, $gap: 2rem);
-		background-color: rgba(v.$black, 0);
+		@include flex($align:center, $justify:center, $direction:column, $gap: 2rem);
+		background-color: rgba($black, 0);
 		height: 20rem;
 	}
 }
