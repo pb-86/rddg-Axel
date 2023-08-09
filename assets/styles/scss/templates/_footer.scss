@@ -25,3 +25,10 @@
 		}
 	}
 }
+
+// Wersja do druku
+@media print {
+	.footer {
+		display: none;
+	}
+}

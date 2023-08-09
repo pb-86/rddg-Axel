@@ -3,3 +3,10 @@
 .post-meta {
 	@include flex($align:center, $justify:center, $gap:1.5rem);
 }
+
+// Wersja do druku
+@media print {
+	.post-meta {
+		display: none;
+	}
+}

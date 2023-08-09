@@ -1,3 +1,10 @@
 .main {
 	margin-block: 6rem;
 }
+
+// Wersja do druku
+@media print {
+	.main {
+		margin-block: 0;
+	}
+}

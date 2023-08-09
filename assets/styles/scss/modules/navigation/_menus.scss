@@ -28,3 +28,10 @@
 		}
 	}
 }
+
+// Wersja do druku
+@media print {
+	.menu {
+		display: none;
+	}
+}

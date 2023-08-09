@@ -74,3 +74,10 @@
 	}
 
 }
+
+// Wersja do druku
+@media print {
+	.comments {
+		display: none;
+	}
+}

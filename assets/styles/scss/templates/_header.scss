@@ -13,3 +13,10 @@
 		height: 20rem;
 	}
 }
+
+// Wersja do druku
+@media print {
+	.header {
+		display: none;
+	}
+}

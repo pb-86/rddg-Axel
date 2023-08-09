@@ -18,6 +18,7 @@ Motyw startowy.
 * Zmieniono: Wygląd sekcji komentarzy
 * Usunięto: Aliasy zmiennych w plikach SCSS
 * Dodano: Przycisk do drukowania strony
+* Dodano: Style do druku
 
 = 1.77 =
 * Zmieniono: Numer wersji
