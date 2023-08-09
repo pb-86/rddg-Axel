@@ -1,3 +1,54 @@
+@use 'tools/mixins' as *;
+
 .wp-block-gallery {
-	
+	margin-block: 3rem;
+
+	&.is-layout-flex {
+		@include flex($gap:2rem !important, $wrap:wrap);
+	}
+
+	&.columns-default .wp-block-image {
+		width: calc(33% - 2rem);
+	}
+
+	&.columns-1 .wp-block-image {
+		width: 100%;
+	}
+
+	&.columns-2 .wp-block-image {
+		width: calc(50% - 2rem);
+	}
+
+	&.columns-3 .wp-block-image {
+		width: calc(33% - 2rem);
+	}
+
+	&.columns-4 .wp-block-image {
+		width: calc(25% - 2rem);
+	}
+
+	&.columns-5 .wp-block-image {
+		width: calc(20% - 2rem);
+	}
+
+	&.columns-6 .wp-block-image {
+		width: calc(16% - 2rem);
+	}
+
+	.wp-block-image {
+		flex-grow: 1;
+
+		img {
+			height: 100%;
+			object-fit: cover;
+			width: 100%;
+		}
+	}
+
+	.blocks-gallery-caption {
+		flex-basis: 100%;
+		flex-grow: 1;
+		margin-top: -1rem;
+		text-align: center;
+	}
 }

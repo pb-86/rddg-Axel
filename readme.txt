@@ -21,6 +21,7 @@ Motyw startowy.
 * Dodano: Style do druku
 * Poprawiono: Wygląd bloku pobierania pliku
 * Poprawiono: Wygląd bloku pojedynczego zdjęcia
+* Poprawiono: Wygląd bloku galerii
 
 = 1.77 =
 * Zmieniono: Numer wersji
