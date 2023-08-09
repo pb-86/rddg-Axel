@@ -24,6 +24,7 @@ Motyw startowy.
 * Poprawiono: Wygląd bloku galerii
 * Poprawiono: Wygląd nagłówka strony
 * Zmieniono: Domyślne rozmiary fontów
+* Poprawiono: Wygląd przycisków i formualrza wyszukiwania
 
 = 1.77 =
 * Zmieniono: Numer wersji

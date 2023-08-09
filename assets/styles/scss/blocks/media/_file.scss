@@ -19,7 +19,6 @@
 
 	.wp-block-file__button {
 		@include button();
-		@include flex($align:center, $justify:center);
-		height: 2.5rem;
+		// @include flex($align:center, $justify:center);
 	}
 }

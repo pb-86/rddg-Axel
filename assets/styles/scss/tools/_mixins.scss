@@ -29,15 +29,17 @@
 //---
 // 3. Button
 @mixin button($background-color:$red, $border-radius:0.25rem, $color:$white) {
+	@include flex($align:center, $justify:center, $gap:0.25rem);
 	background-color: $background-color;
 	border: 0;
 	border-radius: $border-radius;
+	box-sizing: border-box;
 	color: $color;
 	font-family: $font-family;
 	font-size: $font-size;
-	height: 3rem;
-	min-width: 3rem;
-	padding: 0 1rem;
+	height: 2.5rem;
+	min-width: 2.5rem;
+	padding: 0 1.5rem;
 	user-select: none;
 
 	&:hover {
@@ -46,5 +48,6 @@
 
 	box-icon {
 		fill: $color;
+		flex-shrink: 0;
 	}
 }

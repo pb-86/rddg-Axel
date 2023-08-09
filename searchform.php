@@ -20,6 +20,7 @@
 
 	<!-- Przycisk wyszukiwania -->
 	<button class="searchform__button button" type="submit">
+		<box-icon name="search-alt" aria-hidden="true"></box-icon>
 		<?php esc_html_e( 'Szukaj', 'axel' ); ?>
 	</button>
 
