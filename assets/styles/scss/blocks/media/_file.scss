@@ -1,21 +1,25 @@
 @use 'base/variables' as *;
+@use 'tools/mixins' as *;
+@use 'tools/placeholders';
 
 .wp-block-file {
 	align-items: center;
-	background-color: $silver;
+	background-color: $yellow;
 	border-radius: 0.375rem;
 	display: flex;
 	justify-content: space-between;
 	margin-block: 0.75rem;
-	padding: 0.375rem 0.75rem;
+	min-height: 3.25rem;
+	padding-block: 0.375rem;
+	padding-inline: 0.75rem 0.375rem;
 	
-	.wp-block-file__button {
-		background-color: $gray;
-		border-radius: 0.1875rem;
-		padding: 0.375rem 0.75rem;
+	a:not(.wp-block-file__button) {
+		@extend %inverted-underline;
+	}
 
-		&:hover {
-			background-color: darken($gray, 10%);
-		}
+	.wp-block-file__button {
+		@include button();
+		@include flex($align:center, $justify:center);
+		height: 2.5rem;
 	}
 }

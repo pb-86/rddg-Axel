@@ -19,6 +19,7 @@ Motyw startowy.
 * Usunięto: Aliasy zmiennych w plikach SCSS
 * Dodano: Przycisk do drukowania strony
 * Dodano: Style do druku
+* Poprawiono: Wygląd bloku pobierania pliku
 
 = 1.77 =
 * Zmieniono: Numer wersji

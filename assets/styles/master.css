@@ -26,10 +26,10 @@
   padding: 0;
 }
 
-.credits .credits__link, .back-to-home__link, .title__link, .post-author__link, .menu a, .site-name .site-name__link, .button--as-link, a[tabindex="-1"] {
+.wp-block-file a:not(.wp-block-file__button), .credits .credits__link, .back-to-home__link, .title__link, .post-author__link, .menu a, .site-name .site-name__link, .button--as-link, a[tabindex="-1"] {
   text-decoration: none;
 }
-.credits .credits__link:hover, .back-to-home__link:hover, .title__link:hover, .post-author__link:hover, .menu a:hover, .site-name .site-name__link:hover, .button--as-link:hover, a[tabindex="-1"]:hover {
+.wp-block-file a:hover:not(.wp-block-file__button), .credits .credits__link:hover, .back-to-home__link:hover, .title__link:hover, .post-author__link:hover, .menu a:hover, .site-name .site-name__link:hover, .button--as-link:hover, a[tabindex="-1"]:hover {
   text-decoration: underline;
   text-decoration-thickness: 0.0625rem;
 }
@@ -698,20 +698,39 @@ body.search .excerpts {
 
 .wp-block-file {
   align-items: center;
-  background-color: hsl(0deg, 0%, 95%);
+  background-color: hsl(51deg, 100%, 55%);
   border-radius: 0.375rem;
   display: flex;
   justify-content: space-between;
   margin-block: 0.75rem;
-  padding: 0.375rem 0.75rem;
+  min-height: 3.25rem;
+  padding-block: 0.375rem;
+  padding-inline: 0.75rem 0.375rem;
 }
 .wp-block-file .wp-block-file__button {
-  background-color: hsl(0deg, 0%, 30%);
-  border-radius: 0.1875rem;
-  padding: 0.375rem 0.75rem;
+  background-color: hsl(354deg, 73%, 43%);
+  border: 0;
+  border-radius: 0.25rem;
+  color: hsl(0deg, 0%, 100%);
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  height: 3rem;
+  min-width: 3rem;
+  padding: 0 1rem;
+  user-select: none;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: normal normal;
+  height: 2.5rem;
 }
 .wp-block-file .wp-block-file__button:hover {
-  background-color: #333333;
+  background-color: #a81a28;
+}
+.wp-block-file .wp-block-file__button box-icon {
+  fill: hsl(0deg, 0%, 100%);
 }
 
 .wp-block-image figure.alignleft {
