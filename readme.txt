@@ -23,6 +23,7 @@ Motyw startowy.
 * Poprawiono: Wygląd bloku pojedynczego zdjęcia
 * Poprawiono: Wygląd bloku galerii
 * Poprawiono: Wygląd nagłówka strony
+* Zmieniono: Domyślne rozmiary fontów
 
 = 1.77 =
 * Zmieniono: Numer wersji
