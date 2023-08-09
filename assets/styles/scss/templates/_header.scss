@@ -6,11 +6,16 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	
-	.header__dimm {
+
+	&__dimm {
 		@include flex($align:center, $justify:center, $direction:column, $gap: 2rem);
-		background-color: rgba($black, 0);
 		height: 20rem;
+	}
+
+	&.has-background {
+		.header__dimm {
+			background-color: rgba($black, 0.5);
+		}
 	}
 }
 

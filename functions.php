@@ -34,6 +34,17 @@ require_once 'settings/sidebars.php';
 require_once 'settings/optimisation.php';
 
 /**
+ * Wyświetla klasę jeśli został dodany obrazek nagłówka.
+ */
+function axel_custom_header_class() {
+	if ( ! has_custom_header() ) {
+		return false;
+	}
+
+	echo 'has-background';
+}
+
+/**
  * Dodaje obrazek w tle nagłówka strony jeśli jest dostępny.
  */
 function axel_custom_header() {

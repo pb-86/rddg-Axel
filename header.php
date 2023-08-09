@@ -19,7 +19,7 @@
 	<?php wp_body_open(); ?>
 	<?php get_template_part( 'template-parts/navigation/skip-links' ); ?>
 
-	<header class="header" <?php axel_custom_header(); ?>>
+	<header class="header <?php axel_custom_header_class(); ?>" <?php axel_custom_header(); ?>>
 		<div class="header__dimm">
 
 		<?php

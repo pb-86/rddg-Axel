@@ -22,6 +22,7 @@ Motyw startowy.
 * Poprawiono: Wygląd bloku pobierania pliku
 * Poprawiono: Wygląd bloku pojedynczego zdjęcia
 * Poprawiono: Wygląd bloku galerii
+* Poprawiono: Wygląd nagłówka strony
 
 = 1.77 =
 * Zmieniono: Numer wersji

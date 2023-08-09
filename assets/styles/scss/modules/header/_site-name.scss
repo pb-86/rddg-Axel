@@ -14,8 +14,19 @@
 	}
 
 	.site-name__description {
-		font-size: $font-size;
+		font-size: $font-size--medium;
 		font-weight: $font-weight--regular;
 		line-height: $line-height;
+	}
+}
+
+// Jeśli jest obrazek w tle
+.header {
+	&.has-background {
+		.site-name__link,
+		.site-name__description {
+			color: $white;
+			text-shadow: 0 0 2rem $black;
+		}
 	}
 }
