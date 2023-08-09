@@ -920,6 +920,27 @@ body.search .excerpts {
   text-align: center;
 }
 
+h2.wp-block-heading {
+  font-size: 1.5rem;
+  margin-block: 3rem 1.5rem;
+}
+.wp-block-gallery + h2.wp-block-heading, .wp-block-image + h2.wp-block-heading {
+  margin-block: 3rem -1.5rem;
+}
+
+h3.wp-block-heading {
+  font-size: 1rem;
+  margin-block: 1.5rem;
+}
+
+.content h2.wp-block-heading:first-child,
+.content h3.wp-block-heading:first-child,
+.content h4.wp-block-heading:first-child,
+.content h5.wp-block-heading:first-child,
+.content h6.wp-block-heading:first-child {
+  margin-block: 0 1.5rem;
+}
+
 .wp-block-table {
   font-size: 1rem;
   margin-block: 1.5rem;

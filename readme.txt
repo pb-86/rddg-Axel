@@ -31,6 +31,7 @@ Motyw startowy.
 * Poprawiono: Odstępy w bloku pobierania pliku
 * Poprawiono: Wygląd menu
 * Poprawiono: Kolory i wygląd opisów pod zdjęciami
+* Poprawiono: Wygląd i marginesy nagłówków
 
 = 1.77 =
 * Zmieniono: Numer wersji

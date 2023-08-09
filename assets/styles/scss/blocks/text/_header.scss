@@ -1,27 +1,28 @@
-h2,
-h3,
-h4,
-h5,
-h6 {
-	
+@use 'base/variables' as *;
+
+h2.wp-block-heading {
+	font-size: $font-size--medium;
+	margin-block: 3rem 1.5rem;
+
+	.wp-block-gallery + &,
+	.wp-block-image + & {
+		margin-block: 3rem -1.5rem;
+	}
 }
 
-h2 {
-
+h3.wp-block-heading {
+	font-size: $font-size;
+	margin-block: 1.5rem;
 }
 
-h3 {
-
-}
-
-h4 {
-
-}
-
-h5 {
-
-}
-
-h6 {
-
+.content {
+	h2.wp-block-heading,
+	h3.wp-block-heading,
+	h4.wp-block-heading,
+	h5.wp-block-heading,
+	h6.wp-block-heading {
+		&:first-child {
+			margin-block: 0 1.5rem;
+		}
+	}
 }
