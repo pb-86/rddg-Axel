@@ -30,6 +30,7 @@ Motyw startowy.
 * Zmieniono: Odstępy zdjęć w bloku galerii
 * Poprawiono: Odstępy w bloku pobierania pliku
 * Poprawiono: Wygląd menu
+* Poprawiono: Kolory i wygląd opisów pod zdjęciami
 
 = 1.77 =
 * Zmieniono: Numer wersji

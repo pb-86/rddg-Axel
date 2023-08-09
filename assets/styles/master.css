@@ -544,9 +544,6 @@ h2.title {
   margin-inline: auto;
   max-width: 45rem;
 }
-.page .content p, .single .content p {
-  color: hsl(0deg, 0%, 30%);
-}
 
 .back-to-home {
   align-items: center;
@@ -902,8 +899,9 @@ body.search .excerpts {
 }
 .wp-block-image figcaption {
   color: hsl(0deg, 0%, 30%);
+  font-style: italic;
   line-height: 1.3125;
-  margin-block: 0.25rem 0;
+  margin-block: 0.75rem 0;
   text-align: center;
 }
 
