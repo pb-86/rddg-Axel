@@ -744,7 +744,7 @@ body.search .excerpts {
   margin-bottom: 1.5rem;
 }
 .wp-block-image figure.aligncenter {
-  margin-block: 1.5rem;
+  margin-block: 3rem;
 }
 .wp-block-image figure.aligncenter img {
   margin-inline: auto;

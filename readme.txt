@@ -20,6 +20,7 @@ Motyw startowy.
 * Dodano: Przycisk do drukowania strony
 * Dodano: Style do druku
 * Poprawiono: Wygląd bloku pobierania pliku
+* Poprawiono: Wygląd bloku pojedynczego zdjęcia
 
 = 1.77 =
 * Zmieniono: Numer wersji
