@@ -1,4 +1,11 @@
+@use 'base/variables' as *;
+@use 'tools/placeholders';
+
 .thumbnail {
+
+	&__caption {
+		@extend %figcaption;
+	}
 	
 	// Obrazek wyróżniający w skrótach wpisów
 	.blog &,
@@ -12,4 +19,5 @@
 	.single & {
 		margin-block: 3rem;
 	}
+	
 }

@@ -34,6 +34,14 @@
   text-decoration-thickness: 0.0625rem;
 }
 
+.wp-block-gallery .blocks-gallery-caption, .thumbnail__caption {
+  color: hsl(0deg, 0%, 30%);
+  font-style: italic;
+  line-height: 1.3125;
+  margin-block: 0.75rem 0;
+  text-align: center;
+}
+
 :focus-visible {
   outline: 0.25rem solid hsl(51deg, 100%, 55%);
 }
@@ -869,15 +877,33 @@ body.search .excerpts {
 }
 .wp-block-gallery .wp-block-image {
   flex-grow: 1;
+  position: relative;
 }
 .wp-block-gallery .wp-block-image img {
   height: 100%;
   object-fit: cover;
   width: 100%;
 }
+.wp-block-gallery .wp-block-image .wp-element-caption {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent);
+  color: hsl(0deg, 0%, 100%);
+  font-style: normal;
+  inset: auto 0 0 0;
+  padding-block: 0.75rem 0.375rem;
+  padding-inline: 0.25rem;
+  position: absolute;
+}
 .wp-block-gallery .blocks-gallery-caption {
   flex-basis: 100%;
   flex-grow: 1;
+  margin-block: 0;
+}
+
+.wp-block-image figcaption {
+  color: hsl(0deg, 0%, 30%);
+  font-style: italic;
+  line-height: 1.3125;
+  margin-block: 0.75rem 0;
   text-align: center;
 }
 
@@ -897,14 +923,6 @@ body.search .excerpts {
 .wp-block-image figure.aligncenter img {
   margin-inline: auto;
 }
-.wp-block-image figcaption {
-  color: hsl(0deg, 0%, 30%);
-  font-style: italic;
-  line-height: 1.3125;
-  margin-block: 0.75rem 0;
-  text-align: center;
-}
-
 .wp-block-video {
   margin-block: 1.5rem;
 }

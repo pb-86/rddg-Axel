@@ -23,3 +23,13 @@
 		text-decoration-thickness: 0.0625rem;
 	}
 }
+
+//---
+// 3. Figcaption
+%figcaption {
+	color: $gray;
+	font-style: italic;
+	line-height: $line-height--small;
+	margin-block: 0.75rem 0;
+	text-align: center;
+}

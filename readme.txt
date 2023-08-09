@@ -32,6 +32,7 @@ Motyw startowy.
 * Poprawiono: Wygląd menu
 * Poprawiono: Kolory i wygląd opisów pod zdjęciami
 * Poprawiono: Wygląd i marginesy nagłówków
+* Poprawiono: Podpisy dla zdjęć i galerii
 
 = 1.77 =
 * Zmieniono: Numer wersji
