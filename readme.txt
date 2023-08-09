@@ -25,6 +25,7 @@ Motyw startowy.
 * Poprawiono: Wygląd nagłówka strony
 * Zmieniono: Domyślne rozmiary fontów
 * Poprawiono: Wygląd przycisków i formualrza wyszukiwania
+* Poprawiono: Wygląd paginacji
 
 = 1.77 =
 * Zmieniono: Numer wersji
