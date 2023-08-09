@@ -27,6 +27,7 @@ Motyw startowy.
 * Poprawiono: Wygląd przycisków i formualrza wyszukiwania
 * Poprawiono: Wygląd paginacji
 * Poprawiono: Wygląd pól w formualrzu dodawania komentarzy
+* Zmieniono: Odstępy zdjęć w bloku galerii
 
 = 1.77 =
 * Zmieniono: Numer wersji

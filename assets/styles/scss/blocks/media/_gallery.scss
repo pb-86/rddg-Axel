@@ -1,14 +1,17 @@
 @use 'tools/mixins' as *;
 
+// Ustawienia
+$gallery-images-gap: 0.75rem;
+
 .wp-block-gallery {
 	margin-block: 3rem;
 
 	&.is-layout-flex {
-		@include flex($gap:2rem !important, $wrap:wrap);
+		@include flex($gap:$gallery-images-gap !important, $wrap:wrap);
 	}
 
 	&.columns-default .wp-block-image {
-		width: calc(33% - 2rem);
+		width: calc(33% - $gallery-images-gap);
 	}
 
 	&.columns-1 .wp-block-image {
@@ -16,23 +19,23 @@
 	}
 
 	&.columns-2 .wp-block-image {
-		width: calc(50% - 2rem);
+		width: calc(50% - $gallery-images-gap);
 	}
 
 	&.columns-3 .wp-block-image {
-		width: calc(33% - 2rem);
+		width: calc(33% - $gallery-images-gap);
 	}
 
 	&.columns-4 .wp-block-image {
-		width: calc(25% - 2rem);
+		width: calc(25% - $gallery-images-gap);
 	}
 
 	&.columns-5 .wp-block-image {
-		width: calc(20% - 2rem);
+		width: calc(20% - $gallery-images-gap);
 	}
 
 	&.columns-6 .wp-block-image {
-		width: calc(16% - 2rem);
+		width: calc(16% - $gallery-images-gap);
 	}
 
 	.wp-block-image {
@@ -48,7 +51,6 @@
 	.blocks-gallery-caption {
 		flex-basis: 100%;
 		flex-grow: 1;
-		margin-top: -1rem;
 		text-align: center;
 	}
 }
