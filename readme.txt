@@ -26,6 +26,7 @@ Motyw startowy.
 * Zmieniono: Domyślne rozmiary fontów
 * Poprawiono: Wygląd przycisków i formualrza wyszukiwania
 * Poprawiono: Wygląd paginacji
+* Poprawiono: Wygląd pól w formualrzu dodawania komentarzy
 
 = 1.77 =
 * Zmieniono: Numer wersji

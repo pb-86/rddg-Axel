@@ -36,7 +36,8 @@
 
 		textarea,
 		input:not([type=submit], [type=checkbox]) {
-			border: 0.0625rem solid $gray; 
+			border: 0.0625rem solid $gray;
+			border-radius: 0.25rem;
 			box-sizing: border-box;
 			color: $gray;
 			font-family: $font-family;

@@ -602,6 +602,7 @@ h2.title {
 .comments .comment-form textarea,
 .comments .comment-form input:not([type=submit], [type=checkbox]) {
   border: 0.0625rem solid hsl(0deg, 0%, 30%);
+  border-radius: 0.25rem;
   box-sizing: border-box;
   color: hsl(0deg, 0%, 30%);
   font-family: "Roboto", sans-serif;
