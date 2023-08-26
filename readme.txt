@@ -33,6 +33,7 @@ Motyw startowy.
 * Poprawiono: Kolory i wygląd opisów pod zdjęciami
 * Poprawiono: Wygląd i marginesy nagłówków
 * Poprawiono: Podpisy dla zdjęć i galerii
+* Zmieniono: Liste ignorowanych plików
 
 = 1.77 =
 * Zmieniono: Numer wersji

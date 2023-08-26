@@ -1,6 +1,1 @@
-build
 node_modules
-axel.code-workspace
-gulpfile.js
-package.json
-package-lock.json
