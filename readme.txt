@@ -34,6 +34,7 @@ Motyw startowy.
 * Poprawiono: Wygląd i marginesy nagłówków
 * Poprawiono: Podpisy dla zdjęć i galerii
 * Zmieniono: Liste ignorowanych plików
+* Usunięto: Niepotrzebne zadania Gulp
 
 = 1.77 =
 * Zmieniono: Numer wersji
