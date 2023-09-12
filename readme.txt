@@ -36,6 +36,7 @@ Motyw startowy.
 * Zmieniono: Liste ignorowanych plików
 * Usunięto: Niepotrzebne zadania Gulp
 * Poprawiono: Ścieżki do plików SCSS
+* Usunięto: Skompreowane pliki JS
 
 = 1.77 =
 * Zmieniono: Numer wersji
