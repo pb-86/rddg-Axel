@@ -1,4 +1,4 @@
-@use 'tools/mixins' as *;
+@use '../../tools/mixins' as *;
 
 .excerpts {
 	@include flex($justify:center, $gap:4rem, $wrap:wrap);

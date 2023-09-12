@@ -1,4 +1,4 @@
-@use 'tools/mixins' as *;
+@use '../../tools/mixins' as *;
 
 .post-meta {
 	@include flex($align:center, $justify:center, $gap:1.5rem);

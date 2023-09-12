@@ -1,5 +1,5 @@
-@use 'base/variables' as *;
-@use 'tools/placeholders';
+@use 'variables' as *;
+@use '../tools/placeholders';
 
 :focus-visible {
 	outline: 0.25rem solid $yellow;

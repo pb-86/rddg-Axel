@@ -1,6 +1,6 @@
-@use 'base/variables' as *;
-@use 'tools/mixins' as *;
-@use 'tools/placeholders';
+@use '../../base/variables' as *;
+@use '../../tools/mixins' as *;
+@use '../../tools/placeholders';
 
 .wp-block-file {
 	align-items: center;
