@@ -37,6 +37,7 @@ Motyw startowy.
 * Usunięto: Niepotrzebne zadania Gulp
 * Poprawiono: Ścieżki do plików SCSS
 * Usunięto: Skompreowane pliki JS
+* Poprawiono: Resetowanie CSS
 
 = 1.77 =
 * Zmieniono: Numer wersji

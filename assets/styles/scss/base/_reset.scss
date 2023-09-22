@@ -1,8 +1,20 @@
 @use 'variables' as *;
 @use '../tools/placeholders';
 
+// ---
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :focus-visible {
-	outline: 0.25rem solid $yellow;
+	outline: 0.125rem solid $yellow;
+}
+
+:target {
+  scroll-margin-block: 2rem;
 }
 
 html {
@@ -15,18 +27,7 @@ body {
 	font-size: $font-size;
 	font-weight: $font-weight--regular;
 	line-height: $line-height;
-}
-
-body,
-figure,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	margin: 0;
-	padding: 0;
+	min-height: 100vh;
 }
 
 h1,
@@ -36,6 +37,20 @@ h4,
 h5,
 h6 {
 	line-height: $line-height--small;
+	text-wrap: balance;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+	margin: 0;
 }
 
 p {
@@ -58,8 +73,9 @@ figcaption {
 	font-size: $font-size;
 }
 
-img {
-	display: block;
+img,
+picture {
+  display: block;
 	height: auto;
-	max-width: 100%;
+  max-width: 100%;
 }
