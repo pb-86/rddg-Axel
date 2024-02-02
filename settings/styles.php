@@ -13,7 +13,7 @@ add_action( 'wp_enqueue_scripts', 'axel_styles' );
  */
 function axel_styles() {
 	if ( ! is_admin() || ! is_customize_preview() ) {
-		wp_enqueue_style( 'axel-master', esc_url( AXEL_THEME_STYLES . 'master.css' ), false, AXEL_THEME_VERSION, 'all' );
+		wp_enqueue_style( 'axel-master', esc_url( AXEL_THEME_STYLES . 'master.css' ), array(), AXEL_THEME_VERSION, 'all' );
 	}
 
 	// Wyłącza style CSS bloków.

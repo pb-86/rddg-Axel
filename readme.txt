@@ -13,7 +13,8 @@ Motyw startowy.
 == Changelog ==
 
 = 1.79 =
-* Zmieniono: numer wersji
+* Zmieniono numer wersji
+* Poprawiono drobne błedy
 
 = 1.78 =
 * Zmieniono: Numer wersji

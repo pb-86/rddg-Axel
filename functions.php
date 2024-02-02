@@ -9,11 +9,10 @@
 define( 'AXEL_THEME_VERSION', '1.79' );
 
 // Lista stałych do dalszego użycia.
-define( 'AXEL_THEME_URI', get_template_directory_uri() . '/' );
-define( 'AXEL_THEME_IMAGES', AXEL_THEME_URI . 'assets/images/' );
-define( 'AXEL_THEME_STYLES', AXEL_THEME_URI . 'assets/styles/' );
-define( 'AXEL_THEME_SCRIPTS', AXEL_THEME_URI . 'assets/scripts/' );
-define( 'AXEL_THEME_VENDOR', AXEL_THEME_URI . 'assets/vendor/' );
+define( 'AXEL_THEME_SCRIPTS', get_template_directory_uri() . '/assets/scripts/' );
+define( 'AXEL_THEME_STYLES', get_template_directory_uri() . '/assets/styles/' );
+define( 'AXEL_THEME_IMAGES', get_template_directory_uri() . '/assets/images/' );
+define( 'AXEL_THEME_VENDOR', get_template_directory_uri() . '/assets/vendor/' );
 
 // Główna konfiguracja motywu.
 require_once 'settings/setup.php';

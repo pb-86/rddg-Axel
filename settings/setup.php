@@ -18,7 +18,7 @@ function axel_setup() {
 	}
 
 	// Włącza obsługę miniaturek.
-	add_theme_support( 'post-thumbnails', array() );
+	add_theme_support( 'post-thumbnails' );
 
 	// Dodaje dodatkowe rozmiary obrazków.
 	add_image_size( 'axel-excerpt-thumbnail', 528, 288, true );
@@ -39,7 +39,7 @@ function axel_setup() {
 	add_theme_support( 'custom-logo', array() );
 
 	// Włącza obsługę znaczników HTML5.
-	add_theme_support( 'html5', array( 'comment-list', 'comment-form', 'search-form', 'gallery', 'caption' ) );
+	add_theme_support( 'html5', array( 'comment-list', 'comment-form', 'search-form', 'gallery', 'caption', 'style', 'script' ) );
 
 	// Pozwala wtyczkom na zarządzanie tytułem strony.
 	add_theme_support( 'title-tag' );
@@ -48,5 +48,5 @@ function axel_setup() {
 	add_theme_support( 'automatic-feed-links' );
 
 	// Ładuje pliki z tłumaczeniami.
-	load_theme_textdomain( 'axel', AXEL_THEME_URI . '/languages' );
+	load_theme_textdomain( 'axel', get_template_directory_uri() . '/languages' );
 }
