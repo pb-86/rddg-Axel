@@ -22,17 +22,4 @@
 // 2. Button
 .button {
 	@include button();
-
-	&--as-link {
-		@extend %inverted-underline;
-		background-color: unset;
-		cursor: pointer;
-		height: unset;
-		min-width: unset;
-		padding: 0;
-
-		&:hover {
-			background-color: unset;
-		}
-	}
 }

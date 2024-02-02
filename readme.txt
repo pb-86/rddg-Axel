@@ -14,7 +14,8 @@ Motyw startowy.
 
 = 1.79 =
 * Zmieniono numer wersji
-* Poprawiono drobne błedy
+* Poprawiono drobne błędy
+* Dodano szablon testowania wyglądu przycisków
 
 = 1.78 =
 * Zmieniono: Numer wersji

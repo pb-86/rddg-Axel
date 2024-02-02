@@ -26,10 +26,10 @@
   padding: 0;
 }
 
-.wp-block-file a:not(.wp-block-file__button), .credits .credits__link, .back-to-home__link, .title__link, .post-author__link, .menu a, .site-name .site-name__link, .button--as-link, a[tabindex="-1"] {
+.wp-block-file a:not(.wp-block-file__button), .credits .credits__link, .back-to-home__link, .title__link, .post-author__link, .menu a, .site-name .site-name__link, a[tabindex="-1"] {
   text-decoration: none;
 }
-.wp-block-file a:hover:not(.wp-block-file__button), .credits .credits__link:hover, .back-to-home__link:hover, .title__link:hover, .post-author__link:hover, .menu a:hover, .site-name .site-name__link:hover, .button--as-link:hover, a[tabindex="-1"]:hover {
+.wp-block-file a:hover:not(.wp-block-file__button), .credits .credits__link:hover, .back-to-home__link:hover, .title__link:hover, .post-author__link:hover, .menu a:hover, .site-name .site-name__link:hover, a[tabindex="-1"]:hover {
   text-decoration: underline;
   text-decoration-thickness: 0.0625rem;
 }
@@ -132,13 +132,13 @@ picture {
   gap: 0.25rem;
   background-color: hsl(354, 73%, 43%);
   border: 0;
-  border-radius: 0.25rem;
+  border-radius: 1.125rem;
   color: hsl(0, 0%, 100%);
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
-  height: 2.5rem;
-  min-width: 2.5rem;
-  padding: 0 1.5rem;
+  height: 2.25rem;
+  min-width: 2.25rem;
+  padding: 0 0.75rem;
   user-select: none;
 }
 .button:hover {
@@ -147,16 +147,6 @@ picture {
 .button box-icon {
   fill: hsl(0, 0%, 100%);
   flex-shrink: 0;
-}
-.button--as-link {
-  background-color: unset;
-  cursor: pointer;
-  height: unset;
-  min-width: unset;
-  padding: 0;
-}
-.button--as-link:hover {
-  background-color: unset;
 }
 
 .header {
@@ -431,13 +421,13 @@ picture {
   gap: 0.25rem;
   background-color: hsl(354, 73%, 43%);
   border: 0;
-  border-radius: 0.25rem;
+  border-radius: 1.125rem;
   color: hsl(0, 0%, 100%);
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
-  height: 2.5rem;
-  min-width: 2.5rem;
-  padding: 0 1.5rem;
+  height: 2.25rem;
+  min-width: 2.25rem;
+  padding: 0 0.75rem;
   user-select: none;
   text-decoration: none;
   width: 2.5rem;
@@ -458,13 +448,13 @@ picture {
   gap: 0.25rem;
   background-color: hsl(51, 100%, 55%);
   border: 0;
-  border-radius: 0.25rem;
+  border-radius: 1.125rem;
   color: hsl(0, 0%, 0%);
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
-  height: 2.5rem;
-  min-width: 2.5rem;
-  padding: 0 1.5rem;
+  height: 2.25rem;
+  min-width: 2.25rem;
+  padding: 0 0.75rem;
   user-select: none;
 }
 .pagination .current:hover {
@@ -639,13 +629,13 @@ h2.title {
   gap: 0.25rem;
   background-color: hsl(354, 73%, 43%);
   border: 0;
-  border-radius: 0.25rem;
+  border-radius: 1.125rem;
   color: hsl(0, 0%, 100%);
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
-  height: 2.5rem;
-  min-width: 2.5rem;
-  padding: 0 1.5rem;
+  height: 2.25rem;
+  min-width: 2.25rem;
+  padding: 0 0.75rem;
   user-select: none;
 }
 .comments .comment-form input[type=submit]:hover {
@@ -769,13 +759,13 @@ body.search .excerpts {
   gap: 0.25rem;
   background-color: hsl(354, 73%, 43%);
   border: 0;
-  border-radius: 0.25rem;
+  border-radius: 1.125rem;
   color: hsl(0, 0%, 100%);
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
-  height: 2.5rem;
-  min-width: 2.5rem;
-  padding: 0 1.5rem;
+  height: 2.25rem;
+  min-width: 2.25rem;
+  padding: 0 0.75rem;
   user-select: none;
 }
 .scroll-to-top:hover {
@@ -831,13 +821,13 @@ body.search .excerpts {
   gap: 0.25rem;
   background-color: hsl(354, 73%, 43%);
   border: 0;
-  border-radius: 0.25rem;
+  border-radius: 1.125rem;
   color: hsl(0, 0%, 100%);
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
-  height: 2.5rem;
-  min-width: 2.5rem;
-  padding: 0 1.5rem;
+  height: 2.25rem;
+  min-width: 2.25rem;
+  padding: 0 0.75rem;
   user-select: none;
 }
 .wp-block-file .wp-block-file__button:hover {
