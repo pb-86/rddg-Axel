@@ -1,7 +1,7 @@
 {
   "type": "module",
   "dependencies": {
-    "browser-sync": "^2.29.3",
+    "browser-sync": "^3.0.2",
     "gulp": "^4.0.2"
   }
 }
