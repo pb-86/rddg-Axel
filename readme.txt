@@ -1,8 +1,8 @@
 === Axel ===
 Contributors: pb_86
 Requires at least: 5.0
-Tested up to: 6.3.1
-Requires PHP: 7.0
+Tested up to: 6.4.3
+Requires PHP: 7.4
 Stable tag: 1.79
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -16,6 +16,8 @@ Motyw startowy.
 * Zmieniono numer wersji
 * Poprawiono drobne błędy
 * Dodano szablon testowania wyglądu przycisków
+* Zmieniono wygląd motywu
+* Zmieniono obsługę tytułów w szablonach
 
 = 1.78 =
 * Zmieniono: Numer wersji

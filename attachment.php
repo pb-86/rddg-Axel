@@ -12,13 +12,11 @@ get_header();
 <main class="main" id="main" tabindex="-1">
 	<div class="wrapper">
 
-		<!-- Tytuł -->
-		<h1 class="title">
-			<?php the_title(); ?>
-		</h1>
-
-		<!-- Załącznik -->
 		<?php echo wp_get_attachment_image( get_the_ID(), 'large' ); ?>
+
+		<div class="post-meta">
+			<?php get_template_part( 'template-parts/singular/back-to-home' ); ?>
+		</div>
 
 	</div>
 </main>

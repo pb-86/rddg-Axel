@@ -13,9 +13,7 @@ get_header();
 	<div class="wrapper">
 
 		<!-- Tytuł -->
-		<h1 class="title">
-			<?php esc_html_e( 'Wyniki wyszukiwania', 'axel' ); ?>
-		</h1>
+		<?php get_template_part( 'template-parts/singular/title' ); ?>
 
 		<!-- Szukana fraza -->
 		<div class="search-query">

@@ -12,18 +12,17 @@ get_header();
 <main class="main" id="main" tabindex="-1">
 	<div class="wrapper">
 
-		<!-- Tytuł -->
-		<h1 class="title">
-			<?php esc_html_e( 'Nie znaleziono strony', 'axel' ); ?>
-		</h1>
-
-		<!-- Komunikat błędu -->
-		<div class="error-message">
-			<p><?php esc_html_e( 'Przepraszamy, ale nie znaleźliśmy strony, której szukasz.', 'axel' ); ?></p>
-		</div>
-
-		<!-- Wróc do strony głównej -->
-		<?php get_template_part( 'template-parts/singular/back-to-home' ); ?>
+		<article>
+			<?php get_template_part( 'template-parts/singular/title' ); ?>
+	
+			<div class="content error-message">
+				<p><?php esc_html_e( 'Przepraszamy, ale nie znaleźliśmy strony, której szukasz.', 'axel' ); ?></p>
+			</div>
+	
+			<div class="post-meta">
+				<?php get_template_part( 'template-parts/singular/back-to-home' ); ?>
+			</div>
+		</article>
 
 	</div>
 </main>
