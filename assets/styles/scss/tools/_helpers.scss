@@ -5,6 +5,7 @@
 // Lista helperów:
 //   1. Wrapper
 //   2. Button
+//   3. Button like link
 
 
 //---
@@ -22,4 +23,14 @@
 // 2. Button
 .button {
 	@include button();
+}
+
+//---
+// 3. Button like link
+.button-like-link {
+	background-color: transparent;
+	border: none;
+	color: $black;
+	font-family: $font-family;
+	font-size: $font-size;
 }

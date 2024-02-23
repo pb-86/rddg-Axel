@@ -6,6 +6,7 @@
 	
 	.site-name__link {
 		@extend %inverted-underline;
+		color: $black;
 		display: inline-block;
 		font-size: $font-size--xlarge;
 		font-weight: $font-weight--bold;

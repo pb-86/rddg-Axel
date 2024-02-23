@@ -49,7 +49,7 @@
 }
 
 :focus-visible {
-  outline: 0.125rem solid hsl(51, 100%, 55%);
+  outline: 0.25rem solid hsl(354, 63%, 63%);
 }
 
 :target {
@@ -97,7 +97,7 @@ p {
 }
 
 a {
-  color: hsl(225, 65%, 37%);
+  color: hsl(0, 0%, 10%);
 }
 
 figure {
@@ -130,7 +130,7 @@ picture {
   flex-wrap: nowrap;
   justify-content: center;
   gap: 0.25rem;
-  background-color: hsl(354, 73%, 43%);
+  background-color: hsl(0, 0%, 30%);
   border: 0;
   border-radius: 1.125rem;
   color: hsl(0, 0%, 100%);
@@ -142,11 +142,19 @@ picture {
   user-select: none;
 }
 .button:hover {
-  background-color: #a81a28;
+  background-color: #404040;
 }
 .button box-icon {
   fill: hsl(0, 0%, 100%);
   flex-shrink: 0;
+}
+
+.button-like-link {
+  background-color: transparent;
+  border: none;
+  color: hsl(0, 0%, 10%);
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
 }
 
 .header {
@@ -165,7 +173,7 @@ picture {
   height: 20rem;
 }
 .header.has-background .header__dimm {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(26, 26, 26, 0.5);
 }
 
 @media print {
@@ -180,25 +188,21 @@ picture {
   flex-wrap: nowrap;
   justify-content: flex-start;
   gap: normal normal;
-  background-color: hsl(0, 0%, 100%);
-  border: 0.0625rem solid hsl(0, 0%, 30%);
-  border-radius: 0.25rem;
   margin: 0;
   text-align: center;
-  width: 33rem;
 }
 .searchform .searchform__input {
   background: hsl(0, 0%, 100%);
-  border: 0;
-  border-radius: 0.25rem;
+  border: 0.0625rem solid hsl(0, 0%, 30%);
+  border-radius: 1.125rem;
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
-  height: 3rem;
-  padding: 0 1rem;
-  width: 100%;
+  height: 2.25rem;
+  padding: 0 0.75rem;
+  width: 18.75rem;
 }
 .searchform .searchform__button {
-  margin: 0 0.25rem;
+  margin: 0 0.375rem;
 }
 
 .search-query {
@@ -219,10 +223,10 @@ picture {
 }
 .footer .footer__navigation .wrapper,
 .footer .footer__credits .wrapper {
-  height: 5rem;
+  height: 4.5rem;
 }
 .footer .footer__navigation {
-  background-color: hsl(225, 65%, 37%);
+  background-color: hsl(0, 0%, 10%);
 }
 .footer .footer__navigation .wrapper {
   align-items: center;
@@ -286,6 +290,7 @@ picture {
   text-align: center;
 }
 .site-name .site-name__link {
+  color: hsl(0, 0%, 10%);
   display: inline-block;
   font-size: 5rem;
   font-weight: 700;
@@ -301,7 +306,7 @@ picture {
 .header.has-background .site-name__link,
 .header.has-background .site-name__description {
   color: hsl(0, 0%, 100%);
-  text-shadow: 0 0 2rem hsl(0, 0%, 0%);
+  text-shadow: 0 0 2rem hsl(0, 0%, 10%);
 }
 
 .screen-reader-text {
@@ -345,8 +350,8 @@ picture {
   flex-wrap: nowrap;
   justify-content: center;
   gap: normal normal;
-  background-color: hsl(225, 65%, 37%);
-  height: 5rem;
+  background-color: hsl(0, 0%, 10%);
+  height: 4.5rem;
 }
 
 .menu {
@@ -368,7 +373,7 @@ picture {
 }
 
 .menu--header .menu-item-has-children > a::after {
-  color: hsl(51, 100%, 55%);
+  color: hsl(0, 0%, 95%);
   content: "🡫";
   margin-inline: 0.25rem 0;
 }
@@ -380,7 +385,7 @@ picture {
 }
 .sub-menu {
   background-color: hsl(0, 0%, 100%);
-  border: 0.0625rem solid hsl(0, 0%, 0%);
+  border: 0.0625rem solid hsl(0, 0%, 10%);
   display: none;
   inset: 2rem auto auto 0.5rem;
   padding: 0.75rem 1rem 1rem;
@@ -396,7 +401,7 @@ picture {
   margin: 0.25rem 0;
 }
 .sub-menu a {
-  color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 10%);
   margin: 0;
 }
 
@@ -419,7 +424,7 @@ picture {
   flex-wrap: nowrap;
   justify-content: center;
   gap: 0.25rem;
-  background-color: hsl(354, 73%, 43%);
+  background-color: hsl(0, 0%, 30%);
   border: 0;
   border-radius: 1.125rem;
   color: hsl(0, 0%, 100%);
@@ -433,7 +438,7 @@ picture {
   width: 2.5rem;
 }
 .pagination .page-numbers:hover {
-  background-color: #a81a28;
+  background-color: #404040;
 }
 .pagination .page-numbers box-icon {
   fill: hsl(0, 0%, 100%);
@@ -446,10 +451,10 @@ picture {
   flex-wrap: nowrap;
   justify-content: center;
   gap: 0.25rem;
-  background-color: hsl(51, 100%, 55%);
+  background-color: hsl(354, 63%, 63%);
   border: 0;
   border-radius: 1.125rem;
-  color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   height: 2.25rem;
@@ -458,14 +463,15 @@ picture {
   user-select: none;
 }
 .pagination .current:hover {
-  background-color: #ffd900;
+  background-color: #d7505e;
 }
 .pagination .current box-icon {
-  fill: hsl(0, 0%, 0%);
+  fill: hsl(0, 0%, 100%);
   flex-shrink: 0;
 }
 .pagination .page-numbers,
 .pagination .current {
+  flex: 0 0;
   padding: 0;
 }
 
@@ -493,7 +499,7 @@ picture {
   line-height: 1.625;
 }
 .post-author box-icon {
-  fill: hsl(354, 73%, 43%);
+  fill: hsl(354, 63%, 63%);
   height: 1.25rem;
   width: 1.25rem;
 }
@@ -512,7 +518,7 @@ body.page .post-author, body.single .post-author {
   line-height: 1.625;
 }
 .date box-icon {
-  fill: hsl(354, 73%, 43%);
+  fill: hsl(354, 63%, 63%);
   height: 1.25rem;
   width: 1.25rem;
 }
@@ -548,6 +554,9 @@ h2.title {
   margin-block: 0 0.5rem;
 }
 
+.content {
+  color: hsl(0, 0%, 30%);
+}
 .page .content, .single .content {
   margin-inline: auto;
   max-width: 45rem;
@@ -564,7 +573,7 @@ h2.title {
   text-align: center;
 }
 .back-to-home box-icon {
-  fill: hsl(354, 73%, 43%);
+  fill: hsl(354, 63%, 63%);
   height: 1.25rem;
   width: 1.25rem;
 }
@@ -574,7 +583,7 @@ h2.title {
   margin-inline: auto;
 }
 .comments .comment-reply-title {
-  color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 10%);
   font-size: 1.5rem;
 }
 .comments .comment-form p.comment-form-comment,
@@ -589,7 +598,7 @@ h2.title {
 .comments .comment-form p.comment-form-email label,
 .comments .comment-form p.comment-form-url label,
 .comments .comment-form p.form-submit label {
-  color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 10%);
   display: block;
   font-weight: 700;
   line-height: 1;
@@ -627,7 +636,7 @@ h2.title {
   flex-wrap: nowrap;
   justify-content: center;
   gap: 0.25rem;
-  background-color: hsl(354, 73%, 43%);
+  background-color: hsl(0, 0%, 30%);
   border: 0;
   border-radius: 1.125rem;
   color: hsl(0, 0%, 100%);
@@ -639,7 +648,7 @@ h2.title {
   user-select: none;
 }
 .comments .comment-form input[type=submit]:hover {
-  background-color: #a81a28;
+  background-color: #404040;
 }
 .comments .comment-form input[type=submit] box-icon {
   fill: hsl(0, 0%, 100%);
@@ -690,13 +699,9 @@ h2.title {
   text-align: center;
 }
 .print box-icon {
-  fill: hsl(354, 73%, 43%);
+  fill: hsl(354, 63%, 63%);
   height: 1.25rem;
   width: 1.25rem;
-}
-
-.print__button {
-  color: hsl(225, 65%, 37%);
 }
 
 .main {
@@ -757,10 +762,10 @@ body.search .excerpts {
   flex-wrap: nowrap;
   justify-content: center;
   gap: 0.25rem;
-  background-color: hsl(354, 73%, 43%);
+  background-color: hsl(0, 0%, 95%);
   border: 0;
   border-radius: 1.125rem;
-  color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 10%);
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   height: 2.25rem;
@@ -769,15 +774,15 @@ body.search .excerpts {
   user-select: none;
 }
 .scroll-to-top:hover {
-  background-color: #a81a28;
+  background-color: #e6e6e6;
 }
 .scroll-to-top box-icon {
-  fill: hsl(0, 0%, 100%);
+  fill: hsl(0, 0%, 10%);
   flex-shrink: 0;
 }
 
 .credits .credits__link {
-  color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 10%);
   line-height: 1;
 }
 
@@ -797,7 +802,7 @@ body.search .excerpts {
 }
 
 .wp-block-separator {
-  border: 0.0625rem solid hsl(0, 0%, 95%);
+  border: 0.0625rem solid hsl(354, 63%, 63%);
   margin-block: 1.5rem;
 }
 
@@ -819,7 +824,7 @@ body.search .excerpts {
   flex-wrap: nowrap;
   justify-content: center;
   gap: 0.25rem;
-  background-color: hsl(354, 73%, 43%);
+  background-color: hsl(0, 0%, 30%);
   border: 0;
   border-radius: 1.125rem;
   color: hsl(0, 0%, 100%);
@@ -831,7 +836,7 @@ body.search .excerpts {
   user-select: none;
 }
 .wp-block-file .wp-block-file__button:hover {
-  background-color: #a81a28;
+  background-color: #404040;
 }
 .wp-block-file .wp-block-file__button box-icon {
   fill: hsl(0, 0%, 100%);
@@ -880,7 +885,7 @@ body.search .excerpts {
   width: 100%;
 }
 .wp-block-gallery .wp-block-image .wp-element-caption {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent);
+  background-image: linear-gradient(to top, rgba(26, 26, 26, 0.75), transparent);
   color: hsl(0, 0%, 100%);
   font-style: normal;
   inset: auto 0 0 0;

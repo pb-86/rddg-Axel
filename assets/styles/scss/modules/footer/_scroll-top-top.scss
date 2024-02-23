@@ -2,5 +2,5 @@
 @use '../../tools/mixins' as *;
 
 .scroll-to-top {
-	@include button($background-color:$red, $color:$white);
+	@include button($background-color:$silver, $color:$black);
 }

@@ -5,12 +5,12 @@
 	.footer__navigation,
 	.footer__credits {
 		.wrapper {
-			height: 5rem;
+			height: 4.5rem;
 		}
 	}
 
 	.footer__navigation {
-		background-color: $blue;
+		background-color: $black;
 
 		.wrapper {
 			@include flex($align:center, $justify:space-between);

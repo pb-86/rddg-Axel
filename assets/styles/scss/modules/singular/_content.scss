@@ -1,6 +1,7 @@
 @use '../../base/variables' as *;
 
 .content {
+	color: $gray;
 	
 	// Treść we wpisach i na stronach
 	.page &,

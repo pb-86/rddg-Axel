@@ -16,11 +16,12 @@
 	}
 
 	.current {
-		@include button($background-color:$yellow, $color:$black);
+		@include button($background-color:$red, $color:$white);
 	}
 
 	.page-numbers,
 	.current {
+		flex: 0 0;
 		padding: 0;
 	}
 }

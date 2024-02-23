@@ -6,7 +6,7 @@
 
 	&.navbar--header {
 		@include flex($align:center, $justify:center);
-		background-color: $blue;
-		height: 5rem;
+		background-color: $black;
+		height: 4.5rem;
 	}
 }

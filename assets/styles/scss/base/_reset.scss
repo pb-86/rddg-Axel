@@ -10,7 +10,7 @@
 }
 
 :focus-visible {
-	outline: 0.125rem solid $yellow;
+	outline: 0.25rem solid $red;
 }
 
 :target {
@@ -58,7 +58,7 @@ p {
 }
 
 a {
-	color: $blue;
+	color: $black;
 }
 
 a[tabindex="-1"] {
