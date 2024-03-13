@@ -1,0 +1,22 @@
+@use '../../base/variables' as *;
+@use '../../tools/mixins' as *;
+
+.wp-block-details {
+	margin-block: 1.5rem;
+
+	summary {
+		background-color: $silver;
+		border-radius: 0.375rem;
+		padding-block: 0.1875rem;
+		padding-inline: 0.375rem;
+		transition: background 0.25s ease-in-out;
+
+		&:hover {
+			background-color: darken( $silver, 3.33% );
+		}
+	}
+
+	p {
+		padding-left: 1.5rem;
+	}
+}

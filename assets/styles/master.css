@@ -817,8 +817,8 @@ body.search .excerpts {
 }
 
 .wp-block-separator {
-  border: 0.0625rem solid hsl(354, 63%, 63%);
-  margin-block: 1.5rem;
+  border: 0.0625rem solid hsl(225, 10%, 90%);
+  margin-block: 3rem;
 }
 
 .wp-block-file {
@@ -993,6 +993,23 @@ h3.wp-block-heading {
   line-height: 1.25;
   margin-block: 0.375rem 0;
   text-align: center;
+}
+
+.wp-block-details {
+  margin-block: 1.5rem;
+}
+.wp-block-details summary {
+  background-color: hsl(225, 10%, 90%);
+  border-radius: 0.375rem;
+  padding-block: 0.1875rem;
+  padding-inline: 0.375rem;
+  transition: background 0.25s ease-in-out;
+}
+.wp-block-details summary:hover {
+  background-color: #dadbe0;
+}
+.wp-block-details p {
+  padding-left: 1.5rem;
 }
 
 .wp-block-embed {
