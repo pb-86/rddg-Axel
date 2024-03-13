@@ -49,7 +49,7 @@
 }
 
 .wp-block-image figcaption, .wp-block-gallery .blocks-gallery-caption, .thumbnail__caption {
-  color: hsl(0, 0%, 30%);
+  color: hsl(225, 10%, 30%);
   font-style: italic;
   line-height: 1.25;
   margin-block: 0.75rem 0;
@@ -111,7 +111,7 @@ p {
 }
 
 a {
-  color: hsl(0, 0%, 10%);
+  color: hsl(225, 10%, 10%);
 }
 
 figure {
@@ -144,7 +144,7 @@ picture {
   flex-wrap: nowrap;
   justify-content: center;
   gap: 0.25rem;
-  background-color: hsl(0, 0%, 30%);
+  background-color: hsl(225, 10%, 30%);
   border: 0;
   border-radius: 1.125rem;
   color: hsl(0, 0%, 100%);
@@ -156,7 +156,7 @@ picture {
   user-select: none;
 }
 .button:hover {
-  background-color: #404040;
+  background-color: #393d46;
 }
 .button box-icon {
   fill: hsl(0, 0%, 100%);
@@ -166,13 +166,13 @@ picture {
 .button-like-link {
   background-color: transparent;
   border: none;
-  color: hsl(0, 0%, 10%);
+  color: hsl(225, 10%, 10%);
   font-family: "Familjen Grotesk", sans-serif;
   font-size: 1rem;
 }
 
 .header {
-  background-color: hsl(0, 0%, 90%);
+  background-color: hsl(225, 10%, 90%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -187,7 +187,7 @@ picture {
   height: 20rem;
 }
 .header.has-background .header__dimm {
-  background-color: rgba(26, 26, 26, 0.5);
+  background-color: rgba(23, 24, 28, 0.5);
 }
 
 @media print {
@@ -207,7 +207,7 @@ picture {
 }
 .searchform .searchform__input {
   background: hsl(0, 0%, 100%);
-  border: 0.0625rem solid hsl(0, 0%, 30%);
+  border: 0.0625rem solid hsl(225, 10%, 30%);
   border-radius: 1.125rem;
   font-family: "Familjen Grotesk", sans-serif;
   font-size: 1rem;
@@ -240,7 +240,7 @@ picture {
   height: 4.5rem;
 }
 .footer .footer__navigation {
-  background-color: hsl(0, 0%, 10%);
+  background-color: hsl(225, 10%, 10%);
 }
 .footer .footer__navigation .wrapper {
   align-items: center;
@@ -274,7 +274,7 @@ picture {
 }
 .singular .singular__date,
 .singular .singular__author {
-  color: hsl(0, 0%, 30%);
+  color: hsl(225, 10%, 30%);
   display: inline-block;
   font-size: 0.875rem;
 }
@@ -304,7 +304,7 @@ picture {
   text-align: center;
 }
 .site-name .site-name__link {
-  color: hsl(0, 0%, 10%);
+  color: hsl(225, 10%, 10%);
   display: inline-block;
   font-size: 5rem;
   font-weight: 700;
@@ -320,7 +320,7 @@ picture {
 .header.has-background .site-name__link,
 .header.has-background .site-name__description {
   color: hsl(0, 0%, 100%);
-  text-shadow: 0 0 2rem hsl(0, 0%, 10%);
+  text-shadow: 0 0 2rem hsl(225, 10%, 10%);
 }
 
 .screen-reader-text {
@@ -337,7 +337,7 @@ picture {
 }
 .screen-reader-text:focus {
   background-color: hsl(0, 0%, 100%);
-  border: 0.0625rem solid hsl(0, 0%, 30%);
+  border: 0.0625rem solid hsl(225, 10%, 30%);
   border-radius: 0.25rem;
   clip: auto !important;
   clip-path: none;
@@ -364,7 +364,7 @@ picture {
   flex-wrap: nowrap;
   justify-content: center;
   gap: normal normal;
-  background-color: hsl(0, 0%, 10%);
+  background-color: hsl(225, 10%, 10%);
   height: 4.5rem;
 }
 
@@ -387,7 +387,7 @@ picture {
 }
 
 .menu--header .menu-item-has-children > a::after {
-  color: hsl(0, 0%, 90%);
+  color: hsl(225, 10%, 90%);
   content: "🡫";
   margin-inline: 0.25rem 0;
 }
@@ -399,7 +399,7 @@ picture {
 }
 .sub-menu {
   background-color: hsl(0, 0%, 100%);
-  border: 0.0625rem solid hsl(0, 0%, 10%);
+  border: 0.0625rem solid hsl(225, 10%, 10%);
   display: none;
   inset: 2rem auto auto 0.5rem;
   padding: 0.75rem 1rem 1rem;
@@ -415,7 +415,7 @@ picture {
   margin: 0.25rem 0;
 }
 .sub-menu a {
-  color: hsl(0, 0%, 10%);
+  color: hsl(225, 10%, 10%);
   margin: 0;
 }
 
@@ -438,7 +438,7 @@ picture {
   flex-wrap: nowrap;
   justify-content: center;
   gap: 0.25rem;
-  background-color: hsl(0, 0%, 30%);
+  background-color: hsl(225, 10%, 30%);
   border: 0;
   border-radius: 1.125rem;
   color: hsl(0, 0%, 100%);
@@ -452,7 +452,7 @@ picture {
   width: 2.5rem;
 }
 .pagination .page-numbers:hover {
-  background-color: #404040;
+  background-color: #393d46;
 }
 .pagination .page-numbers box-icon {
   fill: hsl(0, 0%, 100%);
@@ -497,7 +497,7 @@ picture {
 }
 
 .blog .placeholder, .category .placeholder, .archive .placeholder {
-  background-color: hsl(0, 0%, 90%);
+  background-color: hsl(225, 10%, 90%);
   height: 18rem;
   margin-block: 0 1.5rem;
   width: 33rem;
@@ -528,7 +528,7 @@ body.page .post-author, body.single .post-author {
   flex-wrap: nowrap;
   justify-content: center;
   gap: 0.1875rem;
-  color: hsl(0, 0%, 30%);
+  color: hsl(225, 10%, 30%);
   line-height: 1.5;
 }
 .date box-icon {
@@ -569,7 +569,7 @@ h2.title {
 }
 
 .content {
-  color: hsl(0, 0%, 30%);
+  color: hsl(225, 10%, 30%);
 }
 .page .content, .single .content {
   margin-inline: auto;
@@ -592,12 +592,12 @@ h2.title {
   width: 1.25rem;
 }
 .comments {
-  color: hsl(0, 0%, 30%);
+  color: hsl(225, 10%, 30%);
   margin-block: 6rem;
   margin-inline: auto;
 }
 .comments .comment-reply-title {
-  color: hsl(0, 0%, 10%);
+  color: hsl(225, 10%, 10%);
   font-size: 1.5rem;
 }
 .comments .comment-form p.comment-form-comment,
@@ -612,7 +612,7 @@ h2.title {
 .comments .comment-form p.comment-form-email label,
 .comments .comment-form p.comment-form-url label,
 .comments .comment-form p.form-submit label {
-  color: hsl(0, 0%, 10%);
+  color: hsl(225, 10%, 10%);
   display: block;
   font-weight: 700;
   line-height: 1;
@@ -629,9 +629,9 @@ h2.title {
 }
 .comments .comment-form textarea,
 .comments .comment-form input:not([type=submit], [type=checkbox]) {
-  border: 0.0625rem solid hsl(0, 0%, 30%);
+  border: 0.0625rem solid hsl(225, 10%, 30%);
   border-radius: 0.25rem;
-  color: hsl(0, 0%, 30%);
+  color: hsl(225, 10%, 30%);
   font-family: "Familjen Grotesk", sans-serif;
   font-size: 1rem;
   min-width: 35rem;
@@ -650,7 +650,7 @@ h2.title {
   flex-wrap: nowrap;
   justify-content: center;
   gap: 0.25rem;
-  background-color: hsl(0, 0%, 30%);
+  background-color: hsl(225, 10%, 30%);
   border: 0;
   border-radius: 1.125rem;
   color: hsl(0, 0%, 100%);
@@ -662,7 +662,7 @@ h2.title {
   user-select: none;
 }
 .comments .comment-form input[type=submit]:hover {
-  background-color: #404040;
+  background-color: #393d46;
 }
 .comments .comment-form input[type=submit] box-icon {
   fill: hsl(0, 0%, 100%);
@@ -766,7 +766,7 @@ body.search .excerpts {
 }
 
 .no-posts {
-  color: hsl(0, 0%, 30%);
+  color: hsl(225, 10%, 30%);
   text-align: center;
 }
 
@@ -777,10 +777,10 @@ body.search .excerpts {
   flex-wrap: nowrap;
   justify-content: center;
   gap: 0.25rem;
-  background-color: hsl(0, 0%, 90%);
+  background-color: hsl(225, 10%, 90%);
   border: 0;
   border-radius: 1.125rem;
-  color: hsl(0, 0%, 10%);
+  color: hsl(225, 10%, 10%);
   font-family: "Familjen Grotesk", sans-serif;
   font-size: 1rem;
   height: 2.25rem;
@@ -789,20 +789,20 @@ body.search .excerpts {
   user-select: none;
 }
 .scroll-to-top:hover {
-  background-color: #d9d9d9;
+  background-color: #d5d7dd;
 }
 .scroll-to-top box-icon {
-  fill: hsl(0, 0%, 10%);
+  fill: hsl(225, 10%, 10%);
   flex-shrink: 0;
 }
 
 .credits .credits__link {
-  color: hsl(0, 0%, 10%);
+  color: hsl(225, 10%, 10%);
   line-height: 1;
 }
 
 .author-bio {
-  color: hsl(0, 0%, 30%);
+  color: hsl(225, 10%, 30%);
   margin-block: 0 4rem;
   margin-inline: auto;
   max-width: 33rem;
@@ -823,7 +823,7 @@ body.search .excerpts {
 
 .wp-block-file {
   align-items: center;
-  background-color: hsl(51, 100%, 55%);
+  background-color: hsl(225, 10%, 90%);
   border-radius: 0.375rem;
   display: flex;
   justify-content: space-between;
@@ -832,6 +832,9 @@ body.search .excerpts {
   padding-block: 0.375rem;
   padding-inline: 0.75rem 0.375rem;
 }
+.wp-block-file a:not(.wp-block-file__button) {
+  color: hsl(225, 10%, 10%);
+}
 .wp-block-file .wp-block-file__button {
   align-items: center;
   display: flex;
@@ -839,7 +842,7 @@ body.search .excerpts {
   flex-wrap: nowrap;
   justify-content: center;
   gap: 0.25rem;
-  background-color: hsl(0, 0%, 30%);
+  background-color: hsl(225, 10%, 30%);
   border: 0;
   border-radius: 1.125rem;
   color: hsl(0, 0%, 100%);
@@ -851,7 +854,7 @@ body.search .excerpts {
   user-select: none;
 }
 .wp-block-file .wp-block-file__button:hover {
-  background-color: #404040;
+  background-color: #393d46;
 }
 .wp-block-file .wp-block-file__button box-icon {
   fill: hsl(0, 0%, 100%);
@@ -900,7 +903,7 @@ body.search .excerpts {
   width: 100%;
 }
 .wp-block-gallery .wp-block-image .wp-element-caption {
-  background-image: linear-gradient(to top, rgba(26, 26, 26, 0.75), transparent);
+  background-image: linear-gradient(to top, rgba(23, 24, 28, 0.75), transparent);
   color: hsl(0, 0%, 100%);
   font-style: normal;
   inset: auto 0 0 0;
@@ -938,7 +941,7 @@ body.search .excerpts {
   width: 100%;
 }
 .wp-block-video figcaption {
-  color: hsl(0, 0%, 30%);
+  color: hsl(225, 10%, 30%);
   font-size: 0.875rem;
   line-height: 1.25;
   margin-block: 0.375rem 0;
@@ -977,15 +980,15 @@ h3.wp-block-heading {
 }
 .wp-block-table thead th,
 .wp-block-table tfoot td {
-  background-color: hsl(0, 0%, 90%);
+  background-color: hsl(225, 10%, 90%);
 }
 .wp-block-table th,
 .wp-block-table td {
-  border: 0.0625rem solid #cccccc;
+  border: 0.0625rem solid #c7c9d1;
   padding: 0.1875rem 0.375rem;
 }
 .wp-block-table figcaption {
-  color: hsl(0, 0%, 30%);
+  color: hsl(225, 10%, 30%);
   font-size: 0.875rem;
   line-height: 1.25;
   margin-block: 0.375rem 0;
