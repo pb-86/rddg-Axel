@@ -1,14 +1,14 @@
 // Colors
 $black: hsl(  0,   0%,  10%);
 $gray:  hsl(  0,   0%,  30%);
-$silver:hsl(  0,   0%,  95%);
+$silver:hsl(  0,   0%,  90%);
 $red:   hsl(354,  63%,  63%);
 $yellow:hsl( 51, 100%,  55%);
 $white: hsl(  0,   0%, 100%);
 $blue:  hsl(225,  65%,  37%);
 
 // Typography - font families
-$font-family: 'Roboto', sans-serif;
+$font-family: 'Familjen Grotesk', sans-serif;
 
 // Typography - font sizes
 $font-size:         1rem;
@@ -19,13 +19,12 @@ $font-size--large:  2.5rem;
 $font-size--xlarge: 5rem;
 
 // Typography - font weights
-$font-weight--light:   300;
-$font-weight--regular: 400;
-$font-weight--bold:    700;
-$font-weight--xbold:   800;
-$font-weight--black:   900;
+$font-weight--regular:  400;
+$font-weight--medium:   500;
+$font-weight--semibold: 600;
+$font-weight--bold:     700;
 
 // Typogtaphy - line heights
-$line-height:        1.625;
+$line-height:        1.5;
 $line-height--reset: 1;
-$line-height--small: 1.3125;
+$line-height--small: 1.25;

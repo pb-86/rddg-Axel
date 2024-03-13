@@ -1,4 +1,7 @@
+@use '../../base/variables' as *;
+
 .main {
+	background-color: $white;
 	margin-block: 6rem;
 }
 
