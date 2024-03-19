@@ -18,6 +18,8 @@ Motyw startowy.
 * Dodano szablon testowania wyglądu przycisków
 * Zmieniono wygląd motywu
 * Zmieniono obsługę tytułów w szablonach
+* Dodano wygląd bloku Szczegóły
+* Dodano domyślne rozmiary obrazków
 
 = 1.78 =
 * Zmieniono: Numer wersji

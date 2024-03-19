@@ -20,6 +20,17 @@ function axel_setup() {
 	// Włącza obsługę miniaturek.
 	add_theme_support( 'post-thumbnails' );
 
+	// Rozmiary obrazków.
+	update_option( 'thumbnail_size_w', 232 );
+	update_option( 'thumbnail_size_h', 232 );
+	update_option( 'thumbnail_crop', false );
+	update_option( 'medium_size_w', 354 );
+	update_option( 'medium_size_h', 354 );
+	update_option( 'medium_crop', true );
+	update_option( 'large_size_w', 720 );
+	update_option( 'large_size_h', 1080 );
+	update_option( 'large_crop', true );
+
 	// Dodaje dodatkowe rozmiary obrazków.
 	add_image_size( 'axel-excerpt-thumbnail', 528, 288, true );
 	add_image_size( 'axel-singular-thumbnail', 1120, 624, true );

@@ -8,5 +8,8 @@
 	.single & {
 		margin-inline: auto;
 		max-width: 45rem;
+
+		& > :first-child { margin-top: 0; }
+		& > :last-child { margin-bottom: 0; }
 	}
 }

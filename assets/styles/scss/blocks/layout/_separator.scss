@@ -1,6 +1,14 @@
 @use '../../base/variables' as *;
 
 .wp-block-separator {
-	border: 0.0625rem solid $silver;
-	margin-block: 3rem;
+
+	// Konfiguracja
+	$line-color: $silver;
+	$line-border-size: 0.0625rem;
+	$line-margin-vertical: 3rem;
+
+	// Style
+	border: $line-border-size solid $line-color;
+	margin-block: $line-margin-vertical;
+
 }
