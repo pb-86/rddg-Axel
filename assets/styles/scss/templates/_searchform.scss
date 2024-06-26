@@ -1,5 +1,6 @@
 @use '../base/variables' as *;
 @use '../tools/mixins' as *;
+@use '../tools/placeholders';
 
 .searchform {
 	@include flex($align:center);
@@ -17,7 +18,8 @@
 		width: 18.75rem;
 	}
 
-	.searchform__button {
-		margin: 0 0.375rem;
+	.searchform__button::before {
+		@extend %icon;
+		background-image: url( "../../images/icon-search.svg" );
 	}
 }

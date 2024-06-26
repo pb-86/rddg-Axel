@@ -10,7 +10,7 @@ define( 'AXEL_THEME_VERSION', '1.80' );
 
 // Lista stałych do dalszego użycia.
 define( 'AXEL_THEME_SCRIPTS', get_template_directory_uri() . '/assets/scripts/' );
-define( 'AXEL_THEME_STYLES', get_template_directory_uri() . '/assets/styles/' );
+define( 'AXEL_THEME_STYLES', get_template_directory_uri() . '/assets/styles/css/' );
 define( 'AXEL_THEME_IMAGES', get_template_directory_uri() . '/assets/images/' );
 define( 'AXEL_THEME_VENDOR', get_template_directory_uri() . '/assets/vendor/' );
 

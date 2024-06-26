@@ -7,6 +7,6 @@
  */
 
 printf(
-	'<div class="print"><box-icon name="printer" aria-hidden="true"></box-icon><button class="print__button button-like-link js-print">%s</button></div>',
+	'<button class="print button-like-link js-print">%s</button>',
 	esc_html__( 'Drukuj stronę', 'axel' )
 );

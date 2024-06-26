@@ -22,8 +22,8 @@ if ( have_posts() ) {
 	echo '</div>';
 	the_posts_pagination(
 		array(
-			'prev_text' => '<box-icon name="left-arrow-alt" aria-hidden="true" aria-label="' . esc_attr__( 'Poprzednia strona', 'axel' ) . '"></box-icon>',
-			'next_text' => '<box-icon name="right-arrow-alt" aria-hidden="true" aria-label="' . esc_attr__( 'Następna strona', 'axel' ) . '"></box-icon>',
+			'prev_text' => '<div class="icon-prev"><span class="screen-reader-text">' . esc_attr__( 'Poprzednia strona', 'axel' ) . '</span></div>',
+			'next_text' => '<div class="icon-next"><span class="screen-reader-text">' . esc_attr__( 'Następna strona', 'axel' ) . '</span></div>',
 		)
 	);
 } else {

@@ -21,10 +21,13 @@
 
 .menu--header {
 	.menu-item-has-children > {
-		a::after {
-			color: $silver;
-			content: "🡫";
-			margin-inline: 0.25rem 0;
+		a {
+			@include flex( $align:flex-end, $justify:center, $gap:0.25rem );
+
+			&::after {
+				@extend %icon;
+				background-image: url( "../../images/icon-arrow-down.svg" );
+			}
 		}
 	}
 }

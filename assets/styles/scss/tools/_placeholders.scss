@@ -3,9 +3,11 @@
 // Lista placeholderów:
 //   1. List reset
 //   2. Inverted underline
+//   3. Figcaption
+//   4. Icon
 
 
-//---
+//-----
 // 1. List reset
 %list-reset {
 	list-style: none;
@@ -13,7 +15,8 @@
 	padding: 0;
 }
 
-//---
+
+//-----
 // 2. Inverted underline
 %inverted-underline {
 	text-decoration: none;
@@ -24,7 +27,8 @@
 	}
 }
 
-//---
+
+//-----
 // 3. Figcaption
 %figcaption {
 	color: $gray;
@@ -32,4 +36,17 @@
 	line-height: $line-height--small;
 	margin-block: 0.75rem 0;
 	text-align: center;
+}
+
+
+//-----
+// 4. Icon
+%icon {
+	background-position: center;
+	background-repeat: no-repeat;
+	content: "";
+	display: block;
+	flex-shrink: 0;
+	height: 1cap;
+	width: 1cap;
 }

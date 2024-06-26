@@ -1,7 +1,10 @@
 {
   "type": "module",
   "dependencies": {
-    "browser-sync": "^2.29.3",
-    "gulp": "^4.0.2"
+    "browser-sync": "^2.29.3"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-cli": "^3.0.0"
   }
 }

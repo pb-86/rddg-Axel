@@ -1,12 +1,13 @@
 @use '../../base/variables' as *;
 @use '../../tools/mixins' as *;
+@use '../../tools/placeholders';
 
 .pagination {
 	margin-block: 4rem 0;
 	text-align: center;
 
 	.nav-links {
-		@include flex($align:center, $justify:center, $gap:0.5rem, $wrap:wrap);
+		@include flex( $align:center, $justify:center, $gap:0.5rem, $wrap:wrap );
 	}
 
 	.page-numbers {
@@ -23,5 +24,18 @@
 	.current {
 		flex: 0 0;
 		padding: 0;
+	}
+
+	.icon-prev::before,
+	.icon-next::before {
+		@extend %icon;
+	}
+
+	.icon-prev::before {
+		background-image: url( "../../images/icon-arrow-left.svg" );
+	}
+	
+	.icon-next::before {
+		background-image: url( "../../images/icon-arrow-right.svg" );
 	}
 }

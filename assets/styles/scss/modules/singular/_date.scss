@@ -1,15 +1,15 @@
 @use '../../base/variables' as *;
 @use '../../tools/mixins' as *;
+@use '../../tools/placeholders';
 
 .date {
-	@include flex($align:center, $justify:center, $gap:0.1875rem);
+	@include flex( $align:center, $justify:center, $gap:0.25rem );
 	color: $gray;
 	line-height: $line-height;
-	
-	box-icon {
-		fill: $red;
-		height: 1.25rem;
-		width: 1.25rem;
+
+	&::before {
+		@extend %icon;
+		background-image: url( "../../images/icon-time.svg" );
 	}
 
 	// Data we wpisach i na stronach

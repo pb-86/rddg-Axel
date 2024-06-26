@@ -3,17 +3,13 @@
 @use '../../tools/placeholders';
 
 .post-author {
-	@include flex($align:center, $justify:center, $gap:0.1875rem);
+	@include flex( $align:center, $justify:center, $gap:0.25rem );
+	color: $gray;
 	line-height: $line-height;
 
-	box-icon {
-		fill: $red;
-		height: 1.25rem;
-		width: 1.25rem;
-	}
-	
-	&__link {
-		@extend %inverted-underline;
+	&::before {
+		@extend %icon;
+		background-image: url( "../../images/icon-person.svg" );
 	}
 
 	// Info o autorze we wpisach i na stronach
