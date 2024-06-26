@@ -1,9 +1,9 @@
 === Axel ===
 Contributors: pb_86
 Requires at least: 5.0
-Tested up to: 6.4.3
+Tested up to: 6.5.5
 Requires PHP: 7.4
-Stable tag: 1.79
+Stable tag: 1.80
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,6 +11,9 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Motyw startowy.
 
 == Changelog ==
+
+= 1.80 =
+* Zmieniono numer wersji
 
 = 1.79 =
 * Zmieniono numer wersji
