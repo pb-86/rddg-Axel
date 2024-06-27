@@ -13,7 +13,7 @@
 	a {
 		@extend %inverted-underline;
 		color: $white;
-		line-height: $line-height--reset;
+		line-height: 1;
 		padding-block: 0.75rem;
 		padding-inline: 0.5rem;
 	}

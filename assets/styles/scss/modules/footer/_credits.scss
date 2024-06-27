@@ -5,6 +5,6 @@
 	.credits__link {
 		@extend %inverted-underline;
 		color: $black;
-		line-height: $line-height--reset;
+		line-height: 1;
 	}
 }

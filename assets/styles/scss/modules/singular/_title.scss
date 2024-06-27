@@ -2,24 +2,24 @@
 @use '../../tools/placeholders';
 
 .title {
-	line-height: $line-height--small;
+	line-height: $line-height--sm;
 
 	// Odnośnik w tytule
 	&__link {
 		@extend %inverted-underline;
-		font-size: $font-size--medium;
-		line-height: $line-height--small;
+		font-size: $font-size--md;
+		line-height: $line-height--sm;
 	}
 }
 
 h1.title {
-	font-size: $font-size--large;
+	font-size: $font-size--lg;
 	margin-block: 0 4.5rem;
 	text-align: center;
 }
 
 h2.title {
-	font-size: $font-size--reset;
+	font-size: 0;
 	margin-block: 1.5rem 0.75rem;
 }
 

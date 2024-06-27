@@ -2,7 +2,7 @@
 
 .content {
 	:is( h2, h3, h4, h5, h6 ) {
-		line-height: $line-height--small;
+		line-height: $line-height--sm;
 		text-wrap: balance;
 	}
 
@@ -15,12 +15,12 @@
 	}
 
 	h2 {
-		font-size: $font-size--large;
+		font-size: $font-size--lg;
 		margin-block: 3rem 1.5rem;
 	}
 
 	h3 {
-		font-size: $font-size--medium;
+		font-size: $font-size--md;
 	}
 
 	h4 {

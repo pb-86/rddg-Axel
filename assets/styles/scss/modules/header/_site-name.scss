@@ -8,14 +8,14 @@
 		@extend %inverted-underline;
 		color: $black;
 		display: inline-block;
-		font-size: $font-size--xlarge;
+		font-size: $font-size--xl;
 		font-weight: $font-weight--bold;
-		line-height: $line-height--reset;
+		line-height: 1;
 		margin-bottom: 0.5rem;
 	}
 
 	.site-name__description {
-		font-size: $font-size--medium;
+		font-size: $font-size--md;
 		font-weight: $font-weight--regular;
 		line-height: $line-height;
 	}

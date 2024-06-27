@@ -9,7 +9,7 @@
 
 	.comment-reply-title {
 		color: $black;
-		font-size: $font-size--medium;
+		font-size: $font-size--md;
 	}
 
 	.comment-form {
@@ -18,20 +18,20 @@
 		p.comment-form-email,
 		p.comment-form-url,
 		p.form-submit {
-			line-height: $line-height--reset;
+			line-height: 1;
 
 			label {
 				color: $black;
 				display: block;
 				font-weight: $font-weight--bold;
-				line-height: $line-height--reset;
+				line-height: 1;
 				margin-block: 0 0.5rem;
 			}
 		}
 
 		p.comment-form-cookies-consent {
 			@include flex($align:center, $gap:0.5rem);
-			line-height: $line-height--small;
+			line-height: $line-height--sm;
 		}
 
 		textarea,

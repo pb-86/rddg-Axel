@@ -11,12 +11,11 @@ $blue:  hsl(225,  35%,  37%);
 $font-family: 'Familjen Grotesk', sans-serif;
 
 // Typography - font sizes
-$font-size:         1rem;
-$font-size--reset:  0;
-$font-size--small:  0.875rem;
-$font-size--medium: 1.5rem;
-$font-size--large:  2.5rem;
-$font-size--xlarge: 5rem;
+$font-size:     1rem;
+$font-size--sm: 0.875rem;
+$font-size--md: 1.5rem;
+$font-size--lg: 2.5rem;
+$font-size--xl: 5rem;
 
 // Typography - font weights
 $font-weight--regular:  400;
@@ -25,6 +24,11 @@ $font-weight--semibold: 600;
 $font-weight--bold:     700;
 
 // Typogtaphy - line heights
-$line-height:        1.5;
-$line-height--reset: 1;
-$line-height--small: 1.25;
+$line-height:     1.5;
+$line-height--sm: 1.25;
+
+// Breakpoints
+$breakpoint--sm: 640px;
+$breakpoint--md: 768px;
+$brekapoint--lg: 1024px;
+$brekapoint--xl: 1280px;

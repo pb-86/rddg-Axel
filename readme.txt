@@ -15,6 +15,7 @@ Motyw startowy.
 = 1.80 =
 * Zmieniono numer wersji
 * Usunięto boxicons i zastąpiono wektorowymi grafikami
+* Zmieniono nazwy zmiennych SCSS
 
 = 1.79 =
 * Zmieniono numer wersji

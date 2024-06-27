@@ -3,7 +3,7 @@
 @use '../tools/placeholders';
 
 .searchform {
-	@include flex($align:center);
+	@include flex( $align:center, $gap: 0.25rem );
 	margin: 0;
 	text-align: center;
 	
