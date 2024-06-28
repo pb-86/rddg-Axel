@@ -5,6 +5,7 @@
 //   2. Inverted underline
 //   3. Figcaption
 //   4. Icon
+//   5. Only icon
 
 
 //-----
@@ -48,5 +49,13 @@
 	display: block;
 	flex-shrink: 0;
 	height: 1cap;
+	margin-top: 0.125rem;
 	width: 1cap;
+}
+
+
+//-----
+// 5. Icon
+%only-icon {
+	margin-top: 0;
 }

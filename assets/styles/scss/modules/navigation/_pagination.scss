@@ -13,7 +13,6 @@
 	.page-numbers {
 		@include button();
 		text-decoration: none;
-		width: 2.5rem;
 	}
 
 	.current {
@@ -22,12 +21,20 @@
 
 	.page-numbers,
 	.current {
-		flex: 0 0;
+		flex-shrink: 1;
+		line-height: 1;
+		min-width: 2.25rem;
 		padding: 0;
 	}
 
+	.icon-prev,
+	.icon-next {
+		@include flex( $align:center, $justify:center, $gap:0.25rem );
+		padding: 0 1rem;
+	}
+
 	.icon-prev::before,
-	.icon-next::before {
+	.icon-next::after {
 		@extend %icon;
 	}
 
@@ -35,7 +42,7 @@
 		background-image: url( "../../images/icon-arrow-left.svg" );
 	}
 	
-	.icon-next::before {
+	.icon-next::after {
 		background-image: url( "../../images/icon-arrow-right.svg" );
 	}
 }

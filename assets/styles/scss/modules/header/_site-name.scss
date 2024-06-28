@@ -2,22 +2,31 @@
 @use '../../tools/placeholders';
 
 .site-name {
+	padding-inline: 1rem;
 	text-align: center;
 	
 	.site-name__link {
 		@extend %inverted-underline;
 		color: $black;
 		display: inline-block;
-		font-size: $font-size--xl;
+		font-size: $font-size--lg;
 		font-weight: $font-weight--bold;
 		line-height: 1;
 		margin-bottom: 0.5rem;
+
+		@media screen and ( min-width:$breakpoint--sm ) {
+			font-size: $font-size--xl;
+		}
 	}
 
 	.site-name__description {
-		font-size: $font-size--md;
+		font-size: $font-size;
 		font-weight: $font-weight--regular;
-		line-height: $line-height;
+		line-height: $line-height--sm;
+
+		@media screen and ( min-width:$breakpoint--sm ) {
+			font-size: $font-size--md;
+		}
 	}
 }
 

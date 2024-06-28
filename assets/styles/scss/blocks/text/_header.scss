@@ -15,12 +15,20 @@
 	}
 
 	h2 {
-		font-size: $font-size--lg;
+		font-size: $font-size--md;
 		margin-block: 3rem 1.5rem;
+
+		@media screen and ( min-width:$breakpoint--sm ) {
+			font-size: $font-size--lg;
+		}
 	}
 
 	h3 {
-		font-size: $font-size--md;
+		font-size: $font-size;
+
+		@media screen and ( min-width:$breakpoint--sm ) {
+			font-size: $font-size--md;
+		}
 	}
 
 	h4 {

@@ -1,11 +1,13 @@
-@use '../base/variables' as *;
-@use '../tools/mixins' as *;
+@use "../base/variables" as *;
+@use "../tools/mixins" as *;
 
 .footer {
 	.footer__navigation,
 	.footer__credits {
 		.wrapper {
-			height: 4.5rem;
+			min-height: 4.5rem;
+			padding-block: 1rem 1.5rem;
+			padding-inline: 1rem;
 		}
 	}
 
@@ -13,7 +15,11 @@
 		background-color: $black;
 
 		.wrapper {
-			@include flex($align:center, $justify:space-between);
+			@include flex( $direction:column, $align:center, $justify:space-between, $gap:0.75rem );
+
+			@media screen and ( min-width:$breakpoint--md ) {
+				@include flex( $direction:row, $align:center, $justify:space-between );
+			}
 		}
 	}
 
@@ -21,7 +27,11 @@
 		background-color: $white;
 
 		.wrapper {
-			@include flex($align:center, $justify:flex-end);
+			text-align: center;
+
+			@media screen and ( min-width:$breakpoint--md ) {
+				text-align: right;
+			}
 		}
 	}
 }

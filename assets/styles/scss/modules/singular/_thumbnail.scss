@@ -3,6 +3,10 @@
 
 .thumbnail {
 
+	&__image {
+		box-shadow: 0 0 3rem darken( $silver, 6.66% );
+	}
+
 	&__caption {
 		@extend %figcaption;
 	}

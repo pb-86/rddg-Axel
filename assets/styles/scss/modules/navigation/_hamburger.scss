@@ -1,0 +1,16 @@
+@use "../../base/variables" as *;
+@use "../../tools/placeholders";
+
+.hamburger {
+	width: 2.25rem;
+
+	&::before {
+		@extend %icon;
+		@extend %only-icon;
+		background-image: url( "../../images/icon-menu.svg" );
+	}
+
+	@media screen and ( min-width:$breakpoint--sm ) {
+		display: none;
+	}
+}

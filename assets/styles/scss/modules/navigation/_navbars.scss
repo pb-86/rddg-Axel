@@ -5,8 +5,10 @@
 	text-align: center;
 
 	&.navbar--header {
-		@include flex($align:center, $justify:center);
+		@include flex( $direction:column, $align:center, $justify:center, $gap:0.5rem );
 		background-color: $black;
-		height: 4.5rem;
+		min-height: 4.5rem;
+		padding-block: 1rem;
+		padding-inline: 1rem;
 	}
 }

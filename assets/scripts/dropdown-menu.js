@@ -1,17 +1,5 @@
-const menuItemHasChildren = document.querySelectorAll( '.menu-item-has-children' );
-
-// Adds event listeners for every menu items that have children.
-if ( menuItemHasChildren.length !== 0 ) {
-	menuItemHasChildren.forEach( item => {
-		item.addEventListener( 'mouseover', toggleClass );
-		item.addEventListener( 'mouseout', toggleClass );
-	});
-}
-
 /**
- * Toggles class that is resopnsible for showing sub menu.
- *
- * @return void
+ * Pokzuje lub ukrywa rozwiane submenu.
  */
 function toggleClass() {
 	const subMenu = this.querySelector( '.sub-menu' );
@@ -19,3 +7,15 @@ function toggleClass() {
 		subMenu.classList.toggle( 'sub-menu--show' );
 	}
 }
+
+
+document.addEventListener( 'DOMContentLoaded', function() {
+	const menuItemHasChildren = document.querySelectorAll( '.menu-item-has-children' );
+
+	if ( menuItemHasChildren.length !== 0 ) {
+		menuItemHasChildren.forEach( item => {
+			item.addEventListener( 'mouseover', toggleClass );
+			item.addEventListener( 'mouseout', toggleClass );
+		});
+	}
+});

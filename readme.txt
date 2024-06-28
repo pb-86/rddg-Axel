@@ -16,6 +16,7 @@ Motyw startowy.
 * Zmieniono numer wersji
 * Usunięto boxicons i zastąpiono wektorowymi grafikami
 * Zmieniono nazwy zmiennych SCSS
+* Dodano responsywność
 
 = 1.79 =
 * Zmieniono numer wersji

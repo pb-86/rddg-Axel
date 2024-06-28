@@ -19,7 +19,7 @@ get_header();
 				<p><?php esc_html_e( 'Przepraszamy, ale nie znaleźliśmy strony, której szukasz.', 'axel' ); ?></p>
 			</div>
 	
-			<div class="post-meta">
+			<div class="post-meta post-meta--bottom">
 				<?php get_template_part( 'template-parts/singular/back-to-home' ); ?>
 			</div>
 		</article>

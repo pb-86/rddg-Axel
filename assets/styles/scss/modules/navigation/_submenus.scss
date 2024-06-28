@@ -4,11 +4,12 @@
 	background-color: $white;
 	border: 0.0625rem solid $black;
 	display: none;
-	inset: 2rem auto auto 0.5rem;
+	inset: 2rem auto auto 0;
 	padding: 0.75rem 1rem 1rem;
 	position: absolute;
 	text-align: left;
 	white-space: nowrap;
+	z-index: 9999;
 
 	&--show {
 		display: block !important;
@@ -16,7 +17,7 @@
 
 	.menu-item {
 		display: block;
-		margin: 0.25rem 0;
+		padding: 0.25rem;
 	}
 
 	a {

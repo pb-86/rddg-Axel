@@ -12,7 +12,7 @@
 
 	<?php get_template_part( 'template-parts/singular/title' ); ?>
 
-	<div class="post-meta">
+	<div class="post-meta post-meta--top">
 		<?php
 		get_template_part( 'template-parts/singular/date' );
 		get_template_part( 'template-parts/singular/author' );
@@ -24,7 +24,7 @@
 	get_template_part( 'template-parts/singular/content' );
 	?>
 
-	<div class="post-meta">
+	<div class="post-meta post-meta--bottom">
 		<?php
 		get_template_part( 'template-parts/singular/back-to-home' );
 		get_template_part( 'template-parts/singular/print' );

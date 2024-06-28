@@ -2,7 +2,20 @@
 
 .main {
 	background-color: $white;
-	margin-block: 6rem;
+	margin-block: 3rem;
+	
+	@media screen and ( min-width:$breakpoint--sm ) {
+		margin-block: 6rem;
+	}
+	
+	& > .wrapper {
+		padding-inline: 1rem;
+	
+		@media screen and ( min-width:$breakpoint--md ) {
+			padding-inline: 0;
+		}
+	}
+
 }
 
 // Wersja do druku

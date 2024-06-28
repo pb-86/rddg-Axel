@@ -3,7 +3,8 @@
 @use '../tools/placeholders';
 
 .searchform {
-	@include flex( $align:center, $gap: 0.25rem );
+	@include flex( $align:center, $gap:0.5rem );
+	padding-inline: 1rem;
 	margin: 0;
 	text-align: center;
 	
@@ -14,12 +15,38 @@
 		font-family: $font-family;
 		font-size: $font-size;
 		height: 2.25rem;
-		padding: 0 0.75rem;
-		width: 18.75rem;
+		min-width: auto;
+		padding: 0 1rem;
+		width: 100%;
+
+		@media screen and ( min-width:$breakpoint--sm ) {
+			min-width: 16rem;
+		}
+	}
+
+	.searchform__button {
+		width: 2.25rem;
+
+		@media screen and ( min-width:$breakpoint--sm ) {
+			width: auto;
+		}
 	}
 
 	.searchform__button::before {
 		@extend %icon;
+		@extend %only-icon;
 		background-image: url( "../../images/icon-search.svg" );
+
+		@media screen and ( min-width:$breakpoint--sm ) {
+			margin-top: 0.1875rem;
+		}
+	}
+
+	.searchform__button-text {
+		display: none;
+
+		@media screen and ( min-width:$breakpoint--sm ) {
+			display: inline;
+		}
 	}
 }

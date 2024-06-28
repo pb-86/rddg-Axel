@@ -19,6 +19,10 @@
 	}
 
 	.wp-block-file__button {
-		@include button();
+		display: none;
+
+		@media screen and ( min-width:$breakpoint--sm ) {
+			@include button();
+		}
 	}
 }

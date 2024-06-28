@@ -16,11 +16,13 @@
 	</label>
 
 	<!-- Pole wyszukiwania -->
-	<input class="searchform__input" type="search" id="search" name="s" autocomplete="on">
+	<input class="searchform__input" type="search" id="search" name="s" placeholder="<?php esc_html_e( 'Wpisz wyszukiwaną frazę…', 'axel' ); ?>" autocomplete="on">
 
 	<!-- Przycisk wyszukiwania -->
 	<button class="searchform__button button" type="submit">
-		<?php esc_html_e( 'Szukaj', 'axel' ); ?>
+		<span class="searchform__button-text">
+			<?php esc_html_e( 'Szukaj', 'axel' ); ?>
+		</span>
 	</button>
 
 </form>
