@@ -4,11 +4,30 @@
 .navbar {
 	text-align: center;
 
-	&.navbar--header {
-		@include flex( $direction:column, $align:center, $justify:center, $gap:0.5rem );
+	&--header,
+	&--footer {
 		background-color: $black;
-		min-height: 4.5rem;
-		padding-block: 1rem;
-		padding-inline: 1rem;
+		
+		& > .wrapper {
+			min-height: 4.5rem;
+		}
+	}
+
+	&--header {
+		& > .wrapper {
+			@include flex( $direction:column, $align:center, $justify:center, $gap: 1rem );
+			padding-block: 1.25rem;
+		}
+	}
+
+	&--footer {
+		& > .wrapper {
+			@include flex( $direction:column, $align:center, $justify:center, $gap:1rem );
+			padding-block: 1rem 1.25rem;
+
+			@media screen and ( min-width: $breakpoint--md ) {
+				@include flex( $direction:row, $align:center, $justify:space-between );
+			}
+		}
 	}
 }

@@ -9,7 +9,7 @@
 
 //---
 // 1. Flex
-@mixin flex($display:flex, $align:normal, $justify:flex-start, $direction:row, $gap:normal normal, $wrap:nowrap) {
+@mixin flex( $display:flex, $align:normal, $justify:flex-start, $direction:row, $gap:normal normal, $wrap:nowrap ) {
 	align-items: $align;
 	display: $display;
 	flex-direction: $direction;
@@ -20,7 +20,7 @@
 
 //---
 // 2. Grid
-@mixin grid($columns:none, $rows:none, $gap:normal normal) {
+@mixin grid( $columns:none, $rows:none, $gap:normal normal ) {
 	display: grid;
 	gap: $gap;
 	grid-template-columns: $columns;
@@ -29,19 +29,19 @@
 
 //---
 // 3. Button
-@mixin button($background-color:$gray, $border-radius:1.125rem, $color:$white) {
-	@include flex($align:center, $justify:center, $gap:0.25rem);
+@mixin button( $background-color:$gray, $border-radius:1.125rem, $color:$white ) {
+	@include flex( $align:center, $justify:center, $gap:0.25rem );
 	background-color: $background-color;
 	border: 0;
 	border-radius: $border-radius;
 	color: $color;
 	font-family: $font-family;
 	font-size: $font-size;
-	height: 2.25rem;
+	height: 2rem;
 	padding: 0 1rem;
 	user-select: none;
 
 	&:hover {
-		background-color: darken($background-color, 5%);
+		background-color: darken( $background-color, 5% );
 	}
 }

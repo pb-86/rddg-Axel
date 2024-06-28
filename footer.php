@@ -10,14 +10,7 @@
 
 	<footer class="footer">
 
-		<div class="footer__navigation">
-			<div class="wrapper">
-				<?php
-				get_template_part( 'template-parts/navigation/menu', 'footer' );
-				get_template_part( 'template-parts/footer/scroll-to-top' );
-				?>
-			</div>
-		</div>
+		<?php get_template_part( 'template-parts/navigation/menu', 'footer' ); ?>
 
 		<div class="footer__credits">
 			<div class="wrapper">

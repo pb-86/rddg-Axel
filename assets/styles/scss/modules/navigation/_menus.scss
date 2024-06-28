@@ -20,7 +20,7 @@
 	display: none;
 
 	@media screen and ( min-width:$breakpoint--sm ) {
-		@include flex( $align:center, $justify:center, $gap: 0.5rem, $wrap:wrap );
+		@include flex( $align:center, $justify:center, $gap:0.5rem, $wrap:wrap );
 	}
 
 	.menu-item-has-children {
@@ -39,7 +39,10 @@
 
 .menu--header.show {
 	@include flex( $direction:column, $align:center, $justify:center, $gap:0, $wrap:wrap );
-	padding-block: 0.75rem;
+
+	.menu-item {
+		padding: 0.25rem;
+	}
 
 	.menu-item-has-children > a::after {
 		display: none;
@@ -47,10 +50,16 @@
 }
 
 .menu--footer {
-	@include flex( $direction:column, $align:center, $justify:center, $gap:0 );
-
 	@media screen and ( min-width:$breakpoint--sm ) {
-		@include flex( $direction:row, $align:center, $justify:center, $gap:0 0.75rem, $wrap:wrap );
+		@include flex( $direction:row, $gap:0.5rem );
+	}
+
+	.menu-item {
+		padding: 0.25rem;
+
+		@media screen and ( min-width:$breakpoint--sm ) {
+			padding: 0.5rem;
+		}
 	}
 }
 

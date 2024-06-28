@@ -14,7 +14,7 @@
 		border-radius: 1.125rem;
 		font-family: $font-family;
 		font-size: $font-size;
-		height: 2.25rem;
+		height: 2rem;
 		min-width: auto;
 		padding: 0 1rem;
 		width: 100%;
@@ -25,7 +25,7 @@
 	}
 
 	.searchform__button {
-		width: 2.25rem;
+		width: 2rem;
 
 		@media screen and ( min-width:$breakpoint--sm ) {
 			width: auto;

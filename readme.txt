@@ -17,6 +17,7 @@ Motyw startowy.
 * Usunięto boxicons i zastąpiono wektorowymi grafikami
 * Zmieniono nazwy zmiennych SCSS
 * Dodano responsywność
+* Poprawiono wygląd menu górnego i dolnego
 
 = 1.79 =
 * Zmieniono numer wersji

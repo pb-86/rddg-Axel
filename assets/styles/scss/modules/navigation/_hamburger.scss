@@ -2,7 +2,7 @@
 @use "../../tools/placeholders";
 
 .hamburger {
-	width: 2.25rem;
+	width: 2rem;
 
 	&::before {
 		@extend %icon;
