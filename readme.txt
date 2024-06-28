@@ -21,6 +21,7 @@ Motyw startowy.
 * Dodano style do bloku cytatu
 * Zmieniono odstęp podpisu obrazków
 * Zmieniono odstępy sekcji z treścią
+* Poprawiono wygląd podpisów pod zdjęciami
 
 = 1.79 =
 * Zmieniono numer wersji
