@@ -18,6 +18,7 @@ Motyw startowy.
 * Zmieniono nazwy zmiennych SCSS
 * Dodano responsywność
 * Poprawiono wygląd menu górnego i dolnego
+* Dodano style do bloku cytatu
 
 = 1.79 =
 * Zmieniono numer wersji

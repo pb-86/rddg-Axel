@@ -1146,6 +1146,12 @@ body.search .excerpts {
   font-weight: 400;
 }
 
+.wp-block-quote {
+  border-left: 0.5rem solid hsl(225, 5%, 90%);
+  margin-block: 3rem;
+  padding-left: 1.5rem;
+}
+
 .wp-block-table {
   font-size: 1rem;
   margin-block: 1.5rem;

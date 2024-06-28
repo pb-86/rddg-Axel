@@ -1,3 +1,7 @@
+@use "../../base/variables" as *;
+
 .wp-block-quote {
-	
+	border-left: 0.5rem solid $silver;
+	margin-block: 3rem;
+	padding-left: 1.5rem;
 }
