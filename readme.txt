@@ -19,6 +19,7 @@ Motyw startowy.
 * Dodano responsywność
 * Poprawiono wygląd menu górnego i dolnego
 * Dodano style do bloku cytatu
+* Zmieniono odstęp podpisu obrazków
 
 = 1.79 =
 * Zmieniono numer wersji
