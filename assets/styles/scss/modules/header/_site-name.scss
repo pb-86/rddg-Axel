@@ -4,6 +4,10 @@
 .site-name {
 	padding-inline: 1rem;
 	text-align: center;
+
+	h1 {
+		font-size: 0;
+	}
 	
 	.site-name__link {
 		@extend %inverted-underline;

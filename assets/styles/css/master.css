@@ -326,6 +326,9 @@ picture {
   padding-inline: 1rem;
   text-align: center;
 }
+.site-name h1 {
+  font-size: 0;
+}
 .site-name .site-name__link {
   color: hsl(225, 5%, 10%);
   display: inline-block;
@@ -575,18 +578,19 @@ picture {
   flex-wrap: nowrap;
   justify-content: center;
   gap: 0.25rem;
-  background-color: hsl(354, 65%, 63%);
+  background-color: #eca7ae;
   border: 0;
   border-radius: 1rem;
-  color: hsl(0, 0%, 100%);
+  color: #821c26;
   font-family: "Familjen Grotesk", sans-serif;
   font-size: 1rem;
   height: 2rem;
   padding: 0 1rem;
   user-select: none;
+  font-weight: 700;
 }
 .pagination .current:hover {
-  background-color: #da4e5c;
+  background-color: #e8929a;
 }
 .pagination .page-numbers,
 .pagination .current {
@@ -688,7 +692,8 @@ h1.title {
   margin-block: 0 3rem;
 }
 
-h2.title {
+h2.title,
+h3.title {
   font-size: 0;
   margin-block: 1.5rem 0.75rem;
 }

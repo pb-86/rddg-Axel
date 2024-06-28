@@ -16,7 +16,8 @@
 	}
 
 	.current {
-		@include button($background-color:$red, $color:$white);
+		@include button($background-color:lighten($red, 16%), $color:darken($red, 32%));
+		font-weight: $font-weight--bold;
 	}
 
 	.page-numbers,

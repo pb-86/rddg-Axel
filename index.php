@@ -13,9 +13,9 @@ get_header();
 	<div class="wrapper">
 
 		<!-- Tytuł -->
-		<h1 class="screen-reader-text">
+		<h2 class="screen-reader-text">
 			<?php esc_html_e( 'Najnowsze wpisy', 'axel' ); ?>
-		</h1>
+		</h2>
 
 		<!-- Skróty wpisów -->
 		<?php get_template_part( 'template-parts/loops/loop', 'excerpts' ); ?>

@@ -24,6 +24,7 @@ Motyw startowy.
 * Poprawiono wygląd podpisów pod zdjęciami
 * Poprawiono wygląd formularzy i przycisków
 * Poprawiono wygląd szablonu wyników wyszukiwania
+* Poprawiono strukturę nagłówków na stronie głównej
 
 = 1.79 =
 * Zmieniono numer wersji
