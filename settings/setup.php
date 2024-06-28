@@ -21,14 +21,14 @@ function axel_setup() {
 	add_theme_support( 'post-thumbnails' );
 
 	// Rozmiary obrazków.
-	update_option( 'thumbnail_size_w', 232 );
-	update_option( 'thumbnail_size_h', 232 );
+	update_option( 'thumbnail_size_w', 365 );
+	update_option( 'thumbnail_size_h', 365 );
 	update_option( 'thumbnail_crop', false );
-	update_option( 'medium_size_w', 354 );
-	update_option( 'medium_size_h', 354 );
+	update_option( 'medium_size_w', 554 );
+	update_option( 'medium_size_h', 554 );
 	update_option( 'medium_crop', true );
-	update_option( 'large_size_w', 720 );
-	update_option( 'large_size_h', 1080 );
+	update_option( 'large_size_w', 1120 );
+	update_option( 'large_size_h', 1680 );
 	update_option( 'large_crop', true );
 
 	// Dodaje dodatkowe rozmiary obrazków.

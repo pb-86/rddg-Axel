@@ -26,6 +26,7 @@ Motyw startowy.
 * Poprawiono wygląd szablonu wyników wyszukiwania
 * Poprawiono strukturę nagłówków na stronie głównej
 * Zmieniono szerokość kontenera z treścią
+* Zmieniono domyślne rozmiary obrazków
 
 = 1.79 =
 * Zmieniono numer wersji
