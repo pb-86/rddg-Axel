@@ -23,6 +23,7 @@ Motyw startowy.
 * Zmieniono odstępy sekcji z treścią
 * Poprawiono wygląd podpisów pod zdjęciami
 * Poprawiono wygląd formularzy i przycisków
+* Poprawiono wygląd szablonu wyników wyszukiwania
 
 = 1.79 =
 * Zmieniono numer wersji
