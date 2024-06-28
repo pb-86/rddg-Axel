@@ -22,6 +22,7 @@ Motyw startowy.
 * Zmieniono odstęp podpisu obrazków
 * Zmieniono odstępy sekcji z treścią
 * Poprawiono wygląd podpisów pod zdjęciami
+* Poprawiono wygląd formularzy i przycisków
 
 = 1.79 =
 * Zmieniono numer wersji

@@ -156,7 +156,7 @@ picture {
   gap: 0.25rem;
   background-color: hsl(225, 5%, 30%);
   border: 0;
-  border-radius: 1.125rem;
+  border-radius: 1rem;
   color: hsl(0, 0%, 100%);
   font-family: "Familjen Grotesk", sans-serif;
   font-size: 1rem;
@@ -214,12 +214,12 @@ picture {
 .searchform .searchform__input {
   background: hsl(0, 0%, 100%);
   border: 0.0625rem solid hsl(225, 5%, 30%);
-  border-radius: 1.125rem;
+  border-radius: 0.5rem;
   font-family: "Familjen Grotesk", sans-serif;
   font-size: 1rem;
   height: 2rem;
   min-width: auto;
-  padding: 0 1rem;
+  padding: 0 0.5rem;
   width: 100%;
 }
 @media screen and (min-width: 640px) {
@@ -555,7 +555,7 @@ picture {
   gap: 0.25rem;
   background-color: hsl(225, 5%, 30%);
   border: 0;
-  border-radius: 1.125rem;
+  border-radius: 1rem;
   color: hsl(0, 0%, 100%);
   font-family: "Familjen Grotesk", sans-serif;
   font-size: 1rem;
@@ -576,7 +576,7 @@ picture {
   gap: 0.25rem;
   background-color: hsl(354, 65%, 63%);
   border: 0;
-  border-radius: 1.125rem;
+  border-radius: 1rem;
   color: hsl(0, 0%, 100%);
   font-family: "Familjen Grotesk", sans-serif;
   font-size: 1rem;
@@ -763,7 +763,7 @@ h2.title {
 .comments .comment-form textarea,
 .comments .comment-form input:not([type=submit], [type=checkbox]) {
   border: 0.0625rem solid hsl(225, 5%, 30%);
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   color: hsl(225, 5%, 30%);
   font-family: "Familjen Grotesk", sans-serif;
   font-size: 1rem;
@@ -785,7 +785,7 @@ h2.title {
   gap: 0.25rem;
   background-color: hsl(225, 5%, 30%);
   border: 0;
-  border-radius: 1.125rem;
+  border-radius: 1rem;
   color: hsl(0, 0%, 100%);
   font-family: "Familjen Grotesk", sans-serif;
   font-size: 1rem;
@@ -936,7 +936,7 @@ body.search .excerpts {
   gap: 0.25rem;
   background-color: hsl(225, 5%, 90%);
   border: 0;
-  border-radius: 1.125rem;
+  border-radius: 1rem;
   color: hsl(225, 5%, 10%);
   font-family: "Familjen Grotesk", sans-serif;
   font-size: 1rem;
@@ -1009,7 +1009,7 @@ body.search .excerpts {
     gap: 0.25rem;
     background-color: hsl(225, 5%, 30%);
     border: 0;
-    border-radius: 1.125rem;
+    border-radius: 1rem;
     color: hsl(0, 0%, 100%);
     font-family: "Familjen Grotesk", sans-serif;
     font-size: 1rem;

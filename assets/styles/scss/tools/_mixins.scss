@@ -29,7 +29,7 @@
 
 //---
 // 3. Button
-@mixin button( $background-color:$gray, $border-radius:1.125rem, $color:$white ) {
+@mixin button( $background-color:$gray, $border-radius:1rem, $color:$white ) {
 	@include flex( $align:center, $justify:center, $gap:0.25rem );
 	background-color: $background-color;
 	border: 0;
