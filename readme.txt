@@ -25,6 +25,7 @@ Motyw startowy.
 * Poprawiono wygląd formularzy i przycisków
 * Poprawiono wygląd szablonu wyników wyszukiwania
 * Poprawiono strukturę nagłówków na stronie głównej
+* Zmieniono szerokość kontenera z treścią
 
 = 1.79 =
 * Zmieniono numer wersji

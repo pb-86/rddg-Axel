@@ -3,5 +3,7 @@
 .wp-block-quote {
 	border-left: 0.5rem solid $silver;
 	margin-block: 3rem;
+	margin-inline: auto;
+	max-width: 45rem;
 	padding-left: 1.5rem;
 }

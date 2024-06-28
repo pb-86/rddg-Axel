@@ -8,9 +8,14 @@
 	.single & {
 		margin-block: 3rem;
 		margin-inline: auto;
-		max-width: 45rem;
+		// max-width: 45rem;
 
 		& > :first-child { margin-top: 0; }
 		& > :last-child { margin-bottom: 0; }
+
+		& > p {
+			margin-inline: auto;
+			max-width: 45rem;
+		}
 	}
 }

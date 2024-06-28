@@ -713,13 +713,16 @@ h3.title {
 .page .content, .single .content {
   margin-block: 3rem;
   margin-inline: auto;
-  max-width: 45rem;
 }
 .page .content > :first-child, .single .content > :first-child {
   margin-top: 0;
 }
 .page .content > :last-child, .single .content > :last-child {
   margin-bottom: 0;
+}
+.page .content > p, .single .content > p {
+  margin-inline: auto;
+  max-width: 45rem;
 }
 
 .back-to-home {
@@ -1163,6 +1166,8 @@ body.search .excerpts {
 .wp-block-quote {
   border-left: 0.5rem solid hsl(225, 5%, 90%);
   margin-block: 3rem;
+  margin-inline: auto;
+  max-width: 45rem;
   padding-left: 1.5rem;
 }
 
