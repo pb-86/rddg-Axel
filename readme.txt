@@ -27,6 +27,7 @@ Motyw startowy.
 * Poprawiono strukturę nagłówków na stronie głównej
 * Zmieniono szerokość kontenera z treścią
 * Zmieniono domyślne rozmiary obrazków
+* Poprawiono wygląd podpisów pod zdjęciami
 
 = 1.79 =
 * Zmieniono numer wersji

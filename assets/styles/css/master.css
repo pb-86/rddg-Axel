@@ -54,6 +54,7 @@
   line-height: 1.25;
   margin-block: 0.25rem 0;
   text-align: center;
+  text-wrap: balance;
 }
 
 .scroll-to-top::before, .print::before, .back-to-home::before, .date::before, .post-author::before, .pagination .icon-prev::before,
@@ -1083,7 +1084,7 @@ body.search .excerpts {
   color: hsl(0, 0%, 100%);
   font-style: normal;
   inset: auto 0 0 0;
-  padding-block: 0.75rem 0.375rem;
+  padding-block: 0.75rem;
   padding-inline: 0.375rem;
   position: absolute;
 }
