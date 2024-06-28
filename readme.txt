@@ -20,6 +20,7 @@ Motyw startowy.
 * Poprawiono wygląd menu górnego i dolnego
 * Dodano style do bloku cytatu
 * Zmieniono odstęp podpisu obrazków
+* Zmieniono odstępy sekcji z treścią
 
 = 1.79 =
 * Zmieniono numer wersji

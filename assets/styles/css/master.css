@@ -700,6 +700,7 @@ h2.title {
   color: hsl(225, 5%, 30%);
 }
 .page .content, .single .content {
+  margin-block: 3rem;
   margin-inline: auto;
   max-width: 45rem;
 }
