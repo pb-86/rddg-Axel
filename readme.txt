@@ -29,6 +29,7 @@ Motyw startowy.
 * Zmieniono domyślne rozmiary obrazków
 * Poprawiono wygląd podpisów pod zdjęciami
 * Zmieniono wygląd formularza wyszukiwania
+* Poprawiono organizację plików i katalogów
 
 = 1.79 =
 * Zmieniono numer wersji

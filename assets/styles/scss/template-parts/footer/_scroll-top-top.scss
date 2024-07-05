@@ -1,6 +1,6 @@
 @use '../../base/variables' as *;
-@use '../../tools/mixins' as *;
-@use "../../tools/placeholders";
+@use '../../base/mixins' as *;
+@use "../../base/placeholders";
 
 .scroll-to-top {
 	@include button( $background-color:$silver, $color:$black );

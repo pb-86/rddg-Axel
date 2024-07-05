@@ -13,14 +13,14 @@ get_header();
 	<div class="wrapper">
 
 		<article>
-			<?php get_template_part( 'template-parts/singular/title' ); ?>
+			<?php get_template_part( 'template-parts/shared/title' ); ?>
 	
 			<div class="content error-message">
 				<p><?php esc_html_e( 'Przepraszamy, ale nie znaleźliśmy strony, której szukasz.', 'axel' ); ?></p>
 			</div>
 	
 			<div class="post-meta post-meta--bottom">
-				<?php get_template_part( 'template-parts/singular/back-to-home' ); ?>
+				<?php get_template_part( 'template-parts/shared/back-to-home' ); ?>
 			</div>
 		</article>
 

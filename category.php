@@ -13,7 +13,7 @@ get_header();
 	<div class="wrapper">
 
 		<!-- Tytuł kategorii -->
-		<?php get_template_part( 'template-parts/singular/title' ); ?>
+		<?php get_template_part( 'template-parts/shared/title' ); ?>
 
 		<!-- Lista wpisów -->
 		<?php get_template_part( 'template-parts/loops/loop', 'excerpts' ); ?>

@@ -13,7 +13,7 @@ get_header();
 	<div class="wrapper">
 
 		<!-- Tytuł -->
-		<?php get_template_part( 'template-parts/singular/title' ); ?>
+		<?php get_template_part( 'template-parts/shared/title' ); ?>
 
 		<?php if ( get_search_query() ) : ?>
 			<!-- Szukana fraza -->

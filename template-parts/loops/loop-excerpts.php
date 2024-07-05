@@ -7,19 +7,21 @@
  */
 
 if ( have_posts() ) {
+
 	echo '<div class="excerpts">';
 
 	while ( have_posts() ) {
 		the_post();
 
 		if ( is_search() ) {
-			get_template_part( 'template-parts/single/excerpt', 'search' );
+			get_template_part( 'template-parts/excerpts/excerpt', 'search' );
 		} else {
-			get_template_part( 'template-parts/single/excerpt' );
+			get_template_part( 'template-parts/excerpts/excerpt', 'default' );
 		}
 	}
 
 	echo '</div>';
+
 	the_posts_pagination(
 		array(
 			'prev_text' => '<div class="icon-prev">' . esc_attr__( 'Poprzednia strona', 'axel' ) . '</div>',
@@ -27,5 +29,5 @@ if ( have_posts() ) {
 		)
 	);
 } else {
-	get_template_part( 'template-parts/loops/no-posts' );
+	get_template_part( 'template-parts/excerpts/no-posts' );
 }

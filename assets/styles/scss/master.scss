@@ -1,11 +1,9 @@
 // Base
 @use 'base/fonts';
 @use 'base/reset';
-
-// Tools
-@use 'tools/placeholders';
-@use 'tools/mixins';
-@use 'tools/helpers';
+@use 'base/helpers';
+@use 'base/mixins';
+@use 'base/placeholders';
 
 // Templates
 @use 'templates/header';
@@ -15,49 +13,49 @@
 @use 'templates/footer';
 @use 'templates/singular';
 
-// Modules
+// Template parts
 	//-- Header
-	@use 'modules/header/site-logo';
-	@use 'modules/header/site-name';
+	@use 'template-parts/header/site-logo';
+	@use 'template-parts/header/site-name';
 
 	//-- Navigation
-	@use 'modules/navigation/screen-reader-text';
-	@use 'modules/navigation/navbars';
-	@use 'modules/navigation/menus';
-	@use 'modules/navigation/submenus';
-	@use 'modules/navigation/hamburger';
-	@use 'modules/navigation/pagination';
+	@use 'template-parts/navigation/screen-reader-text';
+	@use 'template-parts/navigation/navbars';
+	@use 'template-parts/navigation/menus';
+	@use 'template-parts/navigation/submenus';
+	@use 'template-parts/navigation/hamburger';
+	@use 'template-parts/navigation/pagination';
 
-	//-- Singular
-	@use 'modules/singular/thumbnail';
-	@use 'modules/singular/placeholder';
-	@use 'modules/singular/author';
-	@use 'modules/singular/date';
-	@use 'modules/singular/title';
-	@use 'modules/singular/content';
-	@use 'modules/singular/back-to-home';
-	@use 'modules/singular/comments';
-	@use 'modules/singular/post-meta';
-	@use 'modules/singular/print';
+	//-- Shared
+	@use 'template-parts/shared/thumbnail';
+	@use 'template-parts/shared/placeholder';
+	@use 'template-parts/shared/author';
+	@use 'template-parts/shared/date';
+	@use 'template-parts/shared/title';
+	@use 'template-parts/shared/content';
+	@use 'template-parts/shared/back-to-home';
+	@use 'template-parts/shared/comments';
+	@use 'template-parts/shared/post-meta';
+	@use 'template-parts/shared/print';
 
 	//-- Main
-	@use 'modules/main/main';
+	@use 'template-parts/main/main';
 
-	//-- Single
-	@use 'modules/single/excerpts';
-	@use 'modules/single/excerpt';
-	@use 'modules/single/no-posts';
+	//-- Excerpts
+	@use 'template-parts/excerpts/excerpts';
+	@use 'template-parts/excerpts/excerpt';
+	@use 'template-parts/excerpts/no-posts';
 
 	//-- Footer
-	@use 'modules/footer/scroll-top-top';
-	@use 'modules/footer/credits';
+	@use 'template-parts/footer/scroll-top-top';
+	@use 'template-parts/footer/credits';
 
 	//-- Author
-	@use 'modules/author/author-bio';
-	@use 'modules/author/other-autors';
+	@use 'template-parts/author/author-bio';
+	@use 'template-parts/author/other-autors';
 
 	//-- Error 404
-	@use 'modules/e404/error-message';
+	@use 'template-parts/e404/error-message';
 
 // Blocks
 @use 'blocks/blocks';

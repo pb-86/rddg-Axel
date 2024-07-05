@@ -1,6 +1,6 @@
 @use '../../base/variables' as *;
-@use '../../tools/mixins' as *;
-@use '../../tools/placeholders';
+@use '../../base/mixins' as *;
+@use '../../base/placeholders';
 
 .comments {
 	color: $gray;

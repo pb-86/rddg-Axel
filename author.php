@@ -13,7 +13,7 @@ get_header();
 	<div class="wrapper">
 
 		<!-- Nazwa autora -->
-		<?php get_template_part( 'template-parts/singular/title' ); ?>
+		<?php get_template_part( 'template-parts/shared/title' ); ?>
 
 		<!-- Biografia -->
 		<div class="author-bio">
