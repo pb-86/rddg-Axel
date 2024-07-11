@@ -9,28 +9,28 @@
 define( 'AXEL_THEME_VERSION', '1.80' );
 
 // Lista stałych do dalszego użycia.
-define( 'AXEL_THEME_SCRIPTS', get_template_directory_uri() . '/assets/scripts/' );
-define( 'AXEL_THEME_STYLES', get_template_directory_uri() . '/assets/styles/css/' );
-define( 'AXEL_THEME_IMAGES', get_template_directory_uri() . '/assets/images/' );
+define( 'AXEL_THEME_SCRIPTS', get_template_directory_uri() . '/assets/js/' );
+define( 'AXEL_THEME_STYLES', get_template_directory_uri() . '/assets/css/' );
+define( 'AXEL_THEME_IMAGES', get_template_directory_uri() . '/assets/img/' );
 define( 'AXEL_THEME_VENDOR', get_template_directory_uri() . '/assets/vendor/' );
 
 // Główna konfiguracja motywu.
-require_once 'settings/setup.php';
+require_once 'config/setup.php';
 
 // Rejestrowanie i kolejkowanie styli CSS.
-require_once 'settings/styles.php';
+require_once 'config/styles.php';
 
 // Rejestrowanie i kolejkowanie skryptów JS.
-require_once 'settings/scripts.php';
+require_once 'config/scripts.php';
 
 // Rejestrowanie menu.
-require_once 'settings/menus.php';
+require_once 'config/menus.php';
 
 // Rejestrowanie sidebarów.
-require_once 'settings/sidebars.php';
+require_once 'config/sidebars.php';
 
 // Przyspieszanie działania strony.
-require_once 'settings/optimisation.php';
+require_once 'config/optimisation.php';
 
 /**
  * Wyświetla klasę jeśli został dodany obrazek nagłówka.

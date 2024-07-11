@@ -1,0 +1,63 @@
+@use "../base/variables" as *;
+
+// Lista placeholderów:
+//   1. List reset
+//   2. Inverted underline
+//   3. Figcaption
+//   4. Icon
+//   5. Only icon
+
+
+//-----
+// 1. List reset
+%list-reset {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+//-----
+// 2. Inverted underline
+%inverted-underline {
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+		text-decoration-thickness: 0.0625rem;
+	}
+}
+
+
+//-----
+// 3. Figcaption
+%figcaption {
+	color: $gray;
+	font-size: $font-size--sm;
+	font-style: italic;
+	line-height: $line-height--sm;
+	margin-block: 0.25rem 0;
+	text-align: center;
+	text-wrap: balance;
+}
+
+
+//-----
+// 4. Icon
+%icon {
+	background-position: center;
+	background-repeat: no-repeat;
+	content: "";
+	display: block;
+	flex-shrink: 0;
+	height: 1cap;
+	margin-top: 0.125rem;
+	width: 1cap;
+}
+
+
+//-----
+// 5. Icon
+%only-icon {
+	margin-top: 0;
+}

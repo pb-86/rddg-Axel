@@ -1,0 +1,61 @@
+// Base
+@use "base/fonts";
+@use "base/reset";
+@use "base/helpers";
+@use "base/mixins";
+@use "base/placeholders";
+
+// Templates
+@use "templates/header";
+@use "templates/searchform";
+@use "templates/search";
+@use "templates/sidebar";
+@use "templates/footer";
+@use "templates/singular";
+
+// Template parts
+	//-- Header
+	@use "template-parts/header/site-logo";
+	@use "template-parts/header/site-name";
+
+	//-- Navigation
+	@use "template-parts/navigation/screen-reader-text";
+	@use "template-parts/navigation/navbars";
+	@use "template-parts/navigation/menus";
+	@use "template-parts/navigation/submenus";
+	@use "template-parts/navigation/hamburger";
+	@use "template-parts/navigation/pagination";
+
+	//-- Shared
+	@use "template-parts/shared/thumbnail";
+	@use "template-parts/shared/placeholder";
+	@use "template-parts/shared/author";
+	@use "template-parts/shared/date";
+	@use "template-parts/shared/title";
+	@use "template-parts/shared/content";
+	@use "template-parts/shared/back-to-home";
+	@use "template-parts/shared/comments";
+	@use "template-parts/shared/post-meta";
+	@use "template-parts/shared/print";
+
+	//-- Main
+	@use "template-parts/main/main";
+
+	//-- Excerpts
+	@use "template-parts/excerpts/excerpts";
+	@use "template-parts/excerpts/excerpt";
+	@use "template-parts/excerpts/no-posts";
+
+	//-- Footer
+	@use "template-parts/footer/scroll-top-top";
+	@use "template-parts/footer/credits";
+
+	//-- Author
+	@use "template-parts/author/author-bio";
+	@use "template-parts/author/other-autors";
+
+	//-- Error 404
+	@use "template-parts/e404/error-message";
+
+// Blocks
+@use "blocks/blocks";

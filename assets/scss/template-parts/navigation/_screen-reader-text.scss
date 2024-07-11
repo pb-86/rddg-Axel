@@ -1,0 +1,33 @@
+@use "../../base/variables" as *;
+
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+	word-wrap: normal !important;
+
+	&:focus {
+  	background-color: $white;
+		border: 0.0625rem solid $gray;
+		border-radius: 0.25rem;
+  	clip: auto !important;
+  	clip-path: none;
+  	color: #00f;
+  	display: block;
+  	font-size: 1rem;
+  	height: auto;
+  	left: 1rem;
+  	line-height: normal;
+  	padding: 1rem;
+  	text-decoration: none;
+  	top: 1rem;
+  	width: auto;
+  	z-index: 100000;
+	}
+}

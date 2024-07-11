@@ -1,0 +1,15 @@
+@use "../../base/mixins" as *;
+
+.excerpts {
+	@include flex( $justify:center, $gap:4rem, $wrap:wrap );
+
+	@media screen and ( min-width:1156px ) {
+		justify-content: unset;
+	}
+
+	body.search & {
+		@include flex( $direction:column, $wrap:nowrap, $gap:3rem );
+		margin-inline: auto;
+		max-width: 33rem;
+	}
+}

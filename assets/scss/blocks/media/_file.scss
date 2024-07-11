@@ -1,0 +1,28 @@
+@use "../../base/variables" as *;
+@use "../../base/mixins" as *;
+@use "../../base/placeholders";
+
+.wp-block-file {
+	align-items: center;
+	background-color: $silver;
+	border-radius: 0.375rem;
+	display: flex;
+	justify-content: space-between;
+	margin-block: 0.75rem;
+	min-height: 3.25rem;
+	padding-block: 0.375rem;
+	padding-inline: 0.75rem 0.375rem;
+	
+	a:not(.wp-block-file__button) {
+		@extend %inverted-underline;
+		color: $black;
+	}
+
+	.wp-block-file__button {
+		display: none;
+
+		@media screen and ( min-width:$breakpoint--sm ) {
+			@include button();
+		}
+	}
+}

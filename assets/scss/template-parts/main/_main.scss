@@ -1,0 +1,17 @@
+@use "../../base/variables" as *;
+
+.main {
+	background-color: $white;
+	margin-block: 3rem;
+	
+	@media screen and ( min-width:$breakpoint--sm ) {
+		margin-block: 6rem;
+	}
+}
+
+// Wersja do druku
+@media print {
+	.main {
+		margin-block: 0;
+	}
+}

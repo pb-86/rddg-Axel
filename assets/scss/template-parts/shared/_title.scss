@@ -1,0 +1,44 @@
+@use "../../base/variables" as *;
+@use "../../base/placeholders";
+
+.title {
+	line-height: $line-height--sm;
+
+	// Odnośnik w tytule
+	&__link {
+		@extend %inverted-underline;
+		font-size: $font-size--md;
+		line-height: $line-height--sm;
+	}
+}
+
+h1.title {
+	font-size: $font-size--md;
+	line-height: $line-height--xs;
+	margin-block: 0 1.5rem;
+	text-align: center;
+	text-wrap: balance;
+
+	@media screen and ( min-width:$breakpoint--sm ) {
+		font-size: $font-size--lg;
+	}
+}
+
+.search-results h1.title {
+	margin-block: 0 3rem;
+}
+
+h2.title,
+h3.title {
+	font-size: 0;
+	margin-block: 1.5rem 0.75rem;
+}
+
+.category h1.title,
+.archive h1.title {
+	margin-block: 0 3rem;
+}
+
+.search-results h2.title {
+	margin-block: 0 0.5rem;
+}

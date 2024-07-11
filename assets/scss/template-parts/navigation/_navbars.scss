@@ -1,0 +1,33 @@
+@use "../../base/variables" as *;
+@use "../../base/mixins" as *;
+
+.navbar {
+	text-align: center;
+
+	&--header,
+	&--footer {
+		background-color: $black;
+		
+		& > .wrapper {
+			min-height: 4.5rem;
+		}
+	}
+
+	&--header {
+		& > .wrapper {
+			@include flex( $direction:column, $align:center, $justify:center, $gap: 1rem );
+			padding-block: 1.25rem;
+		}
+	}
+
+	&--footer {
+		& > .wrapper {
+			@include flex( $direction:column, $align:center, $justify:center, $gap:1rem );
+			padding-block: 1rem 1.25rem;
+
+			@media screen and ( min-width: $breakpoint--md ) {
+				@include flex( $direction:row, $align:center, $justify:space-between );
+			}
+		}
+	}
+}

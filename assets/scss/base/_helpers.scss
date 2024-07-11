@@ -1,0 +1,38 @@
+@use "../base/variables" as *;
+@use "../base/mixins" as *;
+@use "../base/placeholders";
+
+// Lista helperów:
+//   1. Wrapper
+//   2. Button
+//   3. Button like link
+
+
+//---
+// 1. Wrapper
+.wrapper {
+	margin-inline: auto;
+	max-width: 72rem;
+	padding-inline: 1rem;
+	width: 100%;
+
+	.wrapper--small {
+		max-width: 45rem;
+	}
+}
+
+//---
+// 2. Button
+.button {
+	@include button();
+}
+
+//---
+// 3. Button like link
+.button-like-link {
+	background-color: transparent;
+	border: none;
+	color: $black;
+	font-family: $font-family;
+	font-size: $font-size;
+}
