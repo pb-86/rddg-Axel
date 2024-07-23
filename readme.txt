@@ -33,6 +33,7 @@ Motyw startowy.
 * Zmieniono organizację katalogów
 * Uproszczono resetowanie CSS
 * Dodano maksymalną szerokość bloku separatora
+* Poprawiono kolor odnośników w komentarzach
 
 = 1.79 =
 * Zmieniono numer wersji

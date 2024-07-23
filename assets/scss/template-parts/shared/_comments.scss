@@ -7,6 +7,10 @@
 	margin-block: 6rem;
 	margin-inline: auto;
 
+	a {
+		color: $black;
+	}
+
 	.comment-reply-title {
 		color: $black;
 		font-size: $font-size--md;

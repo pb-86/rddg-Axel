@@ -746,6 +746,9 @@ h3.title {
   margin-block: 6rem;
   margin-inline: auto;
 }
+.comments a {
+  color: hsl(225, 5%, 10%);
+}
 .comments .comment-reply-title {
   color: hsl(225, 5%, 10%);
   font-size: 1.5rem;
