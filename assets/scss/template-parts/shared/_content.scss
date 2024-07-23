@@ -2,20 +2,30 @@
 
 .content {
 	color: $gray;
+
+	a {
+		color: $black;
+	}
 	
 	// Treść we wpisach i na stronach
 	.page &,
 	.single & {
 		margin-block: 3rem;
 		margin-inline: auto;
-		// max-width: 45rem;
 
 		& > :first-child { margin-top: 0; }
 		& > :last-child { margin-bottom: 0; }
 
 		& > p {
+			margin-block: 1.5rem;
 			margin-inline: auto;
 			max-width: 45rem;
+		}
+	}
+
+	.excerpts & {
+		& > p {
+			margin-block: 1.5rem;
 		}
 	}
 }

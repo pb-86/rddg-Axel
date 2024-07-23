@@ -31,6 +31,7 @@ Motyw startowy.
 * Zmieniono wygląd formularza wyszukiwania
 * Poprawiono organizację plików i katalogów
 * Zmieniono organizację katalogów
+* Uproszczono resetowanie CSS
 
 = 1.79 =
 * Zmieniono numer wersji

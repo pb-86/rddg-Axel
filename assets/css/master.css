@@ -39,10 +39,10 @@
   padding: 0;
 }
 
-.wp-block-file a:not(.wp-block-file__button), .credits .credits__link, .title__link, .menu a, .site-name .site-name__link, a[tabindex="-1"] {
+.wp-block-file a:not(.wp-block-file__button), .credits .credits__link, .title__link, .menu .menu-item a, .site-name .site-name__link {
   text-decoration: none;
 }
-.wp-block-file a:hover:not(.wp-block-file__button), .credits .credits__link:hover, .title__link:hover, .menu a:hover, .site-name .site-name__link:hover, a[tabindex="-1"]:hover {
+.wp-block-file a:hover:not(.wp-block-file__button), .credits .credits__link:hover, .title__link:hover, .menu .menu-item a:hover, .site-name .site-name__link:hover {
   text-decoration: underline;
   text-decoration-thickness: 0.0625rem;
 }
@@ -73,12 +73,6 @@
   margin-top: 0;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 :focus-visible {
   outline: 0.25rem solid hsl(354, 65%, 63%);
 }
@@ -88,7 +82,14 @@
 }
 
 html {
+  box-sizing: border-box;
   scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 body {
@@ -97,34 +98,23 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
+  margin: 0;
   min-height: 100vh;
 }
 
-body,
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-p,
-figure,
-blockquote,
-dl,
-dd {
+h6 {
+  text-wrap: balance;
   margin: 0;
-}
-
-p {
-  margin-block: 1.5rem;
-}
-
-a {
-  color: hsl(225, 5%, 10%);
 }
 
 figure {
   font-size: 0;
+  margin: 0;
 }
 
 figcaption {
@@ -434,8 +424,11 @@ picture {
   line-height: 1;
   padding: 0.5rem;
 }
-.menu a {
+.menu .menu-item a {
   color: hsl(0, 0%, 100%);
+}
+.menu .current-menu-item a {
+  font-weight: 700;
 }
 
 .menu--header {
@@ -523,7 +516,7 @@ picture {
   display: block;
   padding: 0.25rem;
 }
-.sub-menu a {
+.sub-menu .menu-item a {
   color: hsl(225, 5%, 10%);
   margin: 0;
 }
@@ -673,6 +666,7 @@ body.page .date, body.single .date {
   line-height: 1.25;
 }
 .title__link {
+  color: hsl(225, 5%, 10%);
   font-size: 1.5rem;
   line-height: 1.25;
 }
@@ -682,7 +676,6 @@ h1.title {
   line-height: 1.125;
   margin-block: 0 1.5rem;
   text-align: center;
-  text-wrap: balance;
 }
 @media screen and (min-width: 640px) {
   h1.title {
@@ -698,6 +691,7 @@ h2.title,
 h3.title {
   font-size: 0;
   margin-block: 1.5rem 0.75rem;
+  text-wrap: unset;
 }
 
 .category h1.title,
@@ -712,6 +706,9 @@ h3.title {
 .content {
   color: hsl(225, 5%, 30%);
 }
+.content a {
+  color: hsl(225, 5%, 10%);
+}
 .page .content, .single .content {
   margin-block: 3rem;
   margin-inline: auto;
@@ -723,8 +720,12 @@ h3.title {
   margin-bottom: 0;
 }
 .page .content > p, .single .content > p {
+  margin-block: 1.5rem;
   margin-inline: auto;
   max-width: 45rem;
+}
+.excerpts .content > p {
+  margin-block: 1.5rem;
 }
 
 .back-to-home {
@@ -734,6 +735,7 @@ h3.title {
   flex-wrap: nowrap;
   justify-content: center;
   gap: 0.25rem;
+  color: hsl(225, 5%, 10%);
 }
 .back-to-home::before {
   background-image: url("../img/icon-home.svg");
