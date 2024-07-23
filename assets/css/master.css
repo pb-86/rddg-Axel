@@ -997,6 +997,7 @@ body.search .excerpts {
 .wp-block-separator {
   border: 0.0625rem solid hsl(225, 5%, 90%);
   margin-block: 3rem;
+  max-width: 45rem;
 }
 
 .wp-block-file {

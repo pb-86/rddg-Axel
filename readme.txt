@@ -32,6 +32,7 @@ Motyw startowy.
 * Poprawiono organizację plików i katalogów
 * Zmieniono organizację katalogów
 * Uproszczono resetowanie CSS
+* Dodano maksymalną szerokość bloku separatora
 
 = 1.79 =
 * Zmieniono numer wersji
